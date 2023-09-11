@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+@import url("https://db.onlinewebfonts.com/c/5de3a15cd8742e9fc9923f614df0e707?family=Felbridge+W04+ExtraBold");
+@import url("https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap");
+@font-face {
+  font-family: "Felbridge W04 ExtraBold";
+  src: url("https://db.onlinewebfonts.com/t/5de3a15cd8742e9fc9923f614df0e707.eot");
+  src: url("https://db.onlinewebfonts.com/t/5de3a15cd8742e9fc9923f614df0e707.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/5de3a15cd8742e9fc9923f614df0e707.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/5de3a15cd8742e9fc9923f614df0e707.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/5de3a15cd8742e9fc9923f614df0e707.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/5de3a15cd8742e9fc9923f614df0e707.svg#Felbridge W04 ExtraBold")
+      format("svg");
+}
+@font-face {
+  font-family: "testeFonte";
+  src: url("/src/assets/Fonts/Helvetica-Bold.ttf") format("svg");
+
+  font-family: "cursivaFonte";
+  src: url("/src/assets/Fonts/BillionDreams_PERSONAL.ttf");
+}
+
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --cor-principal: #652f9e;
+  --roxo-medio: #7100eb;
+  --roxo-escuro: #4b0e8d;
+  --roxo-escuro-full: #270052;
+  --cor-card: #860065;
+  --branco: #fff;
+  --branco-medio: #fafafa;
+  --preto: #2f3941;
+  --cinza: #535f68;
+  --cinza-fundo: #ebedee;
+  --fonte-principal: "Roboto", sans-serif;
+  --fonte-alternativa: "Felbridge W04 ExtraBold";
+  --fonte-secundaria: "Playfair Display", sans-serif;
+  --fonte-teste: "testeFonte";
+  --fonte-cursiva: "cursivaFonte";
+  --fonte-card: "Spicy Rice", cursive;
+  font-family: var(--fonte-principal);
+  font-family: var(--fonte-alternativa);
+}
+head {
+  display: none;
+}
+#root {
+  display: block;
+  box-sizing: inherit;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: minmax(0, 1fr);
+  min-height: 100vh;
+  max-width: 100%;
+}
+
+button {
+  background-color: transparent;
+}
+
+a {
+  text-decoration: none;
+}
