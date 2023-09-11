@@ -15,16 +15,8 @@
     url("https://db.onlinewebfonts.com/t/5de3a15cd8742e9fc9923f614df0e707.svg#Felbridge W04 ExtraBold")
       format("svg");
 }
-@font-face {
-  font-family: "testeFonte";
-  src: url("/src/assets/Fonts/Helvetica-Bold.ttf") format("svg");
-
-  font-family: "cursivaFonte";
-  src: url("/src/assets/Fonts/BillionDreams_PERSONAL.ttf");
-}
 
 * {
-  box-sizing: inherit;
   margin: 0;
   padding: 0;
 }
@@ -54,15 +46,47 @@ head {
 }
 #root {
   display: block;
-  box-sizing: inherit;
   grid-template-rows: auto 1fr auto;
   grid-template-columns: minmax(0, 1fr);
   min-height: 100vh;
   max-width: 100%;
 }
 
-button {
-  background-color: transparent;
+h1 {
+  color: #ff0181;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+h3 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+p {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 a {

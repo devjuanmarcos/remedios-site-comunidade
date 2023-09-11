@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 
-import Footer from "./components/Footer";
-import Home from "./components/pages/Home";
+import Footer from "components/Footer";
+import Home from "pages/Home";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
