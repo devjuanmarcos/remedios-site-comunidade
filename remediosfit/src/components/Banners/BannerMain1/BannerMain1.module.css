@@ -1,0 +1,30 @@
+.main {
+  padding: 60px 0;
+  /* background-color: #0e0d15; */
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 80px;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  width: 444px;
+  gap: 26px;
+}
+
+.paragraph {
+  width: 94%;
+}
+
+.boxImage {
+}
+
+.image {
+  width: 120%;
+  height: auto;
+}
