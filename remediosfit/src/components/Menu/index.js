@@ -1,6 +1,18 @@
 import React from "react";
 import styles from "./Menu.module.css";
 import logo from "assets/images/logoProvisoria.png";
+import { NavLink } from "react-router-dom";
+
+export const MenuLink = ({ children, to, fontWeight }) => {
+  return (
+    <NavLink
+      to={to}
+      end
+    >
+      <h4 style={{ fontWeight: `${fontWeight}` }}>{children}</h4>
+    </NavLink>
+  );
+};
 
 export default function Menu() {
   return (
@@ -11,12 +23,21 @@ export default function Menu() {
           src={logo}
           alt='none'
         />
-        <h4 style={{ fontWeight: "900" }}>Home</h4>
-        <h4>DexFit</h4>
-        <h4>MaeSlim</h4>
-        <h4>Detox</h4>
-        <h4>Home Care</h4>
-        <h4 style={{ fontWeight: "900" }}>Contatos</h4>
+        <MenuLink
+          to={"/h"}
+          fontWeight={900}
+        >
+          Home
+        </MenuLink>
+        <MenuLink>DexFit</MenuLink>
+        <MenuLink>MaeSlim</MenuLink>
+        <MenuLink>Detox</MenuLink>
+        <MenuLink>Home Care</MenuLink>
+        <MenuLink
+          to={"/h"}
+          children='Contatos'
+          fontWeight={900}
+        />
       </div>
     </div>
   );

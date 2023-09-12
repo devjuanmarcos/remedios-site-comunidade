@@ -1,11 +1,11 @@
 import React from "react";
 import styles from "./Home.module.css";
-import BannerMain1 from "components/Banners/BannerMain1";
+import BannerMain from "components/Banners/BannerHome";
 
 export default function Home() {
   return (
     <div className={styles.home}>
-      <BannerMain1 />
+      <BannerMain />
     </div>
   );
 }

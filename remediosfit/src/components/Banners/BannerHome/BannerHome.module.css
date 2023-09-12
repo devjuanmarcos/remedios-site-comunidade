@@ -1,0 +1,28 @@
+.main {
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.image {
+  max-width: 40%;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+
+  width: 500px;
+  gap: 32px;
+}
