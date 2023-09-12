@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./BannerHome.module.css";
 import imageGroup from "assets/images/mainGroup.png";
+import ButtonPinkSimple from "components/Buttons/ButtonPinkSimple";
 
 export default function BannerMain() {
   return (
@@ -18,6 +19,7 @@ export default function BannerMain() {
             tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim
             veniam, quis nostrum exercitationem ullam corporis{" "}
           </p>
+          <ButtonPinkSimple />
         </div>
       </div>
     </div>
