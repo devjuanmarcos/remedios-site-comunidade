@@ -58,6 +58,16 @@ h3 {
   line-height: normal;
 }
 
+h4 {
+  color: var(--branco);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 23.4px */
+  letter-spacing: 0.18px;
+}
+
 p {
   color: #fff;
   font-family: var(--fonte-principal);

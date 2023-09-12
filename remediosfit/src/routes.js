@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 
 import Footer from "components/Footer";
 import Home from "pages/Home";
+import Menu from "components/Menu";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -18,6 +19,7 @@ export default function AppRoutes() {
   return (
     <>
       <BrowserRouter>
+        <Menu />
         <ScrollToTop />
 
         <Routes>

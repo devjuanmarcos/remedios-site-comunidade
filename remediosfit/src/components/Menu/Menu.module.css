@@ -1,0 +1,27 @@
+.menu {
+  width: 100%;
+  background: rgb(102, 0, 96);
+  background: linear-gradient(
+    161deg,
+    rgba(102, 0, 96, 1) 0%,
+    rgba(51, 0, 52, 1) 11%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.content {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 26px;
+  margin-inline: -60px;
+}
+
+.content h4 {
+  padding: 20px 26px;
+}
+
+.image {
+  width: 100px;
+}
