@@ -1,0 +1,35 @@
+.cardWithBorder {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 60px 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  border-radius: 176px 0px 0px 31px;
+  background: rgba(64, 63, 69, 0.54);
+  gap: 40px;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  width: 50%;
+  padding-left: 80px;
+  gap: 36px;
+}
+
+.circles {
+  width: min-content;
+  margin-block: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 5% 5%;
+}

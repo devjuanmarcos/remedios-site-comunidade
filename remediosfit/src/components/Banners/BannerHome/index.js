@@ -13,7 +13,7 @@ export default function BannerMain() {
           alt='none'
         />
         <div className={styles.texts}>
-          <h2>Lorem ipsum dolor sit amet, consectetur adipisci</h2>
+          <h1>Lorem ipsum dolor sit amet, consectetur adipisci</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod
             tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim
