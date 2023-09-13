@@ -1,0 +1,19 @@
+.threeIconsCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 60px 0;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 68%;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: rgba(108, 93, 158, 0.19);
+  backdrop-filter: blur(29.5px);
+  padding: 24px 0;
+}

@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 import Footer from "components/Footer";
 import Home from "pages/Home";
 import Menu from "components/Menu";
+import Dexfit from "pages/Remedys/Dexfit";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -31,11 +32,15 @@ export default function AppRoutes() {
               index
               element={<Home />}
             />
-            <Route
-              path='about'
-              element={<Home />}
-            />
           </Route>
+          <Route
+            path='dexfit'
+            element={<Dexfit />}
+          />
+          <Route
+            path='*'
+            element={<Home />}
+          />
         </Routes>
 
         <Footer />

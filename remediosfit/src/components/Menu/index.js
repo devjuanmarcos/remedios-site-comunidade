@@ -24,12 +24,12 @@ export default function Menu() {
           alt='none'
         />
         <MenuLink
-          to={"/h"}
+          to={"/"}
           fontWeight={900}
         >
           Home
         </MenuLink>
-        <MenuLink>DexFit</MenuLink>
+        <MenuLink to={"dexfit"}>DexFit</MenuLink>
         <MenuLink>MaeSlim</MenuLink>
         <MenuLink>Detox</MenuLink>
         <MenuLink>Home Care</MenuLink>
