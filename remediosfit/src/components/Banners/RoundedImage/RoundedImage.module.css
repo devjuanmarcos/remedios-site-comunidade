@@ -1,0 +1,50 @@
+.roundedImageBanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  padding: 60px 0;
+  position: relative;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+}
+
+.border {
+  width: 525px;
+  height: 634px;
+  flex-shrink: 0;
+  border-radius: 180px 180px 8px 8px;
+  background: #c4c4c4;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.image {
+  width: 923px;
+  height: 673.42px;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+  width: 444px;
+}
+
+.paragraph {
+  width: 460px;
+}
+
+.button {
+  height: 78px;
+  border-radius: 8px;
+  background: #ef3693;
+  box-shadow: 0px 4px 26px 0px #853e61;
+}
