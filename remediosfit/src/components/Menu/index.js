@@ -30,7 +30,7 @@ export default function Menu() {
           Home
         </MenuLink>
         <MenuLink to={"dexfit"}>DexFit</MenuLink>
-        <MenuLink>MaeSlim</MenuLink>
+        <MenuLink to={"maeslim"}>MaeSlim</MenuLink>
         <MenuLink>Detox</MenuLink>
         <MenuLink>Home Care</MenuLink>
         <MenuLink

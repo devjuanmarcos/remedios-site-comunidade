@@ -1,8 +1,9 @@
-.dexfit {
+.maeslim {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-image: url("/src/assets/images/fundo.png");
+  background-color: #120817;
   background-size: 100%;
   height: auto;
 }

@@ -5,6 +5,7 @@ import Footer from "components/Footer";
 import Home from "pages/Home";
 import Menu from "components/Menu";
 import Dexfit from "pages/Remedys/Dexfit";
+import Maeslim from "pages/Remedys/Maeslim";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -36,6 +37,10 @@ export default function AppRoutes() {
           <Route
             path='dexfit'
             element={<Dexfit />}
+          />
+          <Route
+            path='maeslim'
+            element={<Maeslim />}
           />
           <Route
             path='*'

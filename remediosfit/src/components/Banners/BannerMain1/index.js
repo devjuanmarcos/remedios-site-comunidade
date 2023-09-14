@@ -2,9 +2,12 @@ import React from "react";
 import styles from "./BannerMain1.module.css";
 import remedio from "assets/images/dexfit.svg";
 
-export default function BannerMain1() {
+export default function BannerMain1({ fundo }) {
   return (
-    <div className={styles.main}>
+    <div
+      className={styles.main}
+      style={{ backgroundImage: fundo, backgroundSize: "100%" }}
+    >
       <div className={styles.texts}>
         <div>
           <h1>TENHA UMA VIDA MAIS LEVE:</h1>

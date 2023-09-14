@@ -9,7 +9,7 @@ import CompositionBanner from "components/Banners/Composition";
 
 export default function Dexfit() {
   return (
-    <div className={styles.bannerMain1}>
+    <div className={styles.dexfit}>
       <BannerMain1 />
       <ThreeIconsCard />
       <RoundedImageBanner />

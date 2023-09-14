@@ -8,6 +8,8 @@
   align-items: center;
   flex-direction: row;
   gap: 80px;
+  background-image: url("/src/assets/images/remediosVoadores.svg");
+  background-size: 100%;
 }
 
 .texts {
