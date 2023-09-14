@@ -5,6 +5,7 @@ import ThreeIconsCard from "components/Cards/ThreeIcons";
 import RoundedImageBanner from "components/Banners/RoundedImage";
 import FourCardsBanner from "components/Banners/FourCards";
 import TopThreeItensBanner from "components/Banners/TopThreeItens";
+import CompositionBanner from "components/Banners/Composition";
 
 export default function Dexfit() {
   return (
@@ -14,6 +15,7 @@ export default function Dexfit() {
       <RoundedImageBanner />
       <FourCardsBanner />
       <TopThreeItensBanner />
+      <CompositionBanner />
     </div>
   );
 }

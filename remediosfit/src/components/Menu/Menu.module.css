@@ -1,12 +1,12 @@
 .menu {
   width: 100%;
-  background: rgb(102, 0, 96);
   background: linear-gradient(
     161deg,
     rgba(102, 0, 96, 1) 0%,
     rgba(51, 0, 52, 1) 11%,
     rgba(0, 0, 0, 1) 100%
   );
+  display: block;
 }
 
 .content {
