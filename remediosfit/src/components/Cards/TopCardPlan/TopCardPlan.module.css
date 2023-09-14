@@ -11,7 +11,6 @@
   width: 30%;
   background-color: var(--branco);
   border-radius: 8px;
-  box-shadow: 0px 1px 16px 0px var(--branco);
 }
 
 .boxCardMain {
@@ -63,7 +62,7 @@
 .priceValue {
   color: #fff;
   font-family: Montserrat;
-  font-size: 50px;
+  font-size: 7.27vh;
   font-style: normal;
   font-weight: 900;
   line-height: normal;
