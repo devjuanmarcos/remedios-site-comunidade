@@ -43,7 +43,7 @@ export default function AppRoutes() {
           />
         </Routes>
 
-        <Footer />
+        {/* <Footer /> */}
       </BrowserRouter>
     </>
   );

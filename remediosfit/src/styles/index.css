@@ -1,16 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spicy+Rice&display=swap");
 
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 
 :root {
-  --cor-principal: #652f9e;
-  --roxo-medio: #7100eb;
-  --roxo-escuro: #4b0e8d;
-  --roxo-escuro-full: #270052;
-  --cor-card: #860065;
+  --dexfit-cor-principal: #ef3693;
+  --dexfit-tom2: #ff0181;
   --branco: #fff;
   --branco-medio: #fafafa;
   --preto: #2f3941;
@@ -31,7 +37,7 @@ head {
 }
 
 h1 {
-  color: #ff0181;
+  color: var(--dexfit-tom2);
   font-family: var(--fonte-principal);
   font-size: 40px;
   font-style: normal;

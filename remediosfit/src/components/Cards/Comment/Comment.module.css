@@ -1,0 +1,46 @@
+.commentCard {
+  width: 611px;
+  height: 356.973px;
+  flex-shrink: 0;
+  background: #ef3693;
+  width: 611px;
+  border-radius: 8px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 70%;
+  height: 100%;
+  gap: 12px;
+}
+
+.title {
+  height: 30%;
+  width: 100%;
+}
+
+.paragraph {
+  height: 70%;
+  width: 100%;
+}
+
+.boxImage {
+  width: 30%;
+}
+
+.image {
+  width: 146px;
+  border-radius: 146px;
+  height: 146px;
+}

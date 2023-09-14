@@ -1,0 +1,89 @@
+.topCardPlanCard {
+  height: 80vh;
+  width: 150vh;
+  display: flex;
+  align-items: flex-end;
+  gap: 2vh;
+}
+
+.boxCard {
+  height: 90%;
+  width: 30%;
+  background-color: var(--branco);
+  border-radius: 8px;
+  box-shadow: 0px 1px 16px 0px var(--branco);
+}
+
+.boxCardMain {
+  height: 100%;
+  width: 40%;
+  background: var(--dexfit-cor-principal);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 0px 4px 63px 0px var(--dexfit-tom2);
+}
+
+.mostPop {
+  border-radius: 8px;
+  height: 10%;
+  width: 100%;
+  background-color: var(--branco);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.cardMainContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  gap: 1vh;
+}
+
+.imageMain {
+  width: 65%;
+}
+
+.priceMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 1vh;
+  width: auto;
+  height: auto;
+}
+
+.priceValue {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.buttonMain {
+  background: #fff;
+  width: 70%;
+  height: auto;
+  padding: 2vh;
+  border-radius: 8px;
+
+  .text {
+    color: var(--dexfit-tom2, #ff0181);
+    font-family: Montserrat;
+    font-size: 3vh;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 100%;
+    text-align: center;
+  }
+}
