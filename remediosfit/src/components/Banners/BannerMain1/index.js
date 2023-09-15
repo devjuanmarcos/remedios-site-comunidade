@@ -1,28 +1,40 @@
 import React from "react";
 import styles from "./BannerMain1.module.css";
-import remedio from "assets/images/dexfit.svg";
+import ButtonMain from "components/Buttons/ButtonMain";
 
-export default function BannerMain1({ fundo }) {
+export default function BannerMain1({
+  fundo,
+  remedio,
+  widthImage,
+  title,
+  subTitle,
+  paragraph,
+  titleColor,
+  buttonChildren,
+  buttonColor,
+}) {
+  console.log(titleColor);
+
   return (
     <div
       className={styles.main}
-      style={{ backgroundImage: fundo, backgroundSize: "100%" }}
+      style={{ backgroundImage: `url("${fundo}")`, backgroundSize: "100%" }}
     >
       <div className={styles.texts}>
         <div>
-          <h1>TENHA UMA VIDA MAIS LEVE:</h1>
-          <h2>Acabe de vez com a retenção de líquidos e o inchaço</h2>
+          <h1 style={{ color: titleColor }}>{title}</h1>
+          <h2 style={{ color: { titleColor } }}>{subTitle}</h2>
         </div>
-        <p className={styles.paragraph}>
-          Desperte a sua melhor versão com Dexfit! Esta cápsula exclusiva,
-          desenvolvida especialmente para mulheres, apresenta uma fórmula 100%
-          natural.
-        </p>
-        <button></button>
+        <p className={styles.paragraph}>{paragraph}</p>
+        <ButtonMain
+          children={buttonChildren}
+          color={buttonColor}
+        />
       </div>
 
       <div className={styles.boxImage}>
         <img
+          style={{ width: widthImage }}
           className={styles.image}
           src={remedio}
           alt='none'
