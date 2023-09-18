@@ -22,6 +22,7 @@ html {
   --branco: #fff;
   --branco-medio: #fafafa;
   --preto: #2f3941;
+  --secundria-preto: #232323;
   --cinza: #535f68;
   --cinza-fundo: #ebedee;
   --fonte-principal: "Montserrat", sans-serif;
@@ -87,4 +88,15 @@ p {
 
 a {
   text-decoration: none;
+}
+
+/* Font/subtitulo/bold */
+
+.subtitulo {
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 41.6px */
+  letter-spacing: 0.32px;
 }

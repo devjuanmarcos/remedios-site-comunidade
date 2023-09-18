@@ -7,6 +7,7 @@ import BannerMain1 from "components/Banners/BannerMain1";
 import TextsWithCardsBanner from "components/Banners/TextsWithCards";
 import ImageWithTextsBanner from "components/Banners/ImageWithTexts";
 import dataTexts from "assets/json/imageWithTexts.json";
+import ProfessionalOpinionBanner from "components/Banners/ProfessionalOpinion";
 
 export default function Maeslim() {
   return (
@@ -43,6 +44,7 @@ export default function Maeslim() {
         t
         titleColor={"var(--maeslim-cor-principal"}
       />
+      <ProfessionalOpinionBanner color='var(--maeslim-tom2' />
     </div>
   );
 }
