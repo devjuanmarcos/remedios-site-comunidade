@@ -1,0 +1,22 @@
+.imageWithTextsBanner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  gap: 90px;
+  padding: 60px 0;
+}
+
+.image {
+  max-height: 70vh;
+  width: 40%;
+  border-radius: 8px;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  gap: 26px;
+}

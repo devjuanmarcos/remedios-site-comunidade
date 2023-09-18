@@ -1,9 +1,13 @@
 import styles from "./Maeslim.module.css";
 import React from "react";
-import BannerMain1 from "components/Banners/BannerMain1";
 import fundoImage from "assets/images/remediosVoadores.svg";
 import maeSlimImage from "assets/images/MaeSlim.svg";
+import photoImageWithTextsBanner from "assets/images/mae.png";
+import BannerMain1 from "components/Banners/BannerMain1";
 import TextsWithCardsBanner from "components/Banners/TextsWithCards";
+import ImageWithTextsBanner from "components/Banners/ImageWithTexts";
+import dataTexts from "assets/json/imageWithTexts.json";
+
 export default function Maeslim() {
   return (
     <div className={styles.maeslim}>
@@ -26,6 +30,17 @@ export default function Maeslim() {
           "Acelere seu metabolismo, reduza medidas, sinta-se saciada, potencialize a evacuação e tenha uma aparência radiante. Uma maternidade saudável e em forma ao seu alcance!"
         }
         buttonColor={"var(--maeslim-cor-principal"}
+        titleColor={"var(--maeslim-cor-principal"}
+      />
+      <ImageWithTextsBanner
+        color={"var(--maeslim-cor-principal"}
+        dataTexts={dataTexts}
+        image={photoImageWithTextsBanner}
+        title={"Transforme sua vida: "}
+        subTitle={
+          "Recupere sua autoestima e redescubra a mulher incrível que existe em você"
+        }
+        t
         titleColor={"var(--maeslim-cor-principal"}
       />
     </div>
