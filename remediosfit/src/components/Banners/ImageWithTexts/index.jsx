@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./ImageWithTexts.module.css";
+import { backgrounds } from "polished";
 
 export default function ImageWithTextsBanner({
   color,
@@ -8,6 +9,8 @@ export default function ImageWithTextsBanner({
   titleColor,
   title,
   subTitle,
+  paragraph,
+  backColor,
 }) {
   return (
     <div className={styles.imageWithTextsBanner}>
@@ -21,16 +24,19 @@ export default function ImageWithTextsBanner({
           <h1 style={{ color: titleColor }}>{title}</h1>
           <h2 style={{ color: { titleColor } }}>{subTitle}</h2>
         </div>
-        {dataTexts.map((text, id) => (
-          <div key={id}>
-            <p>
-              <span style={{ color: color, text }}>
-                <strong>{text.title}</strong>
-              </span>
-              {text.paragraph}
-            </p>
-          </div>
-        ))}
+        <p>{paragraph}</p>
+        {dataTexts
+          ? dataTexts.map((text, id) => (
+              <div key={id}>
+                <p>
+                  <span style={{ color: color, text }}>
+                    <strong>{text.title}</strong>
+                  </span>
+                  {text.paragraph}
+                </p>
+              </div>
+            ))
+          : undefined}
       </div>
     </div>
   );

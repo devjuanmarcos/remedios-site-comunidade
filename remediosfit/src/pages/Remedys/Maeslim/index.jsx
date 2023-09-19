@@ -1,12 +1,15 @@
 import styles from "./Maeslim.module.css";
 import React from "react";
+
 import fundoImage from "assets/images/remediosVoadores.svg";
 import maeSlimImage from "assets/images/MaeSlim.svg";
 import photoImageWithTextsBanner from "assets/images/mae.png";
+import anvisa from "assets/images/anvisa.svg";
+import dataTexts from "assets/json/imageWithTexts.json";
+
 import BannerMain1 from "components/Banners/BannerMain1";
 import TextsWithCardsBanner from "components/Banners/TextsWithCards";
 import ImageWithTextsBanner from "components/Banners/ImageWithTexts";
-import dataTexts from "assets/json/imageWithTexts.json";
 import ProfessionalOpinionBanner from "components/Banners/ProfessionalOpinion";
 import TextWithCarouselBanner from "components/Banners/TextWithCarousel";
 
@@ -54,6 +57,14 @@ export default function Maeslim() {
         }
         buttonColor={"var(--maeslim-cor-principal"}
         titleColor={"var(--maeslim-cor-principal"}
+      />
+      <ImageWithTextsBanner
+        title={"MãeSlim: Aprovado pela ANVISA"}
+        subTitle={"Para um emagrecimento de forma rápida e segura!"}
+        paragraph={
+          "Confie no emagrecedor especial para mães, com compostos seguros aprovados pela ANVISA. Reduza suas medidas pós-gravidez sem riscos!"
+        }
+        image={anvisa}
       />
     </div>
   );
