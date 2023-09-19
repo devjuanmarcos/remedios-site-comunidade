@@ -8,6 +8,7 @@ import TextsWithCardsBanner from "components/Banners/TextsWithCards";
 import ImageWithTextsBanner from "components/Banners/ImageWithTexts";
 import dataTexts from "assets/json/imageWithTexts.json";
 import ProfessionalOpinionBanner from "components/Banners/ProfessionalOpinion";
+import TextWithCarouselBanner from "components/Banners/TextWithCarousel";
 
 export default function Maeslim() {
   return (
@@ -45,6 +46,15 @@ export default function Maeslim() {
         titleColor={"var(--maeslim-cor-principal"}
       />
       <ProfessionalOpinionBanner color='var(--maeslim-tom2' />
+      <TextWithCarouselBanner
+        title={"Descubra os incríveis resultados de mães "}
+        subTitle={"que já experimentaram o MãeSlim!"}
+        paragraph={
+          "Perca peso de forma saudável e recupere sua confiança pós-parto com o poder do MãeSlim - O segredo das mães que conquistaram resultados surpreendentes."
+        }
+        buttonColor={"var(--maeslim-cor-principal"}
+        titleColor={"var(--maeslim-cor-principal"}
+      />
     </div>
   );
 }
