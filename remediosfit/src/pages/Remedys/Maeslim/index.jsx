@@ -5,6 +5,8 @@ import fundoImage from "assets/images/remediosVoadores.svg";
 import maeSlimImage from "assets/images/MaeSlim.svg";
 import photoImageWithTextsBanner from "assets/images/mae.png";
 import anvisa from "assets/images/anvisa.svg";
+import threeG from "assets/images/threeG.svg";
+import thamara from "assets/images/thamara.svg";
 import dataTexts from "assets/json/imageWithTexts.json";
 
 import BannerMain1 from "components/Banners/BannerMain1";
@@ -65,6 +67,20 @@ export default function Maeslim() {
           "Confie no emagrecedor especial para mães, com compostos seguros aprovados pela ANVISA. Reduza suas medidas pós-gravidez sem riscos!"
         }
         image={anvisa}
+        titleColor={"var(--maeslim-cor-principal"}
+        backColor={true}
+        downButton={true}
+        imgDownButton={threeG}
+      />
+      <ImageWithTextsBanner
+        title={"Altamente recomendado"}
+        subTitle={"pelos mais renomados especialistas"}
+        titleColor={"var(--maeslim-cor-principal"}
+        paragraph={
+          "Especialistas renomados de todo o Brasil estão unânimes em recomendar o MãeSlim como a solução perfeita para mães que desejam se livrar da gordura localizada, fortalecer a pele e alcançar a perda de peso de forma natural e eficaz. Este produto encapsulado, cuidadosamente desenvolvido, tem se mostrado uma opção confiável e com resultados comprovados."
+        }
+        image={thamara}
+        downImage={true}
       />
     </div>
   );
