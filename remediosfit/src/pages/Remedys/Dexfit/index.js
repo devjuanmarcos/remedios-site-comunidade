@@ -22,7 +22,13 @@ export default function Dexfit() {
       <ThreeIconsCard />
       <RoundedImageBanner />
       <FourCardsBanner />
-      <TopThreeItensBanner />
+      <TopThreeItensBanner
+        text1={"Chegou momento de você "}
+        textColored1={"retomar o controle, "}
+        text2={"recuperar o corpor "}
+        textColored2={"e elevar sua autoestima ao máximo!"}
+        color={"var(--dexfit-tom2)"}
+      />
       <CompositionBanner />
     </div>
   );

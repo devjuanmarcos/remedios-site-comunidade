@@ -1,0 +1,35 @@
+.main,
+.businessOpinionBanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.businessOpinionBanner {
+  width: 80%;
+  padding: 60px 0;
+}
+
+.contentBox {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex: row;
+  gap: 20px;
+}
+
+.iten {
+  margin-top: 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 12px;
+  width: 33%;
+  .paragraph {
+    font-weight: 300;
+    width: 80%;
+  }
+}

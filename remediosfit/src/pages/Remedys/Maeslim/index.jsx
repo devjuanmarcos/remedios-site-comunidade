@@ -7,6 +7,10 @@ import photoImageWithTextsBanner from "assets/images/mae.png";
 import anvisa from "assets/images/anvisa.svg";
 import threeG from "assets/images/threeG.svg";
 import thamara from "assets/images/thamara.svg";
+import capricho from "assets/images/capricho.svg";
+import livresaude from "assets/images/livresaude.svg";
+import metropole from "assets/images/metropole.svg";
+
 import dataTexts from "assets/json/imageWithTexts.json";
 
 import BannerMain1 from "components/Banners/BannerMain1";
@@ -14,6 +18,8 @@ import TextsWithCardsBanner from "components/Banners/TextsWithCards";
 import ImageWithTextsBanner from "components/Banners/ImageWithTexts";
 import ProfessionalOpinionBanner from "components/Banners/ProfessionalOpinion";
 import TextWithCarouselBanner from "components/Banners/TextWithCarousel";
+import BusinessOpinionBanner from "components/Banners/BusinessOpinion";
+import TopThreeItensBanner from "components/Banners/TopThreeItens";
 
 export default function Maeslim() {
   return (
@@ -81,6 +87,28 @@ export default function Maeslim() {
         }
         image={thamara}
         downImage={true}
+      />
+      <BusinessOpinionBanner
+        title={"O que as "}
+        color={"var(--maeslim-tom2)"}
+        titleColored={"grandes marcas "}
+        titleContinue={"dizem sobre os componentes"}
+        blur={true}
+        background={"rgba(70, 43, 92, 0.30)"}
+        image1={capricho}
+        paragraph1={`"...os principais benefícios do uso do agente o clareamento de manchas, uniformização do tom de pele por ter uma ação inibidora da melanina e iluminação do rosto. Além disso, o ingrediente é potente para peles mais maduras para a redução de rugas e linhas de expressão, justamente por estimular a produção de colágeno."
+        `}
+        image2={livresaude}
+        paragraph2={`"(A Quitosana) é natural e tem se tornado referência para uma série de benefícios para um rápido emagrecimento e perda de gorduras, já que ela pode causar maior saciedade após as refeições e reduzir a absorção de gorduras."
+        `}
+        image3={metropole}
+        paragraph3={`A spirulina é um tipo de alga utilizada como suplemento natural, é fonte de vitaminas, minerais, antioxidantes e é, inclusive, considerada um superalimento, proporcionando diversos benefícios à saúde. Além de todos esses benefícios, contar com o auxílio dela na dieta para perder aquela gordurinha é, de fato, certeiro."`}
+      />
+      <TopThreeItensBanner
+        color={"var(--maeslim-tom2)"}
+        textColored1={"Transforme-se em uma mãe confiante: "}
+        text2={"Retome o controle do seu corpor e "}
+        textColored2={"Eleve sua autoestima"}
       />
     </div>
   );
