@@ -46,6 +46,10 @@
 }
 
 .imageMain {
+  max-width: 65%;
+}
+
+.imageMainMain {
   width: 65%;
 }
 

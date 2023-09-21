@@ -8,6 +8,17 @@ export default function TopThreeItensBanner({
   text2,
   textColored2,
   color,
+  image5unP,
+  image3unP,
+  image1unP,
+  price5unOldP,
+  price3unOldP,
+  price1unOldP,
+  price5unParP,
+  price3unParP,
+  price1unParP,
+  backgroundMainP,
+  boxShadowMainp,
 }) {
   return (
     <div className={styles.topThreeItensBanner}>
@@ -18,7 +29,19 @@ export default function TopThreeItensBanner({
           {text2}
           <span style={{ color: color }}>{textColored2}</span>
         </h1>
-        <TopCardPlanCard />
+        <TopCardPlanCard
+          image5un={image5unP}
+          image3un={image3unP}
+          image1un={image1unP}
+          price5unOld={price5unOldP}
+          price5unPar={price5unParP}
+          price3unOld={price3unOldP}
+          price3unPar={price3unParP}
+          price1unOld={price1unOldP}
+          price1unPar={price1unParP}
+          backgroundMain={backgroundMainP}
+          boxShadowMain={boxShadowMainp}
+        />
       </div>
     </div>
   );

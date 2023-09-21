@@ -28,6 +28,15 @@ export default function Dexfit() {
         text2={"recuperar o corpor "}
         textColored2={"e elevar sua autoestima ao máximo!"}
         color={"var(--dexfit-tom2)"}
+        image5unP='https://remedios-site-comunidade.vercel.app/static/media/dexfit.e0555a5fc56e55c9b938e2114c0ad78c.svg'
+        image3unP='https://remedios-site-comunidade.vercel.app/static/media/dexfit.e0555a5fc56e55c9b938e2114c0ad78c.svg'
+        image1unP='https://remedios-site-comunidade.vercel.app/static/media/dexfit.e0555a5fc56e55c9b938e2114c0ad78c.svg'
+        price5unOldP={"594,00"}
+        price5unParP={"29,70"}
+        price3unOldP={"595,00"}
+        price3unParP={"39,70"}
+        price1unOldP={"596,00"}
+        price1unParP={"49,70"}
       />
       <CompositionBanner />
     </div>

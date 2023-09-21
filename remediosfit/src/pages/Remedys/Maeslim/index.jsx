@@ -10,6 +10,9 @@ import thamara from "assets/images/thamara.svg";
 import capricho from "assets/images/capricho.svg";
 import livresaude from "assets/images/livresaude.svg";
 import metropole from "assets/images/metropole.svg";
+import maeslim5un from "assets/images/maeslim5un.svg";
+import maeslim3un from "assets/images/maeslim3un.svg";
+import maeslim1un from "assets/images/maeslim1un.svg";
 
 import dataTexts from "assets/json/imageWithTexts.json";
 
@@ -105,10 +108,22 @@ export default function Maeslim() {
         paragraph3={`A spirulina é um tipo de alga utilizada como suplemento natural, é fonte de vitaminas, minerais, antioxidantes e é, inclusive, considerada um superalimento, proporcionando diversos benefícios à saúde. Além de todos esses benefícios, contar com o auxílio dela na dieta para perder aquela gordurinha é, de fato, certeiro."`}
       />
       <TopThreeItensBanner
+        text1={"Chegou momento de você "}
+        textColored1={"retomar o controle, "}
+        text2={"recuperar o corpor "}
+        textColored2={"e elevar sua autoestima ao máximo!"}
         color={"var(--maeslim-tom2)"}
-        textColored1={"Transforme-se em uma mãe confiante: "}
-        text2={"Retome o controle do seu corpor e "}
-        textColored2={"Eleve sua autoestima"}
+        backgroundMainP={"var(--maeslim-cor-principal)"}
+        boxShadowMainp={"var(--maeslim-tom2"}
+        image5unP={maeslim5un}
+        image3unP={maeslim3un}
+        image1unP={maeslim1un}
+        price5unOldP={"594,00"}
+        price5unParP={"29,70"}
+        price3unOldP={"595,00"}
+        price3unParP={"39,70"}
+        price1unOldP={"596,00"}
+        price1unParP={"49,70"}
       />
     </div>
   );
