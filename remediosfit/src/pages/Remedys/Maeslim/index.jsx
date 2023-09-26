@@ -14,6 +14,7 @@ import maeslim5un from "assets/images/maeslim5un.svg";
 import maeslim3un from "assets/images/maeslim3un.svg";
 import maeslim1un from "assets/images/maeslim1un.svg";
 import twcbBackground from "assets/images/twcbBackground.svg";
+import guarantee from "assets/images/30dias.svg";
 
 import dataTexts from "assets/json/imageWithTexts.json";
 
@@ -145,7 +146,15 @@ export default function Maeslim() {
         iconP={true}
         background={twcbBackground}
       />
-      <ImageWithTextsBanner />
+      <ImageWithTextsBanner
+        title={"Garantia de 30 dias"}
+        subTitle={"ou seu dinheiro de volta!"}
+        titleColor={"var(--maeslim-cor-principal"}
+        paragraph={
+          "Experimente o Maeslim e alcance seus objetivos de emagrecimento como mãe. Nossa composição perfeita de ingredientes naturais oferece resultados eficazes e seguros. Garantia de reembolso de 30 dias."
+        }
+        image={guarantee}
+      />
     </div>
   );
 }
