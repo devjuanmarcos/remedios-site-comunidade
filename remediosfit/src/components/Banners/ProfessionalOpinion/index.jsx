@@ -5,7 +5,7 @@ import React from "react";
 
 export default function ProfessionalOpinionBanner({ color }) {
   return (
-    <div className={styles.professionalOpinionBanner}>
+    <section className={styles.professionalOpinionBanner}>
       <h1
         className={styles.title}
         style={{ color: color }}
@@ -89,6 +89,6 @@ export default function ProfessionalOpinionBanner({ color }) {
           </h4>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

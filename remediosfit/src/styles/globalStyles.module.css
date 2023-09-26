@@ -52,7 +52,7 @@ h1 {
 h2 {
   color: #fff;
   font-family: var(--fonte-principal);
-  font-size: 40px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -80,7 +80,7 @@ h4 {
 p {
   color: #fff;
   font-family: var(--fonte-principal);
-  font-size: 24px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;

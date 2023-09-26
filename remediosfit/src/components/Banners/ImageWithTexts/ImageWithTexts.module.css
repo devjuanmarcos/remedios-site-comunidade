@@ -10,22 +10,23 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 80%;
+  width: 90%;
   gap: 90px;
-  padding: 60px 0;
+  padding: 96px 24px;
 }
 
 .imageBox {
-  max-height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 26px;
+  width: 40%;
 }
 
 .image {
   border-radius: 8px;
+  width: 100%;
 }
 
 .name {
@@ -51,7 +52,7 @@
 .texts {
   display: flex;
   flex-direction: column;
-  width: 45%;
+  width: 60%;
   gap: 36px;
 }
 

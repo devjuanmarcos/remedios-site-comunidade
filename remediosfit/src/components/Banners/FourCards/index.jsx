@@ -5,7 +5,7 @@ import image2 from "assets/images/cardImage2.png";
 
 export default function FourCardsBanner() {
   return (
-    <div className={styles.fourCardsBanner}>
+    <section className={styles.fourCardsBanner}>
       <div className={styles.content}>
         <h1 className={styles.title}>
           Não perca os relatos impressionantes de profissionais que indicam
@@ -42,6 +42,6 @@ export default function FourCardsBanner() {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 }

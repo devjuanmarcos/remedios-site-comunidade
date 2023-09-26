@@ -16,7 +16,7 @@ export default function BannerMain1({
   console.log(titleColor);
 
   return (
-    <div
+    <section
       className={styles.main}
       style={{ backgroundImage: `url("${fundo}")`, backgroundSize: "100%" }}
     >
@@ -40,6 +40,6 @@ export default function BannerMain1({
           alt='none'
         />
       </div>
-    </div>
+    </section>
   );
 }

@@ -13,6 +13,7 @@ import metropole from "assets/images/metropole.svg";
 import maeslim5un from "assets/images/maeslim5un.svg";
 import maeslim3un from "assets/images/maeslim3un.svg";
 import maeslim1un from "assets/images/maeslim1un.svg";
+import twcbBackground from "assets/images/twcbBackground.svg";
 
 import dataTexts from "assets/json/imageWithTexts.json";
 
@@ -25,6 +26,13 @@ import BusinessOpinionBanner from "components/Banners/BusinessOpinion";
 import TopThreeItensBanner from "components/Banners/TopThreeItens";
 
 export default function Maeslim() {
+  const twcbChildrens = [
+    "Acelere seu metabolismo de forma natural e segura",
+    "Mais saciedade, menos comida",
+    "Redução de medidas visível em pouco tempo",
+    "Pele, cabelos e unhas mais saudáveis e jovens",
+  ];
+
   return (
     <div className={styles.maeslim}>
       <BannerMain1
@@ -47,15 +55,15 @@ export default function Maeslim() {
         }
         buttonColor={"var(--maeslim-cor-principal"}
         titleColor={"var(--maeslim-cor-principal"}
+        cardColor={"var(--maeslim-cor-principal)"}
+        childrensP={twcbChildrens}
       />
       <ImageWithTextsBanner
         color={"var(--maeslim-cor-principal"}
         dataTexts={dataTexts}
         image={photoImageWithTextsBanner}
         title={"Transforme sua vida: "}
-        subTitle={
-          "Recupere sua autoestima e redescubra a mulher incrível que existe em você"
-        }
+        subTitle={"Recupere sua autoestima por completo"}
         t
         titleColor={"var(--maeslim-cor-principal"}
       />
@@ -125,6 +133,19 @@ export default function Maeslim() {
         price1unOldP={"596,00"}
         price1unParP={"49,70"}
       />
+      <TextsWithCardsBanner
+        title={"A composição perfeita"}
+        paragraph={
+          "Cada componente foi cuidadosamente escolhido para fornecer suporte metabólico, aumentar a queima de gordura, controlar o apetite e melhorar os níveis de energia."
+        }
+        buttonColor={"var(--maeslim-cor-principal"}
+        titleColor={"var(--maeslim-cor-principal"}
+        cardColor={"var(--maeslim-cor-principal)"}
+        childrensP={twcbChildrens}
+        iconP={true}
+        background={twcbBackground}
+      />
+      <ImageWithTextsBanner />
     </div>
   );
 }

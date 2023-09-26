@@ -5,7 +5,7 @@ import ButtonPinkSimple from "components/Buttons/ButtonPinkSimple";
 
 export default function BannerMain() {
   return (
-    <div className={styles.main}>
+    <section className={styles.main}>
       <div className={styles.content}>
         <img
           className={styles.image}
@@ -22,6 +22,6 @@ export default function BannerMain() {
           <ButtonPinkSimple />
         </div>
       </div>
-    </div>
+    </section>
   );
 }

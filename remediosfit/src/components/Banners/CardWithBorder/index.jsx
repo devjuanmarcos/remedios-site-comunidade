@@ -4,7 +4,7 @@ import circle from "assets/images/circle.png";
 
 export default function CardWithBorder() {
   return (
-    <div className={styles.cardWithBorder}>
+    <section className={styles.cardWithBorder}>
       <div className={styles.content}>
         <div className={styles.texts}>
           <h2>Lorem ipsum dolor sit amet, consectetur adipisci</h2>
@@ -34,6 +34,6 @@ export default function CardWithBorder() {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 }

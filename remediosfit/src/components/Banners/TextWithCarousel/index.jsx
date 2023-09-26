@@ -11,7 +11,7 @@ export default function TextWithCarouselBanner({
   buttonColor,
 }) {
   return (
-    <div className={styles.textWithCarouselBanner}>
+    <section className={styles.textWithCarouselBanner}>
       <div className={styles.texts}>
         <div>
           <h1 style={{ color: titleColor }}>{title}</h1>
@@ -30,6 +30,6 @@ export default function TextWithCarouselBanner({
           alt='none'
         />
       </div>
-    </div>
+    </section>
   );
 }

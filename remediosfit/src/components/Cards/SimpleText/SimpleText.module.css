@@ -1,6 +1,6 @@
 .simpleTextCard {
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -17,4 +17,9 @@
   font-weight: 800;
   line-height: 120%; /* 38.4px */
   letter-spacing: 0.32px;
+}
+
+.icon {
+  /* max-height: 50%; */
+  max-width: 13%;
 }

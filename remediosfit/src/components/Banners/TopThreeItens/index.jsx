@@ -21,7 +21,7 @@ export default function TopThreeItensBanner({
   boxShadowMainp,
 }) {
   return (
-    <div className={styles.topThreeItensBanner}>
+    <section className={styles.topThreeItensBanner}>
       <div className={styles.content}>
         <h1 className={styles.title}>
           {text1}
@@ -43,6 +43,6 @@ export default function TopThreeItensBanner({
           boxShadowMain={boxShadowMainp}
         />
       </div>
-    </div>
+    </section>
   );
 }

@@ -16,7 +16,7 @@ export default function BusinessOpinionBanner({
   paragraph3,
 }) {
   return (
-    <div
+    <section
       className={styles.main}
       style={
         blur
@@ -54,6 +54,6 @@ export default function BusinessOpinionBanner({
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

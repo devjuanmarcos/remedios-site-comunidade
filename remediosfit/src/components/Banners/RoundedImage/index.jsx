@@ -4,7 +4,7 @@ import image from "assets/images/imageGirl.jpeg";
 
 export default function RoundedImageBanner() {
   return (
-    <div className={styles.roundedImageBanner}>
+    <section className={styles.roundedImageBanner}>
       <div className={styles.content}>
         <div style={{ width: "40%" }}>
           <div className={styles.image}>
@@ -32,6 +32,6 @@ export default function RoundedImageBanner() {
           <div className={styles.button}></div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

@@ -17,7 +17,7 @@ export default function ImageWithTextsBanner({
   downImage,
 }) {
   return (
-    <div
+    <section
       className={styles.main}
       style={
         backColor
@@ -55,7 +55,7 @@ export default function ImageWithTextsBanner({
             <h1 style={{ color: titleColor }}>{title}</h1>
             <h2 style={{ color: { titleColor } }}>{subTitle}</h2>
           </div>
-          <p>{paragraph}</p>
+          {paragraph ? <p>{paragraph}</p> : null}
           {dataTexts
             ? dataTexts.map((text, id) => (
                 <div key={id}>
@@ -81,6 +81,6 @@ export default function ImageWithTextsBanner({
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

@@ -12,7 +12,7 @@ export function ParagraphTitle({ title, paragraph }) {
 
 export default function CompositionBanner() {
   return (
-    <div className={styles.compositionBanner}>
+    <section className={styles.compositionBanner}>
       <div className={styles.imageBox}>
         <img
           className={styles.image}
@@ -45,6 +45,6 @@ export default function CompositionBanner() {
           paragraph='Quando fermentadas pelas bactérias no intestino contribui para a absorção de cálcio, magnésio e ferro. Além de contribuírem para a saúde intestinal.'
         />
       </div>
-    </div>
+    </section>
   );
 }
