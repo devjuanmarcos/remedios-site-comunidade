@@ -1,8 +1,8 @@
-import React from "react";
-import styles from "./BannerMain1.module.css";
+import styles from "./BannerMainDetox.module.css";
 import ButtonMain from "components/Buttons/ButtonMain";
+import React from "react";
 
-export default function BannerMain1({
+export default function BannerMainDetox({
   fundo,
   remedio,
   widthImage,

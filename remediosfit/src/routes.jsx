@@ -1,11 +1,12 @@
 import React, { useEffect } from "react";
 import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 
-import Footer from "components/Footer";
+// import Footer from "components/Footer";
 import Home from "pages/Home";
 import Menu from "components/Menu";
 import Dexfit from "pages/Remedys/Dexfit";
 import Maeslim from "pages/Remedys/Maeslim";
+import DetoxBlack from "pages/Remedys/DetoxBlack";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -41,6 +42,10 @@ export default function AppRoutes() {
           <Route
             path='maeslim'
             element={<Maeslim />}
+          />
+          <Route
+            path='detoxblack'
+            element={<DetoxBlack />}
           />
           <Route
             path='*'

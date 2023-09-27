@@ -1,0 +1,10 @@
+.videoBanner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+  padding: 96px 0;
+  gap: 60px;
+}

@@ -31,7 +31,7 @@ export default function Menu() {
         </MenuLink>
         <MenuLink to={"dexfit"}>DexFit</MenuLink>
         <MenuLink to={"maeslim"}>MaeSlim</MenuLink>
-        <MenuLink>Detox</MenuLink>
+        <MenuLink to={"detoxblack"}>Detox</MenuLink>
         <MenuLink>Home Care</MenuLink>
         <MenuLink
           to={"/h"}
