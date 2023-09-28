@@ -3,11 +3,13 @@ import styles from "./DetoxBlack.module.css";
 
 import detoxBlackImage from "assets/images/detoxBlackImage.svg";
 import bloodText from "assets/images/bloodText.svg";
+import detoxThree from "assets/images/detoxThree.svg";
 
 import BannerMainDetox from "components/Banners/BannerMainDetox";
 import VideoBanner from "components/Banners/VideoBanner";
 import TextsWithCardsBanner from "components/Banners/TextsWithCards";
 import ListAndTextWithImageBanner from "components/Banners/ListAndTextWithImage";
+import FormulaBanner from "components/Banners/Formula";
 
 export default function DetoxBlack() {
   return (
@@ -51,6 +53,13 @@ export default function DetoxBlack() {
         paragraph={
           "Pessoas essas, que chegaram para a gente com todos os tipos de problemas"
         }
+      />
+      <FormulaBanner
+        primaryColor={"var(--detoxBlack-cor-principal)"}
+        remedy={"Detox Black"}
+        image={detoxThree}
+        type={"detoxBlack"}
+        background={"rgba(23, 46, 26, 0.41)"}
       />
     </div>
   );
