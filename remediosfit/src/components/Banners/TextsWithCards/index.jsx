@@ -3,7 +3,6 @@ import styles from "./TextsWithCards.module.css";
 import React from "react";
 import SimpleTextCard from "components/Cards/SimpleText";
 import childrens from "assets/json/twcbChildrens.json";
-import { backgrounds } from "polished";
 
 export default function TextsWithCardsBanner({
   titleColor,
@@ -16,7 +15,11 @@ export default function TextsWithCardsBanner({
   childrensP,
   iconP,
   background,
+  type,
 }) {
+  const filteredChildrens = childrens.filter(
+    (childrens) => childrens.name === type
+  );
   return (
     <section
       style={
@@ -43,7 +46,7 @@ export default function TextsWithCardsBanner({
         </div>
         {iconP ? (
           <div className={styles.cardBox}>
-            {childrens.map((children, id) => (
+            {filteredChildrens.map((children, id) => (
               <SimpleTextCard
                 key={id}
                 color={cardColor}

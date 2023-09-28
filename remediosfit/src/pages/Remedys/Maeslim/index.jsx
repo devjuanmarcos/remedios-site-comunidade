@@ -145,6 +145,7 @@ export default function Maeslim() {
         childrensP={twcbChildrens}
         iconP={true}
         background={twcbBackground}
+        type={"maeslim"}
       />
       <ImageWithTextsBanner
         title={"Garantia de 30 dias"}

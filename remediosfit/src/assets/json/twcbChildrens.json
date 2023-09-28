@@ -2,21 +2,50 @@
   {
     "id": 1,
     "children": "Acelere seu metabolismo de forma natural e segura",
-    "icon": "/images/vitamin.svg"
+    "icon": "/images/vitamin.svg",
+    "name": "maeslim"
   },
   {
     "id": 2,
     "children": "Acelere seu metabolismo de forma natural e segura",
-    "icon": "/images/vitamin.svg"
+    "icon": "/images/vitamin.svg",
+    "name": "maeslim"
   },
   {
     "id": 3,
     "children": "Acelere seu metabolismo de forma natural e segura",
-    "icon": "/images/vitamin.svg"
+    "icon": "/images/vitamin.svg",
+    "name": "maeslim"
   },
   {
     "id": 4,
     "children": "Acelere seu metabolismo de forma natural e segura",
-    "icon": "/images/vitamin.svg"
+    "list": "Pessoas com alto grau de obesidade",
+    "icon": "/images/vitamin.svg",
+    "name": "maeslim"
+  },
+  {
+    "id": 5,
+    "children": "Acelere seu metabolismo de forma natural e segura",
+    "list": "Pessoas que não conseguiam emagrecer",
+    "name": "detoxBlack"
+  },
+  {
+    "id": 6,
+    "children": "Acelere seu metabolismo de forma natural e segura",
+    "list": "Pessoas que tinham eventos importantes para ir e precisavam emagrecer",
+    "name": "detoxBlack"
+  },
+  {
+    "id": 7,
+    "children": "Acelere seu metabolismo de forma natural e segura",
+    "list": "Pessoas com alto grau de obesidade",
+    "name": "detoxBlack"
+  },
+  {
+    "id": 8,
+    "children": "Acelere seu metabolismo de forma natural e segura",
+    "list": "Pessoas com metabolismo lento",
+    "name": "detoxBlack"
   }
 ]
