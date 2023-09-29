@@ -37,11 +37,8 @@ export default function FormulaBanner({
         </h1>
         <h2>do nosso {remedy}</h2>
       </div>
-      <div
-        className={styles.content}
-        style={{ marginTop: "-40px" }}
-      >
-        <p style={{ width: "30%", textAlign: "center" }}>
+      <div className={styles.content}>
+        <p style={{ width: "30%", textAlign: "left" }}>
           fórmula exclusiva é composta por ingredientes naturais como cromo,
           spirulina, psyllium, quitosana, vitamina E e guaraná, que ajudam a
           eliminar toxinas e impurezas acumuladas no corpo, além de estimular o
@@ -61,8 +58,10 @@ export default function FormulaBanner({
                 className={styles.listItem}
                 key={id}
               >
-                <SwipeRightAltIcon style={{ color: primaryColor }} />
-                <p>{item}</p>
+                <p style={{ textAlign: "end" }}>{item}</p>
+                <SwipeRightAltIcon
+                  style={{ color: primaryColor, rotate: "180deg" }}
+                />
               </li>
             ))
           )}

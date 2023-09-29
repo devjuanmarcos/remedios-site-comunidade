@@ -6,6 +6,7 @@
   padding: 96px 0;
   height: 100%;
   background-size: 100%;
+  gap: 40px;
 }
 
 .title {
@@ -18,15 +19,15 @@
 .content {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  width: 80%;
 }
 
 .imageCard {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40%;
 }
 
 .image {
