@@ -8,6 +8,7 @@ export default function ThreeItensTextBanner({
   primaryColor,
   title,
   type,
+  subtitle,
 }) {
   const filteredItem = jsonItens.filter((jsonItens) => jsonItens.id === type);
 
@@ -25,7 +26,8 @@ export default function ThreeItensTextBanner({
     >
       <div className={styles.content}>
         <div className={styles.title}>
-          <h1 style={{ color: "var(--branco)" }}>{title}</h1>
+          <h2 style={{ color: "var(--branco)" }}>{subtitle}</h2>
+          <h1 style={{ color: primaryColor }}>{title}</h1>
         </div>
         <div className={styles.itemBox}>
           {filteredItem.map((item, id) => (
@@ -34,6 +36,7 @@ export default function ThreeItensTextBanner({
               key={id}
             >
               <img
+                className={styles.svg}
                 src={item.image}
                 alt='none'
               />

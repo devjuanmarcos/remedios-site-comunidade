@@ -39,7 +39,7 @@ export default function FormulaBanner({
         <h2>do nosso {remedy}</h2>
       </div>
       <div className={styles.content}>
-        <p style={{ width: "30%", textAlign: "left" }}>{paragraph}</p>
+        <p style={{ width: "33%", textAlign: "left" }}>{paragraph}</p>
         <div className={styles.imageCard}>
           <img
             className={styles.image}
