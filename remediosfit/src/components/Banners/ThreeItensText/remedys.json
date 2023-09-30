@@ -1,0 +1,26 @@
+[
+  {
+    "id": "detoxBlack",
+    "title": "Acelera o metabolismo",
+    "paragraph": "O metabolismo acelerado faz com que a pessoa queime as calorias mais rapidamente, concentrando menos gorduras, de forma que fica mais difícil ganhar peso.",
+    "image": "/images/vitamin.svg"
+  },
+  {
+    "id": "detoxBlack",
+    "title": "Diminui o apetite",
+    "paragraph": "Os ativos presentes em seus compostos diminuem o apetite e reduzem a absorção de açúcares e gorduras no organismo.",
+    "image": "/images/vitamin.svg"
+  },
+  {
+    "id": "detoxBlack",
+    "title": "Efeito Bariátrico",
+    "paragraph": "Por acelerar o metabolismo e queimar a gordura localizada, reduz drasticamente a gordura abdominal.",
+    "image": "/images/vitamin.svg"
+  },
+  {
+    "id": "maeslim",
+    "title": "Acelera o metabolismo",
+    "paragraph": "O metabolismo acelerado faz com que a pessoa queime as calorias mais rapidamente, concentrando menos gorduras, de forma que fica mais difícil ganhar peso.",
+    "image": "/images/vitamin.svg"
+  }
+]

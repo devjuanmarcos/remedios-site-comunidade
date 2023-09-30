@@ -10,6 +10,7 @@ export default function FormulaBanner({
   remedy,
   image,
   type,
+  paragraph,
 }) {
   const filteredFormulas = formula.filter((formula) => formula.name === type);
   console.log(filteredFormulas);
@@ -38,12 +39,7 @@ export default function FormulaBanner({
         <h2>do nosso {remedy}</h2>
       </div>
       <div className={styles.content}>
-        <p style={{ width: "30%", textAlign: "left" }}>
-          fórmula exclusiva é composta por ingredientes naturais como cromo,
-          spirulina, psyllium, quitosana, vitamina E e guaraná, que ajudam a
-          eliminar toxinas e impurezas acumuladas no corpo, além de estimular o
-          metabolismo para uma queima mais eficiente de gordura.
-        </p>
+        <p style={{ width: "30%", textAlign: "left" }}>{paragraph}</p>
         <div className={styles.imageCard}>
           <img
             className={styles.image}
@@ -52,16 +48,15 @@ export default function FormulaBanner({
           />
         </div>
         <ul className={styles.list}>
+          {/* filtrei o json para puxar apenas pelo tipo de remédio que foi passado como parâmetro e usei um segundo map para puxar apenas o "items" */}
           {filteredFormulas.map((formula) =>
             formula.items.map((item, id) => (
               <li
                 className={styles.listItem}
                 key={id}
               >
+                <SwipeRightAltIcon style={{ color: primaryColor }} />
                 <p style={{ textAlign: "end" }}>{item}</p>
-                <SwipeRightAltIcon
-                  style={{ color: primaryColor, rotate: "180deg" }}
-                />
               </li>
             ))
           )}

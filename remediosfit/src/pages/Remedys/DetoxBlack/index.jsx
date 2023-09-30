@@ -10,6 +10,7 @@ import VideoBanner from "components/Banners/VideoBanner";
 import TextsWithCardsBanner from "components/Banners/TextsWithCards";
 import ListAndTextWithImageBanner from "components/Banners/ListAndTextWithImage";
 import FormulaBanner from "components/Banners/Formula";
+import ThreeItensTextBanner from "components/Banners/ThreeItensText";
 
 export default function DetoxBlack() {
   return (
@@ -60,6 +61,14 @@ export default function DetoxBlack() {
         image={detoxThree}
         type={"detoxBlack"}
         background={"rgba(23, 46, 26, 0.41)"}
+        paragraph={
+          "fórmula exclusiva é composta por ingredientes naturais como cromo, spirulina, psyllium, quitosana, vitamina E e guaraná, que ajudam a eliminar toxinas e impurezas acumuladas no corpo, além de estimular o metabolismo para uma queima mais eficiente de gordura."
+        }
+      />
+      <ThreeItensTextBanner
+        primaryColor={"var(--detoxBlack-cor-principal)"}
+        type={"detoxBlack"}
+        title={"Desvende o poder das nossas cápuslas e transforme sua vida"}
       />
     </div>
   );
