@@ -2,18 +2,19 @@ import styles from "./styles.module.css";
 import React from "react";
 import Slider from "react-slick";
 
-import image from "assets/images/antesDepois.svg";
+import image from "assets/images/TESTECARROSEL.svg";
+import imag2 from "assets/images/MaeSlim.svg";
 
 export default function OneFadeCarousel() {
   const settings = {
     dots: true,
     arrows: false,
-
     fade: true,
     infinite: true,
-    speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 8000,
   };
 
   return (
@@ -26,12 +27,17 @@ export default function OneFadeCarousel() {
         />
         <img
           className={styles.carousel}
-          src={image}
+          src={imag2}
           alt='none'
         />
         <img
           className={styles.carousel}
           src={image}
+          alt='none'
+        />
+        <img
+          className={styles.carousel}
+          src={imag2}
           alt='none'
         />
       </Slider>

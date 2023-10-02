@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "../Double/slick.css"; // Importe os estilos do carrossel
 // import "slick-carousel/slick/slick-theme.css"; // Importe o tema do carrossel (opcional)
 import styles from "./Double.module.css"; // Importe seus estilos
-import image from "assets/images/antesDepois.svg";
+import image from "assets/images/TESTECARROSEL.svg";
 
 const Carrossel = () => {
   const [slidesToShow, setSlidesToShow] = useState(5); // Valor padrão para slidesToShow
