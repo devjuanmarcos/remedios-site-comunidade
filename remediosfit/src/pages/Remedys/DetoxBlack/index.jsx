@@ -12,6 +12,7 @@ import ListAndTextWithImageBanner from "components/Banners/ListAndTextWithImage"
 import FormulaBanner from "components/Banners/Formula";
 import ThreeItensTextBanner from "components/Banners/ThreeItensText";
 import CarouselVideosBanner from "components/Banners/CarouselVideos";
+import TextOneCarouselBanner from "components/Banners/TextOneCarousel";
 
 export default function DetoxBlack() {
   return (
@@ -77,6 +78,7 @@ export default function DetoxBlack() {
         primaryColor={"var(--detoxBlack-cor-principal)"}
         subtitle={"Lift Detox Black"}
       />
+      <TextOneCarouselBanner primaryColor={"var(--detoxBlack-cor-principal)"} />
     </div>
   );
 }

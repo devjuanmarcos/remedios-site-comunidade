@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "../Double/slick.css"; // Importe os estilos do carrossel
 // import "slick-carousel/slick/slick-theme.css"; // Importe o tema do carrossel (opcional)
 import styles from "./Double.module.css"; // Importe seus estilos
-import image from "assets/images/MaeSlim.svg";
+import image from "assets/images/antesDepois.svg";
 
 const Carrossel = () => {
   const [slidesToShow, setSlidesToShow] = useState(5); // Valor padrão para slidesToShow
@@ -29,6 +29,7 @@ const Carrossel = () => {
 
   const settings2 = {
     centerMode: true,
+    dots: true, // ajeitar depois para o padrão do figma
     centerPadding: "60px",
     slidesToShow: 3,
     responsive: [

@@ -53,4 +53,5 @@
   align-items: center;
   gap: 28px;
   width: 100%;
+  cursor: pointer;
 }
