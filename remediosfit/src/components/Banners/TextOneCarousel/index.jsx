@@ -20,11 +20,11 @@ export default function TextOneCarouselBanner({ background, primaryColor }) {
         <div className={styles.texts}>
           <div className={styles.title}>
             <h1 style={{ color: primaryColor }}>O queridinho</h1>
-            <h2>Das mulheres</h2>
+            <h2>de todas as Mulheres</h2>
           </div>
           <p className={styles.paragraph}>
-            São mais de 30 mil pessoas tomando o Lift Detox Black diariamente,
-            só falta você!
+            São mais de 30 mil pessoas tomando o Lift Detox Black diariamente e
+            mudando totalmente suas vidas. Só falta você!
           </p>
           <div className={styles.button}>
             <ButtonMain color={primaryColor} />

@@ -19,6 +19,10 @@
 
 .title {
   text-align: center;
+
+  .paragraph {
+    margin-top: 32px;
+  }
 }
 
 .itemBox {

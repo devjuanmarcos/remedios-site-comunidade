@@ -3,24 +3,38 @@
     "id": "detoxBlack",
     "title": "Acelera o metabolismo",
     "paragraph": "O metabolismo acelerado faz com que a pessoa queime as calorias mais rapidamente, concentrando menos gorduras, de forma que fica mais difícil ganhar peso.",
-    "image": "/images/runMetab.svg"
+    "image": "/images/runMetab.svg",
+    "type": "presentation"
   },
   {
     "id": "detoxBlack",
     "title": "Diminui o apetite",
     "paragraph": "Os ativos presentes em seus compostos diminuem o apetite e reduzem a absorção de açúcares e gorduras no organismo.",
-    "image": "/images/apetite.svg"
+    "image": "/images/apetite.svg",
+    "type": "presentation"
   },
   {
     "id": "detoxBlack",
-    "title": "Efeito Bariátrico",
     "paragraph": "Por acelerar o metabolismo e queimar a gordura localizada, reduz drasticamente a gordura abdominal.",
-    "image": "/images/queimarCalorias.svg"
+    "image": "/images/queimarCalorias.svg",
+    "type": "presentation"
   },
   {
-    "id": "maeslim",
-    "title": "Acelera o metabolismo",
-    "paragraph": "O metabolismo acelerado faz com que a pessoa queime as calorias mais rapidamente, concentrando menos gorduras, de forma que fica mais difícil ganhar peso.",
-    "image": "/images/vitamin.svg"
+    "id": "detoxBlack",
+    "paragraph": "Mulheres tristes com o seu corpo atual que não sabem como emagrecer.",
+    "image": "/images/mulherTriste.svg",
+    "type": "recommendation"
+  },
+  {
+    "id": "detoxBlack",
+    "paragraph": "Pessoas que buscam qualidade de vida, uma pele mais bonita e um corpo mais natural.",
+    "image": "/images/pensaEmagrecer.svg",
+    "type": "recommendation"
+  },
+  {
+    "id": "detoxBlack",
+    "paragraph": "Pessoas que precisam emagrecer rápido para um data específica ou férias na praia.",
+    "image": "/images/praia.svg",
+    "type": "recommendation"
   }
 ]

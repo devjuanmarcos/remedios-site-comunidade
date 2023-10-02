@@ -69,7 +69,8 @@ export default function DetoxBlack() {
       />
       <ThreeItensTextBanner
         primaryColor={"var(--detoxBlack-cor-principal)"}
-        type={"detoxBlack"}
+        id={"detoxBlack"}
+        type={"presentation"}
         subtitle={"Desvende o poder das nossas cápuslas"}
         title={"e transforme sua vida"}
       />
@@ -79,6 +80,16 @@ export default function DetoxBlack() {
         subtitle={"Lift Detox Black"}
       />
       <TextOneCarouselBanner primaryColor={"var(--detoxBlack-cor-principal)"} />
+      <ThreeItensTextBanner
+        primaryColor={"var(--detoxBlack-cor-principal)"}
+        id={"detoxBlack"}
+        type={"recommendation"}
+        subtitle={"Lift Detox Black"}
+        title={"É recomendado para:"}
+        paragraph={
+          "Se você se considera em pelo menos em 1 dessas opções, o LIFT DETOX BLACK foi feito para você!"
+        }
+      />
     </div>
   );
 }

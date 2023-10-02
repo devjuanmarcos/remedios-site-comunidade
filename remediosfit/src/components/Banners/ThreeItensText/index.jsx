@@ -7,10 +7,14 @@ export default function ThreeItensTextBanner({
   background,
   primaryColor,
   title,
+  id,
   type,
   subtitle,
+  paragraph,
 }) {
-  const filteredItem = jsonItens.filter((jsonItens) => jsonItens.id === type);
+  const filteredItem =
+    jsonItens.filter((jsonItens) => jsonItens.id === id) &&
+    jsonItens.filter((jsonItens) => jsonItens.type === type);
 
   return (
     <section
@@ -28,6 +32,9 @@ export default function ThreeItensTextBanner({
         <div className={styles.title}>
           <h2 style={{ color: "var(--branco)" }}>{subtitle}</h2>
           <h1 style={{ color: primaryColor }}>{title}</h1>
+          {paragraph ? (
+            <p className={styles.paragraph}>{paragraph}</p>
+          ) : undefined}
         </div>
         <div className={styles.itemBox}>
           {filteredItem.map((item, id) => (
