@@ -36,6 +36,7 @@ export default function DetoxBlack() {
         background={"rgba(23, 46, 26, 0.41)"}
       /> */}
       <TopicsWithImageBanner
+        background={"rgba(23, 46, 26, 0.41)"}
         id={"detoxBlack"}
         type={"beneficios"}
       />
@@ -74,6 +75,7 @@ export default function DetoxBlack() {
       />
       <TextOneCarouselBanner primaryColor={"var(--detoxBlack-cor-principal)"} />
       <ThreeItensTextBanner
+        background={"rgba(23, 46, 26, 0.41)"}
         primaryColor={"var(--detoxBlack-cor-principal)"}
         id={"detoxBlack"}
         type={"recommendation"}
