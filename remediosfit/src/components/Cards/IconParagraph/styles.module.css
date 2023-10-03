@@ -4,11 +4,17 @@
   align-items: start;
   gap: 20px;
   padding: 8px;
+  height: 100%;
 }
 
 .iconBox {
-  width: 44px;
-  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: inherit;
+  border-radius: 400px;
+  background-color: var(--branco);
+  padding: 5px;
 }
 
 .textBox {
