@@ -12,25 +12,25 @@
         "id": 1,
         "title": "Diminui o apetite",
         "paragraph": "At tristique elementum metus blandit id sed vel eu a. Diam sed feugiat diam nisi est. Dictumst elit.",
-        "icon": "rs-iconarrow-down-line"
+        "icon": "AiFillCodepenCircle"
       },
       {
         "id": 2,
         "title": "Acelere o metabolismo",
         "paragraph": "At tristique elementum metus eu a. Diam sed feugiat diam nisi est. Dictumst elit.",
-        "icon": "rs-iconpage-end"
+        "icon": "AiTwotoneThunderbolt"
       },
       {
         "id": 3,
         "title": "Combate as estrias",
         "paragraph": "At tristique e feugiat diam nisi est. Dictumst elit.",
-        "icon": "rs-iconshield"
+        "icon": "AiTwotonePropertySafety"
       },
       {
         "id": 4,
         "title": "Queima de gordura",
         "paragraph": "At tristique elementum metus blandit id sed v diam nisi est. Dictumst elit.",
-        "icon": "rs-iconscatter"
+        "icon": "AiTwotoneFire"
       }
     ]
   }
