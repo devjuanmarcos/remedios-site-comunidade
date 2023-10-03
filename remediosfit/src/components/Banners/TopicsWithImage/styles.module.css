@@ -1,0 +1,36 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 96px 0;
+  height: 100%;
+  background-size: 100%;
+}
+
+.content {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  gap: 72px;
+}
+
+.imageBox {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 65%;
+}
+
+.imageBox img {
+  width: 90%;
+  margin-top: 12px;
+}
+
+.topicsBox {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}

@@ -13,6 +13,7 @@ import FormulaBanner from "components/Banners/Formula";
 import ThreeItensTextBanner from "components/Banners/ThreeItensText";
 import CarouselVideosBanner from "components/Banners/CarouselVideos";
 import TextOneCarouselBanner from "components/Banners/TextOneCarousel";
+import TopicsWithImageBanner from "components/Banners/TopicsWithImage";
 
 export default function DetoxBlack() {
   return (
@@ -29,22 +30,14 @@ export default function DetoxBlack() {
         remedio={detoxBlackImage}
         widthImage='300px'
       />
-      <VideoBanner
+      {/* <VideoBanner
         src={"https://www.youtube.com/embed/pummBnLPjPA"}
         buttonWidth='424px'
         background={"rgba(23, 46, 26, 0.41)"}
-      />
-      <TextsWithCardsBanner
-        title={"Natural e super eficaz"}
-        titleColor={"var(--detoxBlack-cor-principal)"}
-        subTitle={"Descubra os benefícios do Detox Black"}
-        paragraph={
-          "Acelere seu metabolismo, reduza medidas, sinta-se saciada, potencialize a evacuação e tenha uma aparência radiante. Uma maternidade saudável e em forma ao seu alcance!"
-        }
-        buttonColor={"var(--detoxBlack-cor-principal)"}
-        cardColor={"var(--detoxBlack-tom2)"}
-        type={"detoxBlack"}
-        iconP={true}
+      /> */}
+      <TopicsWithImageBanner
+        id={"detoxBlack"}
+        type={"beneficios"}
       />
       <ListAndTextWithImageBanner
         type={"detoxBlack"}

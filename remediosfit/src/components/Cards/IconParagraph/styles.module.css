@@ -1,0 +1,19 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  gap: 20px;
+  padding: 8px;
+}
+
+.iconBox {
+  width: 44px;
+  height: 100%;
+}
+
+.textBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
