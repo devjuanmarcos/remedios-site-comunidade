@@ -5,7 +5,7 @@ import ThreeIconsCard from "components/Cards/ThreeIcons";
 import RoundedImageBanner from "components/Banners/RoundedImage";
 import FourCardsBanner from "components/Banners/FourCards";
 import TopThreeItensBanner from "components/Banners/TopThreeItens";
-import CompositionBanner from "components/Banners/Composition";
+import CompositionBanner from "components/Banners/TempComposition";
 import remedio from "assets/images/dexfit.svg";
 
 export default function Dexfit() {

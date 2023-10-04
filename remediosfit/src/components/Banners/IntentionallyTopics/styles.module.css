@@ -1,4 +1,4 @@
-.formulaBanner {
+.main {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -6,43 +6,27 @@
   padding: 96px 0;
   height: 100%;
   background-size: 100%;
-  gap: 40px;
 }
-
 .title {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin-bottom: 40px;
+  text-align: center;
 }
-
 .content {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   width: 80%;
-  gap: 60px;
-}
-
-.imageCard {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 33%;
-}
-
-.image {
-  width: 60%;
+  gap: 72px;
 }
 
 .list {
+  min-width: 40%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   gap: 28px;
-  width: 33%;
 }
 
 .listItem {
@@ -52,6 +36,8 @@
   justify-self: flex-start;
   align-items: center;
   gap: 28px;
-  width: 100%;
-  cursor: pointer;
+}
+
+.imageBox {
+  width: 40%;
 }

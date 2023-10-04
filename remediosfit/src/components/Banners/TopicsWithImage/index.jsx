@@ -2,15 +2,9 @@ import IconParagraphCard from "components/Cards/IconParagraph";
 import styles from "./styles.module.css";
 import React from "react";
 
-import image from "assets/images/bloodText.svg";
 import iconParagraph from "components/Cards/IconParagraph/iconParagraph.json";
 
-export default function TopicsWithImageBanner({
-  background,
-  primaryColor,
-  id,
-  type,
-}) {
+export default function TopicsWithImageBanner({ background, id, type }) {
   const filterData =
     iconParagraph.filter((iconParagraph) => iconParagraph.id === id) &&
     iconParagraph.filter((iconParagraph) => iconParagraph.type === type);

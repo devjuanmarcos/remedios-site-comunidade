@@ -2,18 +2,15 @@ import React from "react";
 import styles from "./DetoxBlack.module.css";
 
 import detoxBlackImage from "assets/images/detoxBlackImage.svg";
-import bloodText from "assets/images/bloodText.svg";
-import detoxThree from "assets/images/detoxThree.svg";
 
 import BannerMainDetox from "components/Banners/BannerMainDetox";
 import VideoBanner from "components/Banners/VideoBanner";
-import TextsWithCardsBanner from "components/Banners/TextsWithCards";
-import ListAndTextWithImageBanner from "components/Banners/ListAndTextWithImage";
-import FormulaBanner from "components/Banners/Formula";
 import ThreeItensTextBanner from "components/Banners/ThreeItensText";
 import CarouselVideosBanner from "components/Banners/CarouselVideos";
 import TextOneCarouselBanner from "components/Banners/TextOneCarousel";
 import TopicsWithImageBanner from "components/Banners/TopicsWithImage";
+import IntentionallyBanner from "components/Banners/IntentionallyTopics";
+import CompositionBanner from "components/Banners/Composition";
 
 export default function DetoxBlack() {
   return (
@@ -36,30 +33,18 @@ export default function DetoxBlack() {
         background={"rgba(23, 46, 26, 0.41)"}
       /> */}
       <TopicsWithImageBanner
+        type={"beneficios"}
         background={"rgba(23, 46, 26, 0.41)"}
         id={"detoxBlack"}
-        type={"beneficios"}
       />
-      <ListAndTextWithImageBanner
-        type={"detoxBlack"}
-        primaryColor={"var(--detoxBlack-cor-principal)"}
-        title={"64 mil pessoas"}
-        subtitle={"Em 2022 ajudamos mais de"}
-        image={bloodText}
-        width={"50%"}
-        paragraph={
-          "Pessoas essas, que chegaram para a gente com todos os tipos de problemas"
-        }
+      <IntentionallyBanner
+        id={"detoxBlack"}
+        type={"functions"}
       />
-      <FormulaBanner
-        primaryColor={"var(--detoxBlack-cor-principal)"}
-        remedy={"Detox Black"}
-        image={detoxThree}
-        type={"detoxBlack"}
+      <CompositionBanner
+        type={"composition"}
         background={"rgba(23, 46, 26, 0.41)"}
-        paragraph={
-          "Fórmula exclusiva é composta por ingredientes naturais como cromo, spirulina, psyllium, quitosana, vitamina E e guaraná, que ajudam a eliminar toxinas e impurezas acumuladas no corpo, além de estimular o metabolismo para uma queima mais eficiente de gordura."
-        }
+        id={"detoxBlack"}
       />
       <ThreeItensTextBanner
         primaryColor={"var(--detoxBlack-cor-principal)"}
@@ -84,6 +69,10 @@ export default function DetoxBlack() {
         paragraph={
           "Se você se considera em pelo menos em 1 dessas opções, o LIFT DETOX BLACK foi feito para você!"
         }
+      />
+      <IntentionallyBanner
+        type={"intentionally"}
+        id={"detoxBlack"}
       />
     </div>
   );
