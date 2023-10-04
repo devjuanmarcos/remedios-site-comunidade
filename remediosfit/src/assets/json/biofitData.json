@@ -120,6 +120,16 @@
           "Laranja Moro em pó / Morosil",
           "Spirulina"
         ]
+      },
+      {
+        "id": 5,
+        "type": "video",
+        "title": "Conheça nosso processo de fabricação",
+        "paragraph": "É produzido pela Promel, uma empresa com mais de 23 anos de existência, localizada no Espírito Santo, com todos os cuidados necessários para garantir a segurança e eficácia do produto.",
+        "buttonText": "Eu quero emagrecer",
+        "image": "/images/detoxThree.svg",
+        "icon": "",
+        "link": "https://www.youtube.com/watch?v=LrSW6Z26cyg"
       }
     ]
   }

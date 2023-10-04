@@ -27,11 +27,6 @@ export default function DetoxBlack() {
         remedio={detoxBlackImage}
         widthImage='300px'
       />
-      {/* <VideoBanner
-        src={"https://www.youtube.com/embed/pummBnLPjPA"}
-        buttonWidth='424px'
-        background={"rgba(23, 46, 26, 0.41)"}
-      /> */}
       <TopicsWithImageBanner
         type={"beneficios"}
         background={"rgba(23, 46, 26, 0.41)"}
@@ -72,6 +67,10 @@ export default function DetoxBlack() {
       />
       <IntentionallyBanner
         type={"intentionally"}
+        id={"detoxBlack"}
+      />
+      <VideoBanner
+        type={"video"}
         id={"detoxBlack"}
       />
     </div>
