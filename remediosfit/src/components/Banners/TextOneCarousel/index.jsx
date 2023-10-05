@@ -27,7 +27,10 @@ export default function TextOneCarouselBanner({ background, primaryColor }) {
             mudando totalmente suas vidas. Só falta você!
           </p>
           <div className={styles.button}>
-            <ButtonMain color={primaryColor} />
+            <ButtonMain
+              color={primaryColor}
+              children={"Eu quero emagrecer"}
+            />
           </div>
         </div>
         <div className={styles.carousel}>

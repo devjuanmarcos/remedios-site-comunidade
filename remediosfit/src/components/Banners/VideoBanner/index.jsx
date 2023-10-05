@@ -46,9 +46,6 @@ export default function VideoBanner({ background, id, type }) {
                 </h1>
                 <p>{banner.paragraph}</p>
               </div>
-              <div style={{ width: "50%", marginTop: "20px" }}>
-                <ButtonMain color={filteredId.primaryColor} />
-              </div>
             </div>
           </div>
         </section>

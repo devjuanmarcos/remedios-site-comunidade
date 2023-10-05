@@ -63,6 +63,7 @@ export default function DetoxBlack() {
         id={"detoxBlack"}
       />
       <VideoBanner
+        background={"rgba(23, 46, 26, 0.41)"}
         type={"video"}
         id={"detoxBlack"}
       />

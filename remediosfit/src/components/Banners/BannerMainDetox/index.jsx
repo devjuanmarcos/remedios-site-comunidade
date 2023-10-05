@@ -20,7 +20,7 @@ export default function BannerMainDetox({ background, id, type }) {
           style={
             background
               ? {
-                  backgroundImage: "url()",
+                  backgroundImage: `url(${banner.image})`,
                   backgroundSize: "100%",
                   width: "100%",
                 }
@@ -28,7 +28,26 @@ export default function BannerMainDetox({ background, id, type }) {
           }
           className={styles.main}
         >
-          <div className={styles.content}></div>
+          <div className={styles.content}>
+            <div className={styles.title}>
+              <h1 style={{ color: "var(--branco)" }}>{banner.title}</h1>
+              <h2 style={{ color: "var(--branco)" }}>{banner.subtitle}</h2>
+            </div>
+            <div className={styles.imageBox}>
+              <img
+                style={{
+                  width: "200px",
+                }}
+                src={banner.imageRemedy}
+                alt=''
+              />
+              <p className={styles.paragraph}>{banner.paragraph}</p>
+              <ButtonMain
+                color={filteredId.primaryColor}
+                children={banner.buttonText}
+              />
+            </div>
+          </div>
         </section>
       ))}
     </>

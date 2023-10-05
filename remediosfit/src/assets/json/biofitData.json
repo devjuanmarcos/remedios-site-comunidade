@@ -135,10 +135,11 @@
         "id": 6,
         "type": "main",
         "title": "Lift Detox Black",
-        "subtitle": "Transforme seu corpo",
+        "subtitle": "Transforme seu corpo, mude sua vida",
         "paragraph": "Perca peso de maneira saudável! A fórmula natural que acelera o metabolismo, elimina toxinas e proporciona resultados duradouros.",
         "buttonText": "Eu quero emagrecer",
-        "image": "/images/backgroundDetox.png"
+        "image": "/images/backgroundDetox.png",
+        "imageRemedy": "/images/detoxThree.svg"
       }
     ]
   }

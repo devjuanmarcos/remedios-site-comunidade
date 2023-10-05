@@ -1,6 +1,7 @@
 import styles from "./CarouselVideos.module.css";
 import React from "react";
 import DoubleCarousel from "components/Carousel/Double";
+import ButtonMain from "components/Buttons/ButtonMain";
 
 export default function CarouselVideosBanner({
   background,
