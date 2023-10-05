@@ -142,5 +142,293 @@
         "imageRemedy": "/images/detoxThree.svg"
       }
     ]
+  },
+  {
+    "id": "maeSlim",
+    "primaryColor": "var(--maeslim-cor-principal)",
+    "secundaryColor": "var(--maeslim-tom2)",
+    "price": "99,90",
+    "price12X": "119,90",
+    "banners": [
+      {
+        "id": 1,
+        "type": "beneficios",
+        "image": "images/cestaFrutas.svg",
+        "title": "Natural e super eficaz",
+        "subtitle": "",
+        "paragraph": "Descubra os benefícios do Detox Black",
+        "itens": [
+          {
+            "id": 1,
+            "title": "Diminui o apetite",
+            "paragraph": "At tristique elementum metus blandit id sed vel eu a. Diam sed feugiat diam nisi est. Dictumst elit.",
+            "icon": "AiFillCodepenCircle"
+          },
+          {
+            "id": 2,
+            "title": "Acelere o metabolismo",
+            "paragraph": "At tristique elementum metus eu a. Diam sed feugiat diam nisi est. Dictumst elit.",
+            "icon": "AiTwotoneThunderbolt"
+          },
+          {
+            "id": 3,
+            "title": "Combate as estrias",
+            "paragraph": "At tristique e feugiat diam nisi est. Dictumst elit.",
+            "icon": "AiTwotonePropertySafety"
+          },
+          {
+            "id": 4,
+            "title": "Queima de gordura",
+            "paragraph": "At tristique elementum metus blandit id sed v diam nisi est. Dictumst elit.",
+            "icon": "AiTwotoneFire"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "type": "intentionally",
+        "title": "Um produtor único",
+        "subtitle": "para auxiliar no seu emagrecimento",
+        "paragraph": "",
+        "buttonText": "Eu quero emagrecer",
+        "image": "/images/bloodText.svg",
+        "icon": "/images/vitamin.svg",
+        "itens": [
+          {
+            "id": 1,
+            "title": "Reduz a vontade de comer"
+          },
+          {
+            "id": 2,
+            "title": "Combate as Estrias e Celulite"
+          },
+          {
+            "id": 3,
+            "title": "Promove melhorias na sua saúde"
+          },
+          {
+            "id": 4,
+            "title": "Saudável e 100% natural"
+          },
+          {
+            "id": 5,
+            "title": "Queima gordura localizada"
+          },
+          {
+            "id": 6,
+            "title": "Acelera o metabolismo"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "functions",
+        "title": "64 mil pessoas",
+        "subtitle": "que foram beneficiadas em 2022",
+        "paragraph": "",
+        "buttonText": "Eu quero emagrecer",
+        "image": "/images/bloodText.svg",
+        "icon": "/images/vitamin.svg",
+        "itens": [
+          {
+            "id": 1,
+            "title": "Pessoas que não conseguiam emagrecer"
+          },
+          {
+            "id": 2,
+            "title": "Pessoas que tinham eventos importantes para ir e precisavam emagrecer"
+          },
+          {
+            "id": 3,
+            "title": "Pessoas com alto grau de obesidade"
+          },
+          {
+            "id": 4,
+            "title": "Pessoas com metabolismo lento"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "type": "composition",
+        "title": "Fórmula poderosa",
+        "subtitle": "do nosso Detox Black",
+        "paragraph": "Fórmula exclusiva é composta por ingredientes naturais como cromo, spirulina, psyllium, quitosana, vitamina E e guaraná, que ajudam a eliminar toxinas e impurezas acumuladas no corpo, além de estimular o metabolismo para uma queima mais eficiente de gordura.",
+        "buttonText": "Eu quero emagrecer",
+        "image": "/images/detoxThree.svg",
+        "icon": "",
+        "itens": [
+          "Quitosana",
+          "Psyllium",
+          "Picolinato de cromo",
+          "Laranja Moro em pó / Morosil",
+          "Spirulina"
+        ]
+      },
+      {
+        "id": 5,
+        "type": "video",
+        "title": "Conheça nosso processo de fabricação",
+        "paragraph": "É produzido pela Promel, uma empresa com mais de 23 anos de existência, localizada no Espírito Santo, com todos os cuidados necessários para garantir a segurança e eficácia do produto.",
+        "buttonText": "Eu quero emagrecer",
+        "image": "/images/detoxThree.svg",
+        "icon": "",
+        "link": "https://www.youtube.com/embed/LrSW6Z26cyg?si=whBwbASPqPCGxj1x"
+      },
+      {
+        "id": 6,
+        "type": "main",
+        "title": "Lift Detox Black",
+        "subtitle": "Transforme seu corpo, mude sua vida",
+        "paragraph": "Perca peso de maneira saudável! A fórmula natural que acelera o metabolismo, elimina toxinas e proporciona resultados duradouros.",
+        "buttonText": "Eu quero emagrecer",
+        "image": "/images/backgroundDetox.png",
+        "imageRemedy": "/images/detoxThree.svg"
+      }
+    ]
+  },
+  {
+    "id": "dexFit",
+    "primaryColor": "var(--dexfit-cor-principal)",
+    "secundaryColor": "var(--dexfit-tom2)",
+    "price": "99,90",
+    "price12X": "119,90",
+    "banners": [
+      {
+        "id": 1,
+        "type": "beneficios",
+        "image": "images/cestaFrutas.svg",
+        "title": "Natural e super eficaz",
+        "subtitle": "",
+        "paragraph": "Descubra os benefícios do Detox Black",
+        "itens": [
+          {
+            "id": 1,
+            "title": "Diminui o apetite",
+            "paragraph": "At tristique elementum metus blandit id sed vel eu a. Diam sed feugiat diam nisi est. Dictumst elit.",
+            "icon": "AiFillCodepenCircle"
+          },
+          {
+            "id": 2,
+            "title": "Acelere o metabolismo",
+            "paragraph": "At tristique elementum metus eu a. Diam sed feugiat diam nisi est. Dictumst elit.",
+            "icon": "AiTwotoneThunderbolt"
+          },
+          {
+            "id": 3,
+            "title": "Combate as estrias",
+            "paragraph": "At tristique e feugiat diam nisi est. Dictumst elit.",
+            "icon": "AiTwotonePropertySafety"
+          },
+          {
+            "id": 4,
+            "title": "Queima de gordura",
+            "paragraph": "At tristique elementum metus blandit id sed v diam nisi est. Dictumst elit.",
+            "icon": "AiTwotoneFire"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "type": "intentionally",
+        "title": "Um produtor único",
+        "subtitle": "para auxiliar no seu emagrecimento",
+        "paragraph": "",
+        "buttonText": "Eu quero emagrecer",
+        "image": "/images/bloodText.svg",
+        "icon": "/images/vitamin.svg",
+        "itens": [
+          {
+            "id": 1,
+            "title": "Reduz a vontade de comer"
+          },
+          {
+            "id": 2,
+            "title": "Combate as Estrias e Celulite"
+          },
+          {
+            "id": 3,
+            "title": "Promove melhorias na sua saúde"
+          },
+          {
+            "id": 4,
+            "title": "Saudável e 100% natural"
+          },
+          {
+            "id": 5,
+            "title": "Queima gordura localizada"
+          },
+          {
+            "id": 6,
+            "title": "Acelera o metabolismo"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "functions",
+        "title": "64 mil pessoas",
+        "subtitle": "que foram beneficiadas em 2022",
+        "paragraph": "",
+        "buttonText": "Eu quero emagrecer",
+        "image": "/images/bloodText.svg",
+        "icon": "/images/vitamin.svg",
+        "itens": [
+          {
+            "id": 1,
+            "title": "Pessoas que não conseguiam emagrecer"
+          },
+          {
+            "id": 2,
+            "title": "Pessoas que tinham eventos importantes para ir e precisavam emagrecer"
+          },
+          {
+            "id": 3,
+            "title": "Pessoas com alto grau de obesidade"
+          },
+          {
+            "id": 4,
+            "title": "Pessoas com metabolismo lento"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "type": "composition",
+        "title": "Fórmula poderosa",
+        "subtitle": "do nosso Detox Black",
+        "paragraph": "Fórmula exclusiva é composta por ingredientes naturais como cromo, spirulina, psyllium, quitosana, vitamina E e guaraná, que ajudam a eliminar toxinas e impurezas acumuladas no corpo, além de estimular o metabolismo para uma queima mais eficiente de gordura.",
+        "buttonText": "Eu quero emagrecer",
+        "image": "/images/detoxThree.svg",
+        "icon": "",
+        "itens": [
+          "Quitosana",
+          "Psyllium",
+          "Picolinato de cromo",
+          "Laranja Moro em pó / Morosil",
+          "Spirulina"
+        ]
+      },
+      {
+        "id": 5,
+        "type": "video",
+        "title": "Conheça nosso processo de fabricação",
+        "paragraph": "É produzido pela Promel, uma empresa com mais de 23 anos de existência, localizada no Espírito Santo, com todos os cuidados necessários para garantir a segurança e eficácia do produto.",
+        "buttonText": "Eu quero emagrecer",
+        "image": "/images/detoxThree.svg",
+        "icon": "",
+        "link": "https://www.youtube.com/embed/LrSW6Z26cyg?si=whBwbASPqPCGxj1x"
+      },
+      {
+        "id": 6,
+        "type": "main",
+        "title": "Lift Detox Black",
+        "subtitle": "Transforme seu corpo, mude sua vida",
+        "paragraph": "Perca peso de maneira saudável! A fórmula natural que acelera o metabolismo, elimina toxinas e proporciona resultados duradouros.",
+        "buttonText": "Eu quero emagrecer",
+        "image": "/images/backgroundDetox.png",
+        "imageRemedy": "/images/detoxThree.svg"
+      }
+    ]
   }
 ]

@@ -1,9 +1,7 @@
 import React from "react";
 import styles from "./DetoxBlack.module.css";
 
-import detoxBlackImage from "assets/images/detoxBlackImage.svg";
-
-import BannerMainDetox from "components/Banners/BannerMainDetox";
+import MainBanner from "components/Banners/Main";
 import VideoBanner from "components/Banners/VideoBanner";
 import ThreeItensTextBanner from "components/Banners/ThreeItensText";
 import CarouselVideosBanner from "components/Banners/CarouselVideos";
@@ -13,30 +11,32 @@ import IntentionallyBanner from "components/Banners/IntentionallyTopics";
 import CompositionBanner from "components/Banners/Composition";
 
 export default function DetoxBlack() {
+  const pageId = "detoxBlack";
+
   return (
     <div className={styles.detoxBlack}>
-      <BannerMainDetox
+      <MainBanner
         type={"main"}
-        id={"detoxBlack"}
+        id={pageId}
         background={true}
       />
       <TopicsWithImageBanner
         type={"beneficios"}
         background={"rgba(23, 46, 26, 0.41)"}
-        id={"detoxBlack"}
+        id={pageId}
       />
       <IntentionallyBanner
-        id={"detoxBlack"}
+        id={pageId}
         type={"functions"}
       />
       <CompositionBanner
         type={"composition"}
         background={"rgba(23, 46, 26, 0.41)"}
-        id={"detoxBlack"}
+        id={pageId}
       />
       <ThreeItensTextBanner
         primaryColor={"var(--detoxBlack-cor-principal)"}
-        id={"detoxBlack"}
+        id={pageId}
         type={"presentation"}
         subtitle={"Desvende o poder das nossas cápuslas"}
         title={"e transforme sua vida"}
@@ -50,7 +50,7 @@ export default function DetoxBlack() {
       <ThreeItensTextBanner
         background={"rgba(23, 46, 26, 0.41)"}
         primaryColor={"var(--detoxBlack-cor-principal)"}
-        id={"detoxBlack"}
+        id={pageId}
         type={"recommendation"}
         subtitle={"Lift Detox Black"}
         title={"É recomendado para:"}
@@ -60,12 +60,12 @@ export default function DetoxBlack() {
       />
       <IntentionallyBanner
         type={"intentionally"}
-        id={"detoxBlack"}
+        id={pageId}
       />
       <VideoBanner
         background={"rgba(23, 46, 26, 0.41)"}
         type={"video"}
-        id={"detoxBlack"}
+        id={pageId}
       />
     </div>
   );

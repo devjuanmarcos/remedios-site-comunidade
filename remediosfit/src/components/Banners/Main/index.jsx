@@ -1,10 +1,10 @@
-import styles from "./BannerMainDetox.module.css";
+import styles from "./styles.module.css";
 import ButtonMain from "components/Buttons/ButtonMain";
 import React from "react";
 
 import biofitData from "assets/json/biofitData.json";
 
-export default function BannerMainDetox({ background, id, type }) {
+export default function MainBanner({ background, id, type }) {
   const filteredId = biofitData.find((data) => data.id === id);
   if (!filteredId) {
     return null;
