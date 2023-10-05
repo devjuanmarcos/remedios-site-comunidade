@@ -129,7 +129,16 @@
         "buttonText": "Eu quero emagrecer",
         "image": "/images/detoxThree.svg",
         "icon": "",
-        "link": "https://www.youtube.com/watch?v=LrSW6Z26cyg"
+        "link": "https://www.youtube.com/embed/LrSW6Z26cyg?si=whBwbASPqPCGxj1x"
+      },
+      {
+        "id": 6,
+        "type": "main",
+        "title": "Lift Detox Black",
+        "subtitle": "Transforme seu corpo",
+        "paragraph": "Perca peso de maneira saudável! A fórmula natural que acelera o metabolismo, elimina toxinas e proporciona resultados duradouros.",
+        "buttonText": "Eu quero emagrecer",
+        "image": "/images/backgroundDetox.png"
       }
     ]
   }

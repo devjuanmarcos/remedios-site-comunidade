@@ -28,17 +28,27 @@ export default function VideoBanner({ background, id, type }) {
           className={styles.main}
         >
           <div className={styles.content}>
-            <iframe
-              width='840'
-              height='472'
-              src='https://www.youtube.com/watch?v=LrSW6Z26cyg'
-              title='HTML Vídeo 11 - Como inserir vídeos do Youtube na página WEB'
-              frameborder='0'
-              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-              allowfullscreen
-            ></iframe>
-            <div style={{ width: "100%" }}>
-              <ButtonMain color='var(--detoxBlack-cor-principal)' />
+            <div className={styles.frameborder}>
+              <iframe
+                className={styles.iframe}
+                src={banner.link}
+                title={banner.title}
+                frameborder='0'
+                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+                allowfullscreen
+              ></iframe>
+            </div>
+
+            <div className={styles.textBox}>
+              <div className={styles.titleParagraph}>
+                <h1 style={{ color: filteredId.primaryColor }}>
+                  {banner.title}
+                </h1>
+                <p>{banner.paragraph}</p>
+              </div>
+              <div style={{ width: "50%", marginTop: "20px" }}>
+                <ButtonMain color={filteredId.primaryColor} />
+              </div>
             </div>
           </div>
         </section>

@@ -16,16 +16,9 @@ export default function DetoxBlack() {
   return (
     <div className={styles.detoxBlack}>
       <BannerMainDetox
-        title={"Lift Detox Black"}
-        titleColor={"var(--detoxBlack-cor-principal)"}
-        subTitle={"Transforme seu corpo"}
-        paragraph={
-          "Perca peso de maneira saudável! A fórmula natural que acelera o metabolismo, elimina toxinas e proporciona resultados duradouros."
-        }
-        buttonChildren={""}
-        buttonColor={"var(--detoxBlack-cor-principal)"}
-        remedio={detoxBlackImage}
-        widthImage='300px'
+        type={"main"}
+        id={"detoxBlack"}
+        background={true}
       />
       <TopicsWithImageBanner
         type={"beneficios"}

@@ -24,7 +24,6 @@ export default function AppRoutes() {
       <BrowserRouter>
         <Menu />
         <ScrollToTop />
-
         <Routes>
           <Route
             path='/'
