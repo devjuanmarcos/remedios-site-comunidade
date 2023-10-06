@@ -8,7 +8,7 @@
     "banners": [
       {
         "id": 1,
-        "type": "beneficios",
+        "type": "benefits",
         "image": "images/cestaFrutas.svg",
         "title": "Natural e super eficaz",
         "subtitle": "",
@@ -140,6 +140,56 @@
         "buttonText": "Eu quero emagrecer",
         "image": "/images/backgroundDetox.png",
         "imageRemedy": "/images/detoxThree.svg"
+      },
+      {
+        "id": 7,
+        "type": "presentation",
+        "title": "e transforme sua vida",
+        "subtitle": "Desvende o poder das nossas cápsulas",
+        "itens": [
+          {
+            "id": 1,
+            "title": "Acelera o metabolismo",
+            "paragraph": "O metabolismo acelerado faz com que a pessoa queime as calorias mais rapidamente, concentrando menos gorduras, de forma que fica mais difícil ganhar peso.",
+            "image": "/images/runMetab.svg"
+          },
+          {
+            "id": 2,
+            "title": "Diminui o apetite",
+            "paragraph": "Os ativos presentes em seus compostos diminuem o apetite e reduzem a absorção de açúcares e gorduras no organismo.",
+            "image": "/images/apetite.svg"
+          },
+          {
+            "id": 3,
+            "title": "Queima calorias",
+            "paragraph": "Por acelerar o metabolismo e queimar a gordura localizada, reduz drasticamente a gordura abdominal.",
+            "image": "/images/queimarCalorias.svg"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "type": "recommendation",
+        "title": "É recomendado para:",
+        "subtitle": "Lift Detox Black",
+        "paragraph": "Se você se considera em pelo menos em 1 dessas opções, o LIFT DETOX BLACK foi feito para você!",
+        "itens": [
+          {
+            "id": 1,
+            "paragraph": "Mulheres tristes com o seu corpo atual que não sabem como emagrecer.",
+            "image": "/images/mulherTriste.svg"
+          },
+          {
+            "id": 2,
+            "paragraph": "Pessoas que buscam qualidade de vida, uma pele mais bonita e um corpo mais natural.",
+            "image": "/images/pensaEmagrecer.svg"
+          },
+          {
+            "id": 3,
+            "paragraph": "Pessoas que precisam emagrecer rápido para um data específica ou férias na praia.",
+            "image": "/images/praia.svg"
+          }
+        ]
       }
     ]
   },

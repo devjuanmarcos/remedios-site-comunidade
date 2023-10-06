@@ -1,31 +1,37 @@
 import styles from "./styles.module.css";
 import React from "react";
 
-import iconParagraph from "./iconParagraph.json";
+import biofitData from "assets/json/biofitData.json";
 import IconComponent from "components/Icon/IconComponent";
 
-export default function IconParagraphCard({ id, type }) {
-  const filterData =
-    iconParagraph.filter((iconParagraph) => iconParagraph.id === id) &&
-    iconParagraph.filter((iconParagraph) => iconParagraph.type === type);
+export default function IconParagraphCard({ ids, type }) {
+  const filteredId = biofitData.find((data) => data.id === ids);
+
+  if (!filteredId) {
+  }
+
+  const filteredBanner = filteredId.banners.filter(
+    (banner) => banner.type === type
+  );
+
   return (
     <>
-      {filterData.map((filtered) =>
-        filtered.topics.map((topic, id) => (
+      {filteredBanner.map((banner) =>
+        banner.itens.map((item, i) => (
           <div
             className={styles.main}
-            key={id}
+            key={i}
           >
             <div className={styles.iconBox}>
               <IconComponent
-                iconName={topic.icon}
-                color={filtered.primaryColor}
+                iconName={item.icon}
+                color={filteredId.primaryColor}
                 size={30}
               />
             </div>
             <div className={styles.textBox}>
-              <h2>{topic.title}</h2>
-              <p>{topic.paragraph}</p>
+              <h2>{item.title}</h2>
+              <p>{item.paragraph}</p>
             </div>
           </div>
         ))
