@@ -4,7 +4,7 @@ import styles from "./Dexfit.module.css";
 import ThreeIconsCard from "components/Cards/ThreeIcons";
 import RoundedImageBanner from "components/Banners/RoundedImage";
 import FourCardsBanner from "components/Banners/FourCards";
-import TopThreeItensBanner from "components/Banners/TopThreeItens";
+import TopThreeItensBanner from "components/Banners/Price";
 import CompositionBanner from "components/Banners/TempComposition";
 import remedio from "assets/images/dexfit.svg";
 

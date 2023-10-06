@@ -1,6 +1,5 @@
 import styles from "./VideoBanner.module.css";
 import React from "react";
-import ButtonMain from "components/Buttons/ButtonMain";
 
 import biofitData from "assets/json/biofitData.json";
 

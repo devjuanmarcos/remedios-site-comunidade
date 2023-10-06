@@ -190,6 +190,22 @@
             "image": "/images/praia.svg"
           }
         ]
+      },
+      {
+        "id": 9,
+        "type": "price",
+        "title": "Oferta do dia",
+        "subtitle": "Não perca essa oportunidade",
+        "paragraph": "",
+        "image5un": "/images/maeslim5un.svg",
+        "image3un": "/images/maeslim3un.svg",
+        "image1un": "/images/maeslim1un.svg",
+        "price5un": "29,70",
+        "price3un": "39,70",
+        "price1un": "49,70",
+        "price5unOld": "594,00",
+        "price3unOld": "595,00",
+        "price1unOld": "595,00"
       }
     ]
   },

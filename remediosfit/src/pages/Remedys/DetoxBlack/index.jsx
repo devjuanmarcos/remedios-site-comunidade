@@ -9,6 +9,7 @@ import TextOneCarouselBanner from "components/Banners/TextOneCarousel";
 import TopicsWithImageBanner from "components/Banners/TopicsWithImage";
 import IntentionallyBanner from "components/Banners/IntentionallyTopics";
 import CompositionBanner from "components/Banners/Composition";
+import PriceBanner from "components/Banners/Price";
 
 export default function DetoxBlack() {
   const pageId = "detoxBlack";
@@ -56,6 +57,10 @@ export default function DetoxBlack() {
       <VideoBanner
         background={"rgba(23, 46, 26, 0.41)"}
         type={"video"}
+        id={pageId}
+      />
+      <PriceBanner
+        type={"price"}
         id={pageId}
       />
     </div>
