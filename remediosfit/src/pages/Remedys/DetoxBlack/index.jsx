@@ -44,7 +44,10 @@ export default function DetoxBlack() {
         primaryColor={"var(--detoxBlack-cor-principal)"}
         subtitle={"Lift Detox Black"}
       />
-      <TextOneCarouselBanner primaryColor={"var(--detoxBlack-cor-principal)"} />
+      <TextOneCarouselBanner
+        type={"miniCarousel"}
+        id={pageId}
+      />
       <ThreeItensTextBanner
         background={"rgba(23, 46, 26, 0.41)"}
         id={pageId}

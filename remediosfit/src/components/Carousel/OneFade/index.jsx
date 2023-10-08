@@ -2,10 +2,18 @@ import styles from "./styles.module.css";
 import React from "react";
 import Slider from "react-slick";
 
-import image from "assets/images/TESTECARROSEL.svg";
-import imag2 from "assets/images/MaeSlim.svg";
+import biofitData from "assets/json/biofitData.json";
 
-export default function OneFadeCarousel() {
+export default function OneFadeCarousel({ id, type }) {
+  const filteredId = biofitData.find((data) => data.id === id);
+  if (!filteredId) {
+    return null;
+  }
+
+  const filteredBanner = filteredId.banners.filter(
+    (banner) => banner.type === type
+  );
+
   const settings = {
     dots: true,
     arrows: false,
@@ -16,30 +24,19 @@ export default function OneFadeCarousel() {
     autoplay: true,
     autoplaySpeed: 2000,
   };
-
   return (
     <div style={{ width: "500px" }}>
       <Slider {...settings}>
-        <img
-          className={styles.carousel}
-          src={image}
-          alt='none'
-        />
-        <img
-          className={styles.carousel}
-          src={imag2}
-          alt='none'
-        />
-        <img
-          className={styles.carousel}
-          src={image}
-          alt='none'
-        />
-        <img
-          className={styles.carousel}
-          src={imag2}
-          alt='none'
-        />
+        {filteredBanner.map((banner) =>
+          banner.images.map((image, id) => (
+            <img
+              className={styles.carousel}
+              src={image}
+              alt='none'
+              key={id}
+            />
+          ))
+        )}
       </Slider>
     </div>
   );

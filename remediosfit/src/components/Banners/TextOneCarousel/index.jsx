@@ -3,40 +3,56 @@ import styles from "./styles.module.css";
 import React from "react";
 import ButtonMain from "components/Buttons/ButtonMain";
 
-export default function TextOneCarouselBanner({ background, primaryColor }) {
+import biofitData from "assets/json/biofitData.json";
+
+export default function TextOneCarouselBanner({ background, id, type }) {
+  const filteredId = biofitData.find((data) => data.id === id);
+  if (!filteredId) {
+    return null;
+  }
+  const filteredBanner = filteredId.banners.filter(
+    (banner) => banner.type === type
+  );
+
   return (
-    <section
-      style={
-        background
-          ? {
-              backgroundColor: background,
-              width: "100%",
-            }
-          : null
-      }
-      className={styles.main}
-    >
-      <div className={styles.content}>
-        <div className={styles.texts}>
-          <div className={styles.title}>
-            <h1 style={{ color: primaryColor }}>O queridinho</h1>
-            <h2>de todas as Mulheres</h2>
+    <>
+      {filteredBanner.map((banner) => (
+        <section
+          style={
+            background
+              ? {
+                  backgroundColor: background,
+                  width: "100%",
+                }
+              : null
+          }
+          className={styles.main}
+        >
+          <div className={styles.content}>
+            <div className={styles.texts}>
+              <div className={styles.title}>
+                <h1 style={{ color: filteredId.primaryColor }}>
+                  {banner.title}
+                </h1>
+                <h2>{banner.subtitle}</h2>
+              </div>
+              <p className={styles.paragraph}>{banner.paragraph}</p>
+              <div className={styles.button}>
+                <ButtonMain
+                  color={filteredId.primaryColor}
+                  children={"Eu quero emagrecer"}
+                />
+              </div>
+            </div>
+            <div className={styles.carousel}>
+              <OneFadeCarousel
+                id={id}
+                type={type}
+              />
+            </div>
           </div>
-          <p className={styles.paragraph}>
-            São mais de 30 mil pessoas tomando o Lift Detox Black diariamente e
-            mudando totalmente suas vidas. Só falta você!
-          </p>
-          <div className={styles.button}>
-            <ButtonMain
-              color={primaryColor}
-              children={"Eu quero emagrecer"}
-            />
-          </div>
-        </div>
-        <div className={styles.carousel}>
-          <OneFadeCarousel />
-        </div>
-      </div>
-    </section>
+        </section>
+      ))}
+    </>
   );
 }

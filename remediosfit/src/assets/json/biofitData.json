@@ -200,15 +200,32 @@
         "image5un": "/images/maeslim5un.svg",
         "image3un": "/images/maeslim3un.svg",
         "image1un": "/images/maeslim1un.svg",
-        "price5un": "29,70",
-        "price3un": "39,70",
-        "price1un": "49,70",
+        "price5un": "450,90",
+        "price5unCredit": "999,90",
+        "price3un": "303,90",
+        "price3unCredit": "29,90",
+        "price1un": "117,90",
+        "price1unCredit": "999,90",
         "price5unOld": "594,00",
         "price3unOld": "595,00",
         "price1unOld": "595,00"
+      },
+      {
+        "id": 10,
+        "type": "miniCarousel",
+        "title": "O queridinho",
+        "subtitle": "de todas as mulheres",
+        "paragraph": "São mais de 30 mil pessoas tomando o Lift Detox Black diariamente e mudando totalmente suas vidas. Só falta você!",
+        "images": [
+          "/images/TESTECARROSEL.svg",
+          "/images/maeSlim.svg",
+          "/images/TESTECARROSEL.svg",
+          "/images/maeSlim.svg"
+        ]
       }
     ]
   },
+
   {
     "id": "maeSlim",
     "primaryColor": "var(--maeslim-cor-principal)",

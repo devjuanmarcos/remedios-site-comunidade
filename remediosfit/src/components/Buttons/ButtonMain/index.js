@@ -1,7 +1,8 @@
 import React from "react";
 import styles from "./ButtonMain.module.css";
 
-export default function ButtonMain({ children, color }) {
+export default function ButtonMain({ children, color, images }) {
+  console.log(images);
   return (
     <div
       className={styles.buttonMain}
