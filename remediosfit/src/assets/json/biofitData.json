@@ -222,6 +222,20 @@
           "/images/TESTECARROSEL.svg",
           "/images/maeSlim.svg"
         ]
+      },
+      {
+        "id": 11,
+        "type": "carousel",
+        "title": "Resultados únicos",
+        "subtitle": "do Lift Detox Black",
+        "paragraph": "",
+        "images": [
+          "/images/TESTECARROSEL.svg",
+          "/images/TESTECARROSEL.svg",
+          "/images/TESTECARROSEL.svg",
+          "/images/TESTECARROSEL.svg",
+          "/images/TESTECARROSEL.svg"
+        ]
       }
     ]
   },

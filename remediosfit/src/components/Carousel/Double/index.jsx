@@ -2,10 +2,11 @@ import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "../Double/slick.css"; // Importe os estilos do carrossel
 // import "slick-carousel/slick/slick-theme.css"; // Importe o tema do carrossel (opcional)
-import image from "assets/images/TESTECARROSEL.svg";
 import styles from "./Double.module.css"; // Importe seus estilos
 
-const Carrossel = () => {
+import biofitData from "assets/json/biofitData.json";
+
+const Carrossel = ({ id, type }) => {
   const [slidesToShow, setSlidesToShow] = useState(5); // Valor padrão para slidesToShow
   const larguraDoSlideDesejada = 303; // Largura do slide desejada em pixels
 
@@ -32,6 +33,7 @@ const Carrossel = () => {
     dots: true, // ajeitar depois para o padrão do figma
     centerPadding: "60px",
     slidesToShow: 3,
+
     responsive: [
       {
         breakpoint: 768,
@@ -53,17 +55,31 @@ const Carrossel = () => {
       },
     ],
   };
+  const filteredId = biofitData.find((data) => data.id === id);
+  if (!filteredId) {
+    return null;
+  }
+
+  const filteredBanner = filteredId.banners.filter(
+    (banner) => banner.type === type
+  );
 
   return (
-    <div className={styles.carouselWrapper}>
-      <Slider {...settings2}>
-        <img src={image} />
-        <img src={image} />
-        <img src={image} />
-        <img src={image} />
-        <img src={image} />
-      </Slider>
-    </div>
+    <>
+      {filteredBanner.map((banner) => (
+        <div className={styles.carouselWrapper}>
+          <Slider {...settings2}>
+            {banner.images.map((image, id) => (
+              <img
+                src={image}
+                alt='none'
+                key={id}
+              />
+            ))}
+          </Slider>
+        </div>
+      ))}
+    </>
   );
 };
 

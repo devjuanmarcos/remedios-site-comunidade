@@ -36,13 +36,13 @@ export default function DetoxBlack() {
         id={pageId}
       />
       <ThreeItensTextBanner
-        id={pageId}
         type={"presentation"}
+        id={pageId}
       />
       <CarouselVideosBanner
+        type={"carousel"}
         background={"rgba(23, 46, 26, 0.41)"}
-        primaryColor={"var(--detoxBlack-cor-principal)"}
-        subtitle={"Lift Detox Black"}
+        id={pageId}
       />
       <TextOneCarouselBanner
         type={"miniCarousel"}
@@ -50,8 +50,8 @@ export default function DetoxBlack() {
       />
       <ThreeItensTextBanner
         background={"rgba(23, 46, 26, 0.41)"}
-        id={pageId}
         type={"recommendation"}
+        id={pageId}
       />
       <IntentionallyBanner
         type={"intentionally"}

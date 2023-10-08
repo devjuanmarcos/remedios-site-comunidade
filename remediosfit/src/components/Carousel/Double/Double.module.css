@@ -1,5 +1,6 @@
 .carouselWrapper {
-  width: 100%; /* Largura total da tela */
+  max-width: 80%;
+  min-width: 900px;
 }
 
 .container {
