@@ -21,14 +21,17 @@ export default function ImageWithTextsBanner({ background, type, id }) {
           style={
             background
               ? {
-                  backgroundColor: { background },
+                  backgroundColor: background,
                   width: "100%",
                 }
               : null
           }
           className={styles.main}
         >
-          <div className={styles.content}>
+          <div
+            className={styles.content}
+            style={{ flexDirection: banner.direction }}
+          >
             <div className={styles.imageBox}>
               <img
                 className={styles.image}
@@ -36,7 +39,11 @@ export default function ImageWithTextsBanner({ background, type, id }) {
                 alt=''
               />
             </div>
-            <div className={styles.textCard}></div>
+            <div className={styles.textCard}>
+              <h1 style={{ color: filteredId.primaryColor }}>{banner.title}</h1>
+              <h2>{banner.subtitle}</h2>
+              <p style={{ marginTop: "20px" }}>{banner.paragraph}</p>
+            </div>
           </div>
         </section>
       ))}

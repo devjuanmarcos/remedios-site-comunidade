@@ -242,11 +242,22 @@
       {
         "id": 12,
         "type": "anvisa",
-        "title": "DetoxBlack: Aprovado pela anvisa",
-        "subtitle": "Para um emagrecimento de forma rápida e segura!",
-        "paragraph": "Confie no emagrecedor especial para mães, com compostos seguros aprovados pela ANVISA. Reduza suas medidas pós-gravidez sem riscos!",
+        "title": "Aprovado pela anvisa",
+        "subtitle": "Seu emagrecimento de forma rápida e segura!",
+        "paragraph": "Confie no emagrecedor especial para mães, com compostos seguros aprovados pela ANVISA e reduza suas medidas pós-gravidez sem riscos!",
         "buttonText": "Eu quero emagrecer",
-        "image": "/images/anvisa.svg"
+        "image": "/images/anvisa.svg",
+        "direction": "row-reverse"
+      },
+      {
+        "id": 13,
+        "type": "guarantee",
+        "title": "Garantia de 7 dias",
+        "subtitle": "Nos preocupamos com o seu resultado!",
+        "paragraph": "Qualquer problema com o produto basta entrar em contato que iremos lhe ajudar em todo o processo.",
+        "buttonText": "Eu quero emagrecer",
+        "image": "/images/garantia.png",
+        "direction": "row"
       }
     ]
   },
@@ -486,11 +497,22 @@
       {
         "id": 12,
         "type": "anvisa",
-        "title": "DetoxBlack: Aprovado pela anvisa",
-        "subtitle": "Para um emagrecimento de forma rápida e segura!",
-        "paragraph": "Confie no emagrecedor especial para mães, com compostos seguros aprovados pela ANVISA. Reduza suas medidas pós-gravidez sem riscos!",
+        "title": "Aprovado pela anvisa",
+        "subtitle": "Seu emagrecimento de forma rápida e segura!",
+        "paragraph": "Confie no emagrecedor especial para mães, com compostos seguros aprovados pela ANVISA e reduza suas medidas pós-gravidez sem riscos!",
         "buttonText": "Eu quero emagrecer",
-        "image": "/images/anvisa.svg"
+        "image": "/images/anvisa.svg",
+        "direction": "row-reverse"
+      },
+      {
+        "id": 13,
+        "type": "guarantee",
+        "title": "Garantia de 7 dias",
+        "subtitle": "Nos preocupamos com o seu resultado!",
+        "paragraph": "Qualquer problema com o produto basta entrar em contato que iremos lhe ajudar em todo o processo.",
+        "buttonText": "Eu quero emagrecer",
+        "image": "/images/garantia.png",
+        "direction": "row"
       }
     ]
   },

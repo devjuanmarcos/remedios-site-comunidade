@@ -12,9 +12,11 @@ import CompositionBanner from "components/Banners/Composition";
 import PriceBanner from "components/Banners/Price";
 
 import biofitData from "assets/json/biofitData.json";
+import ImageWithTextsBanner from "components/Banners/ImageWithTexts";
 
 export default function DetoxBlack() {
   const pageId = "detoxBlack";
+  const background = "rgba(23, 46, 26, 0.41)";
 
   const filteredId = biofitData.find((data) => data.id === pageId);
   if (!filteredId) {
@@ -34,12 +36,12 @@ export default function DetoxBlack() {
       <MainBanner
         type={"main"}
         id={pageId}
-        background={true}
+        background={background}
       />
       <TopicsWithImageBanner
         type={"benefits"}
         id={pageId}
-        background={"rgba(23, 46, 26, 0.41)"}
+        background={background}
       />
       <IntentionallyBanner
         id={pageId}
@@ -47,7 +49,7 @@ export default function DetoxBlack() {
       />
       <CompositionBanner
         type={"composition"}
-        background={"rgba(23, 46, 26, 0.41)"}
+        background={background}
         id={pageId}
       />
       <ThreeItensTextBanner
@@ -56,7 +58,7 @@ export default function DetoxBlack() {
       />
       <CarouselVideosBanner
         type={"carousel"}
-        background={"rgba(23, 46, 26, 0.41)"}
+        background={background}
         id={pageId}
       />
       <TextOneCarouselBanner
@@ -64,7 +66,7 @@ export default function DetoxBlack() {
         id={pageId}
       />
       <ThreeItensTextBanner
-        background={"rgba(23, 46, 26, 0.41)"}
+        background={background}
         type={"recommendation"}
         id={pageId}
       />
@@ -73,12 +75,21 @@ export default function DetoxBlack() {
         id={pageId}
       />
       <VideoBanner
-        background={"rgba(23, 46, 26, 0.41)"}
+        background={background}
         type={"video"}
         id={pageId}
       />
       <PriceBanner
         type={"price"}
+        id={pageId}
+      />
+      <ImageWithTextsBanner
+        background={background}
+        type={"anvisa"}
+        id={pageId}
+      />
+      <ImageWithTextsBanner
+        type={"guarantee"}
         id={pageId}
       />
     </div>

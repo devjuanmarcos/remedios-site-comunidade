@@ -136,18 +136,18 @@ export default function TopCardPlanCard({ type, id }) {
             }}
           >
             <div className={styles.cardMainContent}>
-              <h3 style={{ fontSize: "3.35vh" }}>Kit 3 unidades</h3>
+              <h3 style={{ fontSize: "3.35vh" }}>Kit 5 unidades</h3>
               <img
                 className={styles.imageMainMain}
-                src={banner.image3un}
+                src={banner.image5un}
                 alt='none'
               />
               <h3 style={{ fontSize: "2.79vh" }}>
-                De R$ {banner.price3unOld} por apenas:
+                De R$ {banner.price5unOld} por apenas:
               </h3>
               <div className={styles.priceMain}>
                 <h3 style={{ fontSize: "2.79vh" }}>12X</h3>
-                <span className={styles.priceValue}>R$ {banner.price3un}</span>
+                <span className={styles.priceValue}>R$ {banner.price5un}</span>
               </div>
               <h3 style={{ color: "var(--branco)" }}>
                 ou R$ {banner.price3un} à vista
@@ -215,21 +215,21 @@ export default function TopCardPlanCard({ type, id }) {
             }}
           >
             <div className={styles.cardMainContent}>
-              <h3 style={{ fontSize: "3.35vh" }}>Kit 3 unidades</h3>
+              <h3 style={{ fontSize: "3.35vh" }}>Kit 1 unidades</h3>
               <img
                 className={styles.imageMainMain}
-                src={banner.image3un}
+                src={banner.image1un}
                 alt='none'
               />
               <h3 style={{ fontSize: "2.79vh" }}>
-                De R$ {banner.price3unOld} por apenas:
+                De R$ {banner.price1unOld} por apenas:
               </h3>
               <div className={styles.priceMain}>
                 <h3 style={{ fontSize: "2.79vh" }}>12X</h3>
-                <span className={styles.priceValue}>R$ {banner.price3un}</span>
+                <span className={styles.priceValue}>R$ {banner.price1un}</span>
               </div>
               <h3 style={{ color: "var(--branco)" }}>
-                ou R$ {banner.price3un} à vista
+                ou R$ {banner.price1un} à vista
               </h3>
               <div className={styles.buttonMain}>
                 <h2

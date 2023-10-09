@@ -1,8 +1,6 @@
 import React from "react";
 import styles from "./styles.module.css";
 
-import twcbBackground from "assets/images/twcbBackground.svg";
-
 import MainBanner from "components/Banners/Main";
 import VideoBanner from "components/Banners/VideoBanner";
 import ThreeItensTextBanner from "components/Banners/ThreeItensText";
@@ -84,8 +82,12 @@ export default function MaeSlimTemp() {
         id={pageId}
       />
       <ImageWithTextsBanner
-        type={"anvisa"}
         background={background}
+        type={"anvisa"}
+        id={pageId}
+      />
+      <ImageWithTextsBanner
+        type={"guarantee"}
         id={pageId}
       />
     </div>
