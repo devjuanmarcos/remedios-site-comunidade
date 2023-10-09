@@ -56,7 +56,7 @@ export default function Maeslim() {
         cardColor={"var(--maeslim-cor-principal)"}
         childrensP={twcbChildrens}
       />
-      <ImageWithTextsBanner
+      {/* <ImageWithTextsBanner
         color={"var(--maeslim-cor-principal"}
         dataTexts={dataTexts}
         image={photoImageWithTextsBanner}
@@ -64,7 +64,7 @@ export default function Maeslim() {
         subTitle={"Recupere sua autoestima por completo"}
         t
         titleColor={"var(--maeslim-cor-principal"}
-      />
+      /> */}
       <ProfessionalOpinionBanner color='var(--maeslim-tom2' />
       <TextWithCarouselBanner
         title={"Descubra os incríveis resultados de mães "}
@@ -75,7 +75,7 @@ export default function Maeslim() {
         buttonColor={"var(--maeslim-cor-principal"}
         titleColor={"var(--maeslim-cor-principal"}
       />
-      <ImageWithTextsBanner
+      {/* <ImageWithTextsBanner
         title={"MãeSlim: Aprovado pela ANVISA"}
         subTitle={"Para um emagrecimento de forma rápida e segura!"}
         paragraph={
@@ -96,7 +96,7 @@ export default function Maeslim() {
         }
         image={thamara}
         downImage={true}
-      />
+      /> */}
       <BusinessOpinionBanner
         title={"O que as "}
         color={"var(--maeslim-tom2)"}
@@ -144,7 +144,7 @@ export default function Maeslim() {
         background={twcbBackground}
         type={"maeslim"}
       />
-      <ImageWithTextsBanner
+      {/* <ImageWithTextsBanner
         title={"Garantia de 30 dias"}
         subTitle={"ou seu dinheiro de volta!"}
         titleColor={"var(--maeslim-cor-principal"}
@@ -152,7 +152,7 @@ export default function Maeslim() {
           "Experimente o Maeslim e alcance seus objetivos de emagrecimento como mãe. Nossa composição perfeita de ingredientes naturais oferece resultados eficazes e seguros. Garantia de reembolso de 30 dias."
         }
         image={guarantee}
-      />
+      /> */}
     </div>
   );
 }

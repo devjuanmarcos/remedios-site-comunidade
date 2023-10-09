@@ -7,6 +7,7 @@ import Menu from "components/Menu";
 import Dexfit from "pages/Remedys/Dexfit";
 import Maeslim from "pages/Remedys/Maeslim";
 import DetoxBlack from "pages/Remedys/DetoxBlack";
+import MaeSlimTemp from "pages/Remedys/temp";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -41,6 +42,10 @@ export default function AppRoutes() {
           <Route
             path='maeslim'
             element={<Maeslim />}
+          />
+          <Route
+            path='maeslimTemp'
+            element={<MaeSlimTemp />}
           />
           <Route
             path='detoxblack'

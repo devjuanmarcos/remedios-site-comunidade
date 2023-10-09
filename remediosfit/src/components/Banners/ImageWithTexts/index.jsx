@@ -1,86 +1,45 @@
 import React from "react";
 import styles from "./ImageWithTexts.module.css";
-import { backgrounds } from "polished";
 import ButtonMain from "components/Buttons/ButtonMain";
 
-export default function ImageWithTextsBanner({
-  color,
-  dataTexts,
-  image,
-  titleColor,
-  title,
-  subTitle,
-  paragraph,
-  backColor,
-  downButton,
-  imgDownButton,
-  downImage,
-}) {
-  return (
-    <section
-      className={styles.main}
-      style={
-        backColor
-          ? {
-              backgroundColor: "rgba(70, 43, 92, 0.30)",
-              width: "100%",
-            }
-          : {}
-      }
-    >
-      <div className={styles.imageWithTextsBanner}>
-        <div className={styles.imageBox}>
-          <img
-            className={styles.image}
-            src={image}
-            alt='none'
-          />
-          <div
-            style={
-              downImage
-                ? {
-                    display: "flex",
-                    alignItems: "center",
-                    flexDirection: "column",
-                  }
-                : { display: "none" }
-            }
-          >
-            <h2 className={styles.name}>Dra. Thamara Sobrinho</h2>
-            <h3 className={styles.profession}>Farmacêutica Esteta</h3>
-          </div>
-        </div>
-        <div className={styles.texts}>
-          <div>
-            <h1 style={{ color: titleColor }}>{title}</h1>
-            <h2 style={{ color: { titleColor } }}>{subTitle}</h2>
-          </div>
-          {paragraph ? <p>{paragraph}</p> : null}
-          {dataTexts
-            ? dataTexts.map((text, id) => (
-                <div key={id}>
-                  <p>
-                    <span style={{ color: color, text }}>
-                      <strong>{text.title}</strong>
-                    </span>
-                    {text.paragraph}
-                  </p>
-                </div>
-              ))
-            : undefined}
+import biofitData from "assets/json/biofitData.json";
 
-          <div className={styles.buttonImage}>
-            <div style={{ width: "60%" }}>
-              <ButtonMain color={"var(--maeslim-tom2)"} />
+export default function ImageWithTextsBanner({ background, type, id }) {
+  const filteredId = biofitData.find((data) => data.id === id);
+  if (!filteredId) {
+    return null;
+  }
+
+  const filteredBanner = filteredId.banners.filter(
+    (banner) => banner.type === type
+  );
+
+  return (
+    <>
+      {filteredBanner.map((banner) => (
+        <section
+          style={
+            background
+              ? {
+                  backgroundColor: { background },
+                  width: "100%",
+                }
+              : null
+          }
+          className={styles.main}
+        >
+          <div className={styles.content}>
+            <div className={styles.imageBox}>
+              <img
+                className={styles.image}
+                src={banner.image}
+                alt=''
+              />
             </div>
-            <img
-              style={downButton ? { width: "52%" } : { display: "none" }}
-              src={imgDownButton}
-              alt='none'
-            />
+            <div className={styles.textCard}></div>
           </div>
-        </div>
-      </div>
-    </section>
+        </section>
+      ))}
+    </>
   );
 }

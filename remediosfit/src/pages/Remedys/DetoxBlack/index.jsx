@@ -11,11 +11,26 @@ import IntentionallyBanner from "components/Banners/IntentionallyTopics";
 import CompositionBanner from "components/Banners/Composition";
 import PriceBanner from "components/Banners/Price";
 
+import biofitData from "assets/json/biofitData.json";
+
 export default function DetoxBlack() {
   const pageId = "detoxBlack";
 
+  const filteredId = biofitData.find((data) => data.id === pageId);
+  if (!filteredId) {
+    return null;
+  }
+
+  const pageStyle = {
+    backgroundColor: filteredId.terciaryColor,
+    backgroundImage: `url(${filteredId.background})`,
+  };
+
   return (
-    <div className={styles.detoxBlack}>
+    <div
+      className={styles.detoxBlack}
+      style={pageStyle}
+    >
       <MainBanner
         type={"main"}
         id={pageId}
