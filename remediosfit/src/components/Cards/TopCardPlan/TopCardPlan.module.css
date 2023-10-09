@@ -1,59 +1,85 @@
-.container {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  gap: 20px;
+.topCardPlanCard {
+  display: flex;
+  align-items: flex-end;
+  gap: 2vh;
 }
 
-.card,
-.cardMain {
+.boxCard {
+  height: 90%;
+  width: 30%;
+  background-color: var(--branco);
+  border-radius: 8px;
+}
+
+.boxCardMain {
+  border-radius: 8px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  gap: 20px;
+  padding: 20px;
 }
 
-.cardMain {
-  height: 50vh;
-  width: 20%;
-  border-radius: 20px 20px 20px;
-}
-
-.card {
-  height: 43vh;
-  width: 20%;
-  border-radius: 10px;
-}
-
-.promoTape {
+.mostPop {
+  border-radius: 8px;
+  height: 10%;
+  width: 100%;
+  background-color: var(--branco);
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 20px 0;
-  width: 100%;
-  height: 7vh;
   text-align: center;
 }
-
-.cardContent {
+.cardMainContent {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  text-align: center;
-  width: 100%;
-  height: 100%;
-  gap: 12px;
-  padding: 0px 20px 20px;
+  gap: 1vh;
 }
 
-.image {
-  margin-top: -25%;
+.imageMain {
+  max-width: 65%;
 }
 
-.price {
+.imageMainMain {
+  width: 65%;
+}
+
+.priceMain {
   display: flex;
-  flex-direction: column;
-  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 1vh;
+  width: auto;
+  height: auto;
+}
+
+.priceValue {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 6vh;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.buttonMain {
+  background: #fff;
+  width: 70%;
+  height: auto;
+  padding: 2vh;
+  border-radius: 8px;
+
+  .text {
+    color: var(--dexfit-tom2, #ff0181);
+    font-family: Montserrat;
+    font-size: 3vh;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 100%;
+    text-align: center;
+  }
 }

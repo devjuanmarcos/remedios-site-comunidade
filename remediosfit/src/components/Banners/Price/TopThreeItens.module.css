@@ -4,9 +4,7 @@
   justify-content: flex-start;
   align-items: center;
   padding: 96px 0;
-  height: 100vh;
   background-size: 100%;
-  gap: 40px;
 }
 
 .title {
@@ -25,5 +23,4 @@
   justify-content: center;
   align-items: center;
   width: 80%;
-  gap: 60px;
 }
