@@ -1,44 +1,95 @@
-import BannerMain1 from "components/Banners/BannerMain1";
 import React from "react";
-import styles from "./Dexfit.module.css";
-import ThreeIconsCard from "components/Cards/ThreeIcons";
-import RoundedImageBanner from "components/Banners/RoundedImage";
-import FourCardsBanner from "components/Banners/FourCards";
-import TopThreeItensBanner from "components/Banners/Price";
-import CompositionBanner from "components/Banners/TempComposition";
-import remedio from "assets/images/dexfit.svg";
+import styles from "./styles.module.css";
+
+import MainBanner from "components/Banners/Main";
+import VideoBanner from "components/Banners/VideoBanner";
+import ThreeItensTextBanner from "components/Banners/ThreeItensText";
+import CarouselVideosBanner from "components/Banners/CarouselVideos";
+import TextOneCarouselBanner from "components/Banners/TextOneCarousel";
+import TopicsWithImageBanner from "components/Banners/TopicsWithImage";
+import IntentionallyBanner from "components/Banners/IntentionallyTopics";
+import CompositionBanner from "components/Banners/Composition";
+import PriceBanner from "components/Banners/Price";
+
+import biofitData from "assets/json/biofitData.json";
+import ImageWithTextsBanner from "components/Banners/ImageWithTexts";
 
 export default function Dexfit() {
+  const pageId = "dexfit";
+  const background = "rgba(108, 93, 158, 0.19)";
+
+  const filteredId = biofitData.find((data) => data.id === pageId);
+  if (!filteredId) {
+    return null;
+  }
+  const pageStyle = {
+    backgroundColor: filteredId.terciaryColor,
+    backgroundImage: `url(${filteredId.background})`,
+  };
   return (
-    <div className={styles.dexfit}>
-      <BannerMain1
-        remedio={remedio}
-        title={"TENHA UMA VIDA MAIS LEVE:"}
-        subTitle={"Acabe de vez com a retenção de líquidos e o inchaço"}
-        paragraph={
-          " Desperte a sua melhor versão com Dexfit! Esta cápsula exclusiva, desenvolvida especialmente para mulheres, apresenta uma fórmula 100% natural."
-        }
+    <div
+      className={styles.main}
+      style={pageStyle}
+    >
+      <MainBanner
+        type={"main"}
+        id={pageId}
+        background={true}
       />
-      <ThreeIconsCard />
-      <RoundedImageBanner />
-      <FourCardsBanner />
-      <TopThreeItensBanner
-        text1={"Chegou momento de você "}
-        textColored1={"retomar o controle, "}
-        text2={"recuperar o corpor "}
-        textColored2={"e elevar sua autoestima ao máximo!"}
-        color={"var(--dexfit-tom2)"}
-        image5unP='https://remedios-site-comunidade.vercel.app/static/media/dexfit.e0555a5fc56e55c9b938e2114c0ad78c.svg'
-        image3unP='https://remedios-site-comunidade.vercel.app/static/media/dexfit.e0555a5fc56e55c9b938e2114c0ad78c.svg'
-        image1unP='https://remedios-site-comunidade.vercel.app/static/media/dexfit.e0555a5fc56e55c9b938e2114c0ad78c.svg'
-        price5unOldP={"594,00"}
-        price5unParP={"29,70"}
-        price3unOldP={"595,00"}
-        price3unParP={"39,70"}
-        price1unOldP={"596,00"}
-        price1unParP={"49,70"}
+      <TopicsWithImageBanner
+        type={"benefits"}
+        id={pageId}
+        background={background}
       />
-      <CompositionBanner />
+      <IntentionallyBanner
+        id={pageId}
+        type={"functions"}
+      />
+      <CompositionBanner
+        type={"composition"}
+        background={background}
+        id={pageId}
+      />
+      <ThreeItensTextBanner
+        type={"presentation"}
+        id={pageId}
+      />
+      <CarouselVideosBanner
+        type={"carousel"}
+        background={background}
+        id={pageId}
+      />
+      <TextOneCarouselBanner
+        type={"miniCarousel"}
+        id={pageId}
+      />
+      <ThreeItensTextBanner
+        background={background}
+        type={"recommendation"}
+        id={pageId}
+      />
+      <IntentionallyBanner
+        type={"intentionally"}
+        id={pageId}
+      />
+      <VideoBanner
+        background={background}
+        type={"video"}
+        id={pageId}
+      />
+      <PriceBanner
+        type={"price"}
+        id={pageId}
+      />
+      <ImageWithTextsBanner
+        background={background}
+        type={"anvisa"}
+        id={pageId}
+      />
+      <ImageWithTextsBanner
+        type={"guarantee"}
+        id={pageId}
+      />
     </div>
   );
 }

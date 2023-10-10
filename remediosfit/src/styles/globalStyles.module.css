@@ -17,12 +17,16 @@ html {
 :root {
   --dexfit-cor-principal: #ef3693;
   --dexfit-tom2: #ff0181;
+  --dexfit-tom3: #120817;
+
   --maeslim-cor-principal: #9c4aec;
   --maeslim-tom2: #8c00ff;
   --maeslim-tom3: #120817;
+
   --detoxBlack-cor-principal: #00e41f;
   --detoxBlack-tom2: #0e8b01;
   --detoxBlack-tom3: #121a11;
+
   --branco: #fff;
   --branco-medio: #fafafa;
   --preto: #2f3941;

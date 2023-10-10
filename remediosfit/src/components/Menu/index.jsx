@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Menu.module.css";
-import logo from "assets/images/logoProvisoria.png";
+// import logo from "assets/images/logoProvisoria.png";
 import { NavLink } from "react-router-dom";
 
 export const MenuLink = ({ children, to, fontWeight }) => {
@@ -18,21 +18,20 @@ export default function Menu() {
   return (
     <div className={styles.menu}>
       <div className={styles.content}>
-        <img
+        {/* <img
           className={styles.image}
           src={logo}
           alt='none'
-        />
+        /> */}
         <MenuLink
           to={"/"}
           fontWeight={900}
         >
           Home
         </MenuLink>
-        <MenuLink to={"dexfit"}>DexFit</MenuLink>
         <MenuLink to={"maeslim"}>MaeSlim</MenuLink>
-        <MenuLink to={"maeslimTemp"}>MaeSlim</MenuLink>
         <MenuLink to={"detoxblack"}>Detox</MenuLink>
+        <MenuLink to={"dexfit"}>DexFit</MenuLink>
         <MenuLink>Home Care</MenuLink>
         <MenuLink
           to={"/h"}
