@@ -5,6 +5,9 @@
     "secundaryColor": "var(--detoxBlack-tom2)",
     "terciaryColor": "var(--detoxBlack-tom3)",
     "background": "/images/luzDetoxBlack.svg",
+    "image1un": "/images/remedys/oneDetox.svg",
+    "image3un": "/images/remedys/threeDetox.svg",
+    "image5un": "/images/remedys/fiveDetox.svg",
     "price": "99,90",
     "price12X": "119,90",
     "banners": [
@@ -113,7 +116,6 @@
         "subtitle": "do nosso Detox Black",
         "paragraph": "Fórmula exclusiva é composta por ingredientes naturais como cromo, spirulina, psyllium, quitosana, vitamina E e guaraná, que ajudam a eliminar toxinas e impurezas acumuladas no corpo, além de estimular o metabolismo para uma queima mais eficiente de gordura.",
         "buttonText": "Eu quero emagrecer",
-        "image": "/images/detoxThree.svg",
         "icon": "",
         "itens": [
           "Quitosana",
@@ -268,6 +270,9 @@
     "secundaryColor": "var(--maeslim-tom2)",
     "terciaryColor": "var(--maeslim-tom3)",
     "background": "/images/luzMaeSlim.svg",
+    "image1un": "/images/remedys/oneMae.svg",
+    "image3un": "/images/remedys/threeMae.svg",
+    "image5un": "/images/remedys/fiveMae.svg",
     "price": "99,90",
     "price12X": "119,90",
     "banners": [
@@ -368,7 +373,6 @@
         "subtitle": "do nosso Mãe Slim",
         "paragraph": "Fórmula exclusiva é composta por ingredientes naturais como cromo, spirulina, psyllium, quitosana, vitamina E e guaraná, que ajudam a eliminar toxinas e impurezas acumuladas no corpo, além de estimular o metabolismo para uma queima mais eficiente de gordura.",
         "buttonText": "Eu quero emagrecer",
-        "image": "/images/maeslim3un.svg",
         "icon": "",
         "itens": [
           "Quitosana",
@@ -523,6 +527,9 @@
     "secundaryColor": "var(--dexfit-tom2)",
     "terciaryColor": "var(--dexfit-tom3)",
     "background": "/images/luzdexfit.svg",
+    "image1un": "/images/remedys/oneDexfit.svg",
+    "image3un": "/images/remedys/threeDexfit.svg",
+    "image5un": "/images/remedys/fiveDexfit.svg",
     "price": "99,90",
     "price12X": "119,90",
     "banners": [
@@ -622,7 +629,6 @@
         "subtitle": "do nosso DexFit",
         "paragraph": "O café verde atua como diurético, o Trans Resveratrol previne o envelhecimento, a Vitamina B12 melhora a absorção de minerais e o Extrato de Laranja Moro reduz líquidos.",
         "buttonText": "Eu quero emagrecer",
-        "image": "/images/maeslim3un.svg",
         "icon": "",
         "itens": [
           "Café Verde",

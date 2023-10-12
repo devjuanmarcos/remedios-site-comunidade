@@ -38,6 +38,7 @@ export default function ThreeItensTextBanner({ background, id, type }) {
                   key={id}
                 >
                   <img
+                    fill1='#fff'
                     className={styles.svg}
                     src={item.image}
                     alt='none'

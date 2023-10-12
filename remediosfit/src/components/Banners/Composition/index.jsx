@@ -47,7 +47,7 @@ export default function CompositionBanner({ background, id, type }) {
             <div className={styles.imageCard}>
               <img
                 className={styles.image}
-                src={banner.image}
+                src={filteredId.image3un}
                 alt='none'
               />
             </div>

@@ -13,6 +13,7 @@ import PriceBanner from "components/Banners/Price";
 
 import biofitData from "assets/json/biofitData.json";
 import ImageWithTextsBanner from "components/Banners/ImageWithTexts";
+import Teste from "components/Teste";
 
 export default function MaeSlim() {
   const pageId = "maeSlim";
@@ -36,6 +37,7 @@ export default function MaeSlim() {
         id={pageId}
         background={true}
       />
+      <Teste />
       <TopicsWithImageBanner
         type={"benefits"}
         id={pageId}

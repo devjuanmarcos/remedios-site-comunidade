@@ -15,7 +15,7 @@ export default function MainBanner({ background, id, type }) {
 
   return (
     <>
-      {filteredBanner.map((banner, id) => (
+      {filteredBanner.map((banner) => (
         <section
           style={
             background
@@ -38,7 +38,7 @@ export default function MainBanner({ background, id, type }) {
                 style={{
                   width: "200px",
                 }}
-                src={banner.imageRemedy}
+                src={filteredId.image3un}
                 alt=''
               />
               <p className={styles.paragraph}>{banner.paragraph}</p>
