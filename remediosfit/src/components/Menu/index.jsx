@@ -32,7 +32,7 @@ export default function Menu() {
         <MenuLink to={"maeslim"}>MaeSlim</MenuLink>
         <MenuLink to={"detoxblack"}>Detox</MenuLink>
         <MenuLink to={"dexfit"}>DexFit</MenuLink>
-        <MenuLink>Home Care</MenuLink>
+        <MenuLink to={"homecare"}>Home Care</MenuLink>
         <MenuLink
           to={"/h"}
           children='Contatos'

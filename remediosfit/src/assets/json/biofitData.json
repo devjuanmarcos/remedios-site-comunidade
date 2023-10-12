@@ -14,9 +14,10 @@
       {
         "id": 1,
         "type": "benefits",
-        "image": "images/cestaFrutas.svg",
+        "image": "images/DetoxBlack/CestaFrutas.svg",
         "title": "Natural e super eficaz",
         "subtitle": "",
+        "componentName": "RunSVG",
         "paragraph": "Descubra os benefícios do Detox Black",
         "itens": [
           {
@@ -52,7 +53,7 @@
         "subtitle": "para auxiliar no seu emagrecimento",
         "paragraph": "",
         "buttonText": "Eu quero emagrecer",
-        "image": "/images/bloodText.svg",
+        "image": "/images/DetoxBlack/Espelho.svg",
         "icon": "/images/vitamin.svg",
         "itens": [
           {
@@ -88,7 +89,7 @@
         "subtitle": "que foram beneficiadas em 2022",
         "paragraph": "",
         "buttonText": "Eu quero emagrecer",
-        "image": "/images/bloodText.svg",
+        "image": "/images/DetoxBlack/Team.svg",
         "icon": "/images/vitamin.svg",
         "itens": [
           {
@@ -155,19 +156,19 @@
             "id": 1,
             "title": "Acelera o metabolismo",
             "paragraph": "O metabolismo acelerado faz com que a pessoa queime as calorias mais rapidamente, concentrando menos gorduras, de forma que fica mais difícil ganhar peso.",
-            "image": "/images/runMetab.svg"
+            "image": "/images/DetoxBlack/RunClock.svg"
           },
           {
             "id": 2,
             "title": "Diminui o apetite",
             "paragraph": "Os ativos presentes em seus compostos diminuem o apetite e reduzem a absorção de açúcares e gorduras no organismo.",
-            "image": "/images/apetite.svg"
+            "image": "/images/DetoxBlack/Apetite.svg"
           },
           {
             "id": 3,
             "title": "Queima calorias",
             "paragraph": "Por acelerar o metabolismo e queimar a gordura localizada, reduz drasticamente a gordura abdominal.",
-            "image": "/images/queimarCalorias.svg"
+            "image": "/images/DetoxBlack/QueimarCalorias.svg"
           }
         ]
       },
@@ -181,17 +182,17 @@
           {
             "id": 1,
             "paragraph": "Mulheres tristes com o seu corpo atual que não sabem como emagrecer.",
-            "image": "/images/mulherTriste.svg"
+            "image": "/images/DetoxBlack/MulherTriste.svg"
           },
           {
             "id": 2,
             "paragraph": "Pessoas que buscam qualidade de vida, uma pele mais bonita e um corpo mais natural.",
-            "image": "/images/pensaEmagrecer.svg"
+            "image": "/images/DetoxBlack/PensaEmagrecer.svg"
           },
           {
             "id": 3,
             "paragraph": "Pessoas que precisam emagrecer rápido para um data específica ou férias na praia.",
-            "image": "/images/praia.svg"
+            "image": "/images/DetoxBlack/Praia.svg"
           }
         ]
       },
@@ -201,9 +202,6 @@
         "title": "Oferta do dia",
         "subtitle": "Não perca essa oportunidade",
         "paragraph": "",
-        "image5un": "/images/maeslim5un.svg",
-        "image3un": "/images/maeslim3un.svg",
-        "image1un": "/images/maeslim1un.svg",
         "price5un": "450,90",
         "price5unCredit": "999,90",
         "price3un": "303,90",
@@ -248,7 +246,7 @@
         "subtitle": "Seu emagrecimento de forma rápida e segura!",
         "paragraph": "Confie no emagrecedor especial para mães, com compostos seguros aprovados pela ANVISA e reduza suas medidas pós-gravidez sem riscos!",
         "buttonText": "Eu quero emagrecer",
-        "image": "/images/anvisa.svg",
+        "image": "/images/Others/Anvisa.svg",
         "direction": "row-reverse"
       },
       {
@@ -258,7 +256,7 @@
         "subtitle": "Nos preocupamos com o seu resultado!",
         "paragraph": "Qualquer problema com o produto basta entrar em contato que iremos lhe ajudar em todo o processo.",
         "buttonText": "Eu quero emagrecer",
-        "image": "/images/garantia.png",
+        "image": "/images/Others/Guarantee.svg",
         "direction": "row"
       }
     ]
@@ -279,7 +277,7 @@
       {
         "id": 1,
         "type": "benefits",
-        "image": "images/gravd.svg",
+        "image": "/images//MaeSlim/MotherBox.svg",
         "title": "Maternidade natural e equilibrada",
         "subtitle": "",
         "paragraph": "Descubra os benefícios do MãeSlim",
@@ -317,7 +315,7 @@
         "subtitle": "Recupere sua autoestima por completo",
         "paragraph": "",
         "buttonText": "Eu quero emagrecer",
-        "image": "/images/bloodText.svg",
+        "image": "/images//MaeSlim/Doctor.svg",
         "icon": "/images/vitamin.svg",
         "itens": [
           {
@@ -345,7 +343,7 @@
         "subtitle": "que foram beneficiadas em 2022",
         "paragraph": "",
         "buttonText": "Eu quero emagrecer",
-        "image": "/images/motherDay.svg",
+        "image": "/images//MaeSlim/MotherDay.svg",
         "icon": "/images/vitamin.svg",
         "itens": [
           {
@@ -412,19 +410,19 @@
             "id": 1,
             "title": "Acelera o metabolismo",
             "paragraph": "O metabolismo acelerado faz com que a pessoa queime as calorias mais rapidamente, concentrando menos gorduras, de forma que fica mais difícil ganhar peso.",
-            "image": "/images/runp.svg"
+            "image": "/images/MaeSlim/Run.svg"
           },
           {
             "id": 2,
             "title": "Diminui o apetite",
             "paragraph": "Os ativos presentes em seus compostos diminuem o apetite e reduzem a absorção de açúcares e gorduras no organismo.",
-            "image": "/images/Pasta.svg"
+            "image": "/images/MaeSlim/Pasta.svg"
           },
           {
             "id": 3,
             "title": "Queima calorias",
             "paragraph": "Por acelerar o metabolismo e queimar a gordura localizada, reduz drasticamente a gordura abdominal.",
-            "image": "/images/burn9.svg"
+            "image": "/images/MaeSlim/FatBurn.svg"
           }
         ]
       },
@@ -438,17 +436,269 @@
           {
             "id": 1,
             "paragraph": "...os principais benefícios do uso do agente o clareamento de manchas, uniformização do tom de pele por ter uma ação inibidora da melanina e iluminação do rosto. Além disso, o ingrediente é potente para peles mais maduras para a redução de rugas e linhas de expressão, justamente por estimular a produção de colágeno.",
-            "image": "/images/capricho.svg"
+            "image": "/images/Logos/Capricho.svg"
           },
           {
             "id": 2,
             "paragraph": "(A Quitosana) é natural e tem se tornado referência para uma série de benefícios para um rápido emagrecimento e perda de gorduras, já que ela pode causar maior saciedade após as refeições e reduzir a absorção de gorduras.",
-            "image": "/images/livresaude.svg"
+            "image": "/images/Logos/LivreSaude.svg"
           },
           {
             "id": 3,
             "paragraph": "A spirulina é um tipo de alga utilizada como suplemento natural, é fonte de vitaminas, minerais, antioxidantes e é, inclusive, considerada um superalimento, proporcionando diversos benefícios à saúde. Além de todos esses benefícios, contar com o auxílio dela na dieta para perder aquela gordurinha é, de fato, certeiro.",
-            "image": "/images/metropole.svg"
+            "image": "/images/Logos/Metropole.svg"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "type": "price",
+        "title": "Oferta do dia",
+        "subtitle": "Não perca essa oportunidade",
+        "paragraph": "",
+        "price5un": "450,90",
+        "price5unCredit": "999,90",
+        "price3un": "303,90",
+        "price3unCredit": "29,90",
+        "price1un": "117,90",
+        "price1unCredit": "999,90",
+        "price5unOld": "594,00",
+        "price3unOld": "595,00",
+        "price1unOld": "595,00"
+      },
+      {
+        "id": 10,
+        "type": "miniCarousel",
+        "title": "O queridinho",
+        "subtitle": "de todas as mães",
+        "paragraph": "Mais de 20 mil mães conquistando o corpo dos seus sonhos. Só falta você!",
+        "images": [
+          "/images/TESTECARROSEL.svg",
+          "/images/maeSlim.svg",
+          "/images/TESTECARROSEL.svg",
+          "/images/maeSlim.svg"
+        ]
+      },
+      {
+        "id": 11,
+        "type": "carousel",
+        "title": "Incríveis resultados de mães",
+        "subtitle": "que tomam o MaeSlim",
+        "paragraph": "",
+        "images": [
+          "/images/TESTECARROSEL.svg",
+          "/images/TESTECARROSEL.svg",
+          "/images/TESTECARROSEL.svg",
+          "/images/TESTECARROSEL.svg",
+          "/images/TESTECARROSEL.svg"
+        ]
+      },
+      {
+        "id": 12,
+        "type": "anvisa",
+        "title": "Aprovado pela anvisa",
+        "subtitle": "Seu emagrecimento de forma rápida e segura!",
+        "paragraph": "Confie no emagrecedor especial para mães, com compostos seguros aprovados pela ANVISA e reduza suas medidas pós-gravidez sem riscos!",
+        "buttonText": "Eu quero emagrecer",
+        "image": "/images/Others/Anvisa.svg",
+        "direction": "row-reverse"
+      },
+      {
+        "id": 13,
+        "type": "guarantee",
+        "title": "Garantia de 7 dias",
+        "subtitle": "Nos preocupamos com o seu resultado!",
+        "paragraph": "Qualquer problema com o produto basta entrar em contato que iremos lhe ajudar em todo o processo.",
+        "buttonText": "Eu quero emagrecer",
+        "image": "/images/Others/Guarantee.svg",
+        "direction": "row"
+      }
+    ]
+  },
+
+  {
+    "id": "dexfit",
+    "primaryColor": "var(--dexfit-cor-principal)",
+    "secundaryColor": "var(--dexfit-tom2)",
+    "terciaryColor": "var(--dexfit-tom3)",
+    "background": "/images/luzdexfit.svg",
+    "image1un": "/images/remedys/oneDexfit.svg",
+    "image3un": "/images/remedys/threeDexfit.svg",
+    "image5un": "/images/remedys/fiveDexfit.svg",
+    "price": "99,90",
+    "price12X": "119,90",
+    "banners": [
+      {
+        "id": 1,
+        "type": "benefits",
+        "image": "images/DexFit/MentalHeart.svg",
+        "title": "Composição e benefícios",
+        "subtitle": "",
+        "paragraph": "Descubra os benefícios do DexFit, um remédio totalmente natural e eficaz que está mudando a vida de centena de milhares de mulheres hoje",
+        "itens": [
+          {
+            "title": "Café Verde",
+            "paragraph": "O café verde também tem ação diurética, combatendo a retenção de líquidos e inchaço corporal.",
+            "icon": "AiTwotoneTrophy"
+          },
+          {
+            "id": 2,
+            "title": "Trans Resveratrol",
+            "paragraph": "Auxilia na prevenção do envelhecimento, auxiliando a elasticidade e firmeza da pele, preserva a juventude da pele e combate os radicais livres.",
+            "icon": "AiTwotoneTrophy"
+          },
+          {
+            "id": 3,
+            "title": "Vitamina B12",
+            "paragraph": "Quando fermentadas pelas bactérias no intestino contribui para a absorção de cálcio, magnésio e ferro. Além de contribuírem para a saúde intestinal.",
+            "icon": "AiTwotoneTrophy"
+          },
+          {
+            "id": 4,
+            "title": "Extrato de laranja moro",
+            "paragraph": "Laranja Moro ajuda no processo de lipólise no organismo, o que promove a redução de líquidos, e sensação de inchaço.",
+            "icon": "AiTwotoneTrophy"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "type": "intentionally",
+        "title": "transforme sua vida",
+        "subtitle": "Recupere sua autoestima por completo",
+        "paragraph": "",
+        "buttonText": "Eu quero emagrecer",
+        "image": "/images/DexFit/Enthusiastic.svg",
+        "icon": "/images/vitamin.svg",
+        "itens": [
+          {
+            "id": 1,
+            "title": "Sem efeitos colaterais: Nosso produto foi cuidadosamente formulado para garantir que você possa desfrutar de seus benefícios sem preocupações."
+          },
+          {
+            "id": 2,
+            "title": "Promove a saciedade: Com nossa fórmula especial, você sentirá mais satisfação após as refeições."
+          },
+          {
+            "id": 3,
+            "title": "Redução nos números do manequim: Com o uso regular, você notará uma diminuição gradual nos tamanhos de roupas, alcançando o corpo que deseja."
+          },
+          {
+            "id": 4,
+            "title": "Autoestima recuperada: Sinta-se confiante e empoderada novamente, reconectando-se com sua feminilidade e se sentindo bem consigo mesma."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "functions",
+        "title": "80 mil mulheres",
+        "subtitle": "que foram beneficiadas em 2022",
+        "paragraph": "",
+        "buttonText": "Eu quero emagrecer",
+        "image": "/images/DexFit/Community.svg",
+        "itens": [
+          {
+            "id": 1,
+            "title": "mulheres que não conseguiam emagrecer"
+          },
+          {
+            "id": 2,
+            "title": "mulheres que tinham eventos importantes para ir e precisavam emagrecer"
+          },
+          {
+            "id": 3,
+            "title": "mulheres com alto grau de obesidade"
+          },
+          {
+            "id": 4,
+            "title": "mulheres com metabolismo lento"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "type": "composition",
+        "title": "Fórmula magestosa",
+        "subtitle": "do nosso DexFit",
+        "paragraph": "O café verde atua como diurético, o Trans Resveratrol previne o envelhecimento, a Vitamina B12 melhora a absorção de minerais e o Extrato de Laranja Moro reduz líquidos.",
+        "buttonText": "Eu quero emagrecer",
+        "icon": "",
+        "itens": [
+          "Café Verde",
+          "Trans Resveratrol",
+          "Vitamina B12",
+          "Extrato de Laranja Moro",
+          "Inulina"
+        ]
+      },
+      {
+        "id": 5,
+        "type": "video",
+        "title": "Conheça nosso processo de fabricação",
+        "paragraph": "É produzido pela Promel, uma empresa com mais de 23 anos de existência, localizada no Espírito Santo, com todos os cuidados necessários para garantir a segurança e eficácia do produto.",
+        "buttonText": "Eu quero emagrecer",
+        "image": "/images/detoxThree.svg",
+        "icon": "",
+        "link": "https://www.youtube.com/embed/LrSW6Z26cyg?si=whBwbASPqPCGxj1x"
+      },
+      {
+        "id": 6,
+        "type": "main",
+        "title": "DexFit",
+        "subtitle": "Tenha uma vida mais leve",
+        "paragraph": "Desenvolvida especialmente para mulheres, apresenta uma fórmula 100% natural.",
+        "buttonText": "Eu quero emagrecer",
+        "image": "/images/backgroundDexfit.png",
+        "imageRemedy": "/images/dexfitThree.svg"
+      },
+      {
+        "id": 7,
+        "type": "presentation",
+        "title": "e transforme sua vida",
+        "subtitle": "Desvende o poder das nossas cápsulas",
+        "itens": [
+          {
+            "id": 1,
+            "title": "Acelera o metabolismo",
+            "paragraph": "O metabolismo acelerado faz com que a pessoa queime as calorias mais rapidamente, concentrando menos gorduras, de forma que fica mais difícil ganhar peso.",
+            "image": "/images/DexFit/Community.svg"
+          },
+          {
+            "id": 2,
+            "title": "Diminui o apetite",
+            "paragraph": "Os ativos presentes em seus compostos diminuem o apetite e reduzem a absorção de açúcares e gorduras no organismo.",
+            "image": "/images/DexFit/Community.svg"
+          },
+          {
+            "id": 3,
+            "title": "Queima calorias",
+            "paragraph": "Por acelerar o metabolismo e queimar a gordura localizada, reduz drasticamente a gordura abdominal.",
+            "image": "/images/DexFit/Community.svg"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "type": "recommendation",
+        "title": "Opiniões de grandes marcas",
+        "subtitle": "confira agora as",
+        "paragraph": "",
+        "itens": [
+          {
+            "id": 1,
+            "paragraph": "...os principais benefícios do uso do agente o clareamento de manchas, uniformização do tom de pele por ter uma ação inibidora da melanina e iluminação do rosto. Além disso, o ingrediente é potente para peles mais maduras para a redução de rugas e linhas de expressão, justamente por estimular a produção de colágeno.",
+            "image": "/images//Logos/Capricho.svg"
+          },
+          {
+            "id": 2,
+            "paragraph": "(A Quitosana) é natural e tem se tornado referência para uma série de benefícios para um rápido emagrecimento e perda de gorduras, já que ela pode causar maior saciedade após as refeições e reduzir a absorção de gorduras.",
+            "image": "/images/Logos/Livresaude.svg"
+          },
+          {
+            "id": 3,
+            "paragraph": "A spirulina é um tipo de alga utilizada como suplemento natural, é fonte de vitaminas, minerais, antioxidantes e é, inclusive, considerada um superalimento, proporcionando diversos benefícios à saúde. Além de todos esses benefícios, contar com o auxílio dela na dieta para perder aquela gordurinha é, de fato, certeiro.",
+            "image": "/images/Logos/Metropole.svg"
           }
         ]
       },
@@ -505,7 +755,7 @@
         "subtitle": "Seu emagrecimento de forma rápida e segura!",
         "paragraph": "Confie no emagrecedor especial para mães, com compostos seguros aprovados pela ANVISA e reduza suas medidas pós-gravidez sem riscos!",
         "buttonText": "Eu quero emagrecer",
-        "image": "/images/anvisa.svg",
+        "image": "/images/Others/Anvisa.svg",
         "direction": "row-reverse"
       },
       {
@@ -515,21 +765,21 @@
         "subtitle": "Nos preocupamos com o seu resultado!",
         "paragraph": "Qualquer problema com o produto basta entrar em contato que iremos lhe ajudar em todo o processo.",
         "buttonText": "Eu quero emagrecer",
-        "image": "/images/garantia.png",
+        "image": "/images/Others/Guarantee.svg",
         "direction": "row"
       }
     ]
   },
 
   {
-    "id": "dexfit",
-    "primaryColor": "var(--dexfit-cor-principal)",
-    "secundaryColor": "var(--dexfit-tom2)",
-    "terciaryColor": "var(--dexfit-tom3)",
+    "id": "homecare",
+    "primaryColor": "var(--homeCare-cor-principal)",
+    "secundaryColor": "var(--homeCare-tom2)",
+    "terciaryColor": "var(--homeCare-tom3)",
     "background": "/images/luzdexfit.svg",
-    "image1un": "/images/remedys/oneDexfit.svg",
-    "image3un": "/images/remedys/threeDexfit.svg",
-    "image5un": "/images/remedys/fiveDexfit.svg",
+    "image1un": "/images/remedys/oneHome.svg",
+    "image3un": "/images/remedys/threeHome.svg",
+    "image5un": "/images/remedys/fiveHome.svg",
     "price": "99,90",
     "price12X": "119,90",
     "banners": [
@@ -655,7 +905,7 @@
         "subtitle": "Tenha uma vida mais leve",
         "paragraph": "Desenvolvida especialmente para mulheres, apresenta uma fórmula 100% natural.",
         "buttonText": "Eu quero emagrecer",
-        "image": "/images/backgroundDexfit.png",
+        "image": "/images/backgroundHomecare.jpg",
         "imageRemedy": "/images/dexfitThree.svg"
       },
       {

@@ -39,94 +39,6 @@ export default function TopCardPlanCard({ type, id }) {
   return (
     <>
       {filteredBanner.map((banner) => (
-        // <div className={styles.container}>
-        //   <div
-        //     className={styles.card}
-        //     style={{
-        //       backgroundColor: filteredId.secundaryColor,
-        //     }}
-        //   >
-        //     <img
-        //       className={styles.image}
-        //       src={banner.image1un}
-        //       alt='none'
-        //     />
-        //     <div className={styles.cardContent}>
-        //       <h3 style={{}}>Kit 1 Unidade</h3>
-        //       <div className={styles.price}>
-        //         <h1
-        //           style={{ color: "var(--branco)" }}
-        //         >{`R$ ${banner.price3unCredit}`}</h1>
-        //         <h3>Em 12x sem juros</h3>
-        //       </div>
-        //       <ButtonMain
-        //         color={filteredId.primaryColor}
-        //         children={"Comprar"}
-        //       />
-        //     </div>
-        //   </div>
-        //   <div
-        //     className={styles.cardMain}
-        //     style={{
-        //       backgroundColor: filteredId.secundaryColor,
-        //       boxShadow: `0px 4px 63px 0px ${filteredId.secundaryColor}`,
-        //     }}
-        //   >
-        //     <img
-        //       className={styles.image}
-        //       src={banner.image3un}
-        //       alt='none'
-        //     />
-        //     <div className={styles.cardContent}>
-        //       <h3 style={{}}>Kit 3 Unidades</h3>
-        //       <div className={styles.price}>
-        //         <h1
-        //           style={{ color: "var(--branco)" }}
-        //         >{`R$ ${banner.price3unCredit}`}</h1>
-        //         <h3>Em 12x sem juros</h3>
-        //       </div>
-        //       <ButtonMain
-        //         color={filteredId.primaryColor}
-        //         children={"Comprar"}
-        //       />
-        //     </div>
-        //     <div
-        //       className={styles.promoTape}
-        //       style={{
-        //         backgroundColor: "var(--branco)",
-        //       }}
-        //     >
-        //       <h3 style={{ color: filteredId.secundaryColor, padding: "10px" }}>
-        //         O MAIS PROCURADO
-        //       </h3>
-        //     </div>
-        //   </div>
-        //   <div
-        //     className={styles.card}
-        //     style={{
-        //       backgroundColor: filteredId.secundaryColor,
-        //     }}
-        //   >
-        //     <img
-        //       className={styles.image}
-        //       src={banner.image5un}
-        //       alt='none'
-        //     />
-        //     <div className={styles.cardContent}>
-        //       <h3 style={{}}>Kit 5 Unidades</h3>
-        //       <div className={styles.price}>
-        //         <h1
-        //           style={{ color: "var(--branco)" }}
-        //         >{`R$ ${banner.price3unCredit}`}</h1>
-        //         <h3>Em 12x sem juros</h3>
-        //       </div>
-        //       <ButtonMain
-        //         color={filteredId.primaryColor}
-        //         children={"Comprar"}
-        //       />
-        //     </div>
-        //   </div>
-        // </div>
         <div className={styles.topCardPlanCard}>
           <div
             className={styles.boxCardMain}
@@ -139,7 +51,7 @@ export default function TopCardPlanCard({ type, id }) {
               <h3 style={{ fontSize: "3.35vh" }}>Kit 5 unidades</h3>
               <img
                 className={styles.imageMainMain}
-                src={banner.image5un}
+                src={filteredId.image5un}
                 alt='none'
               />
               <h3 style={{ fontSize: "2.79vh" }}>
@@ -184,7 +96,7 @@ export default function TopCardPlanCard({ type, id }) {
               <h3 style={{ fontSize: "3.35vh" }}>Kit 3 unidades</h3>
               <img
                 className={styles.imageMainMain}
-                src={banner.image3un}
+                src={filteredId.image3un}
                 alt='none'
               />
               <h3 style={{ fontSize: "2.79vh" }}>
@@ -218,7 +130,7 @@ export default function TopCardPlanCard({ type, id }) {
               <h3 style={{ fontSize: "3.35vh" }}>Kit 1 unidades</h3>
               <img
                 className={styles.imageMainMain}
-                src={banner.image1un}
+                src={filteredId.image1un}
                 alt='none'
               />
               <h3 style={{ fontSize: "2.79vh" }}>
