@@ -43,3 +43,21 @@
   align-items: flex-end;
   height: auto;
 }
+
+@media (max-width: 480px) {
+  .content {
+    flex-direction: column;
+    gap: 32px;
+  }
+  .texts {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .button {
+    display: none;
+  }
+  .carousel {
+    width: 80%;
+  }
+}

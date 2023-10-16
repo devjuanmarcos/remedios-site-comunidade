@@ -54,7 +54,7 @@ export default function TopCardPlanCard({ type, id }) {
                 src={filteredId.image5un}
                 alt='none'
               />
-              <h3 style={{ fontSize: "2.79vh" }}>
+              <h3 style={{ fontSize: "2.79vh", textAlign: "center" }}>
                 De R$ {banner.price5unOld} por apenas:
               </h3>
               <div className={styles.priceMain}>

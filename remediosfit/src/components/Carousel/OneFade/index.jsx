@@ -25,7 +25,7 @@ export default function OneFadeCarousel({ id, type }) {
     autoplaySpeed: 2000,
   };
   return (
-    <div style={{ width: "500px" }}>
+    <div className={styles.width}>
       <Slider {...settings}>
         {filteredBanner.map((banner) =>
           banner.images.map((image, id) => (

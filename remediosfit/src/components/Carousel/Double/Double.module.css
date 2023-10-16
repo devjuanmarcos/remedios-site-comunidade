@@ -60,3 +60,9 @@
 .link {
   position: relative;
 }
+
+@media (max-width: 480px) {
+  .carouselWrapper {
+    min-width: 100%;
+  }
+}

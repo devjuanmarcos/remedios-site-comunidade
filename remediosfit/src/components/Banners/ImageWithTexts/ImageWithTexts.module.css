@@ -29,3 +29,12 @@
 .textCard {
   width: 70%;
 }
+
+@media (max-width: 480px) {
+  .content {
+    flex-direction: column-reverse !important;
+  }
+  .textCard {
+    width: 100%;
+  }
+}

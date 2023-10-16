@@ -3,3 +3,13 @@
   height: auto;
   border-radius: 52px;
 }
+
+.width {
+  width: 500px;
+}
+
+@media (max-width: 480px) {
+  .width {
+    width: 80vw;
+  }
+}

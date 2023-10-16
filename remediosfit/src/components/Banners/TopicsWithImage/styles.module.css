@@ -38,3 +38,22 @@
   width: 55%;
   flex-wrap: nowrap;
 }
+
+@media (max-width: 480px) {
+  .content {
+    flex-direction: column;
+    width: 80%;
+  }
+  .imageBox {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .imageBox img {
+    display: none;
+  }
+  .topicsBox {
+    width: 100%;
+    gap: 32px;
+  }
+}

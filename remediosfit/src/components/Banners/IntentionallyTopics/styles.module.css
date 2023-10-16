@@ -42,3 +42,9 @@
 .imageBox {
   width: auto;
 }
+
+@media (max-width: 480px) {
+  .imageBox {
+    display: none;
+  }
+}

@@ -47,3 +47,13 @@
 .svg {
   width: 50%;
 }
+
+@media (max-width: 480px) {
+  .itemBox {
+    flex-direction: column;
+    width: 100%;
+  }
+  .item {
+    width: 100%;
+  }
+}

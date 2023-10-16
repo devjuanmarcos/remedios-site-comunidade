@@ -84,3 +84,13 @@
     text-align: center;
   }
 }
+
+@media (max-width: 480px) {
+  .topCardPlanCard {
+    flex-direction: column;
+  }
+  .priceValue {
+    text-align: center;
+    font-size: 5vh;
+  }
+}

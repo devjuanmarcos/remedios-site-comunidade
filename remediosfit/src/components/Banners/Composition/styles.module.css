@@ -14,6 +14,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .content {
@@ -23,6 +24,11 @@
   align-items: center;
   width: 80%;
   gap: 60px;
+}
+
+.paragraph {
+  width: 33%;
+  text-align: left;
 }
 
 .imageCard {
@@ -54,4 +60,23 @@
   gap: 28px;
   width: 100%;
   cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .content {
+    flex-direction: column;
+
+    gap: 32px;
+  }
+  .paragraph {
+    width: 100%;
+    text-align: center;
+  }
+  .image {
+    display: none;
+  }
+  .list,
+  .imageCard {
+    width: 100%;
+  }
 }

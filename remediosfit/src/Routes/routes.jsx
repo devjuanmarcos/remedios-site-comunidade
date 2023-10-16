@@ -8,6 +8,7 @@ import Dexfit from "pages/Remedys/Dexfit";
 import Maeslim from "pages/Remedys/Maeslim";
 import DetoxBlack from "pages/Remedys/DetoxBlack";
 import HomeCare from "pages/Remedys/Homecare";
+import ResponsiveTemp from "pages/ResponsiveTemp";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -50,6 +51,10 @@ export default function AppRoutes() {
           <Route
             path='homecare'
             element={<HomeCare />}
+          />
+          <Route
+            path='responsiveTemp'
+            element={<ResponsiveTemp />}
           />
           <Route
             path='*'

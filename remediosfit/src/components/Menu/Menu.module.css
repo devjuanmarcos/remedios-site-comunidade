@@ -22,3 +22,9 @@
 .image {
   width: 100px;
 }
+
+@media (max-width: 480px) {
+  .menu {
+    display: none;
+  }
+}

@@ -41,9 +41,7 @@ export default function CompositionBanner({ background, id, type }) {
             <h2>{banner.subtitle}</h2>
           </div>
           <div className={styles.content}>
-            <p style={{ width: "33%", textAlign: "left" }}>
-              {banner.paragraph}
-            </p>
+            <p className={styles.paragraph}>{banner.paragraph}</p>
             <div className={styles.imageCard}>
               <img
                 className={styles.image}

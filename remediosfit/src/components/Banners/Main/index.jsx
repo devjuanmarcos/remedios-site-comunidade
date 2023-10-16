@@ -21,7 +21,7 @@ export default function MainBanner({ background, id, type }) {
             background
               ? {
                   backgroundImage: `url(${banner.image})`,
-                  backgroundSize: "100%",
+                  backgroundSize: "cover",
                   width: "100%",
                 }
               : null
