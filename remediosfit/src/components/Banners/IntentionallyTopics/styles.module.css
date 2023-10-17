@@ -8,7 +8,7 @@
   background-size: 100%;
 }
 .title {
-  margin-bottom: 40px;
+  margin-bottom: 72px;
   text-align: center;
 }
 .content {
@@ -18,7 +18,7 @@
   align-items: center;
   width: 80%;
   gap: 72px;
-  margin-bottom: 40px;
+  margin-bottom: 72px;
 }
 
 .list {
@@ -44,6 +44,18 @@
 }
 
 @media (max-width: 480px) {
+  .content {
+    width: 100%;
+  }
+  .imageBox {
+    display: none;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .content {
+    width: 100%;
+  }
   .imageBox {
     display: none;
   }

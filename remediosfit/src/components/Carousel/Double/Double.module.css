@@ -66,3 +66,21 @@
     min-width: 100%;
   }
 }
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .carouselWrapper {
+    min-width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .carouselWrapper {
+    min-width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .carouselWrapper {
+    min-width: 100%;
+  }
+}

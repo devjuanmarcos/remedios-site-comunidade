@@ -57,3 +57,13 @@
     width: 100%;
   }
 }
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .itemBox {
+    flex-direction: column;
+    width: 100%;
+  }
+  .item {
+    width: 100%;
+  }
+}

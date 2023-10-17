@@ -38,3 +38,12 @@
     width: 100%;
   }
 }
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .content {
+    flex-direction: row-reverse !important;
+  }
+  .textCard {
+    width: 100%;
+  }
+}

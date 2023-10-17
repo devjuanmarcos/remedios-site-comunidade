@@ -80,3 +80,27 @@
     width: 100%;
   }
 }
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .main {
+    gap: 72px;
+  }
+  .content {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 60px;
+  }
+  .paragraph {
+    text-align: left;
+    width: 60%;
+  }
+  .image {
+    display: none;
+  }
+  .list {
+    width: 40%;
+  }
+  .imageCard {
+    display: none;
+  }
+}

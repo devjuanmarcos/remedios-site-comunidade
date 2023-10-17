@@ -50,3 +50,12 @@
     width: 80vw;
   }
 }
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .content {
+    flex-direction: column-reverse;
+  }
+  .iframe {
+    width: 80vw;
+  }
+}

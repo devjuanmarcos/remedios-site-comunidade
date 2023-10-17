@@ -39,18 +39,18 @@ export default function TopCardPlanCard({ type, id }) {
   return (
     <>
       {filteredBanner.map((banner) => (
-        <div className={styles.topCardPlanCard}>
+        <div className={styles.main}>
           <div
-            className={styles.boxCardMain}
+            className={styles.card}
             style={{
               backgroundColor: filteredId.secundaryColor,
               boxShadow: `0px 4px 63px 0px ${filteredId.secundaryColor}`,
             }}
           >
-            <div className={styles.cardMainContent}>
+            <div className={styles.cardContent}>
               <h3 style={{ fontSize: "3.35vh" }}>Kit 5 unidades</h3>
               <img
-                className={styles.imageMainMain}
+                className={styles.image}
                 src={filteredId.image5un}
                 alt='none'
               />
@@ -64,38 +64,26 @@ export default function TopCardPlanCard({ type, id }) {
               <h3 style={{ color: "var(--branco)" }}>
                 ou R$ {banner.price3un} à vista
               </h3>
-              <div className={styles.buttonMain}>
-                <h2
-                  className={styles.text}
-                  style={{ color: filteredId.secundaryColor }}
-                >
-                  EU QUERO
-                </h2>
+              <div className={styles.button}>
+                <ButtonMain
+                  children={"Eu quero!"}
+                  color={filteredId.terciaryColor}
+                />
               </div>
             </div>
           </div>
+
           <div
-            className={styles.boxCardMain}
+            className={styles.card}
             style={{
               backgroundColor: filteredId.secundaryColor,
               boxShadow: `0px 4px 63px 0px ${filteredId.secundaryColor}`,
             }}
           >
-            <div className={styles.mostPop}>
-              <h1
-                style={
-                  filteredId.secundaryColor
-                    ? { fontSize: "4vh", color: filteredId.secundaryColor }
-                    : { fontSize: "4vh" }
-                }
-              >
-                MAIS POPULAR
-              </h1>
-            </div>
-            <div className={styles.cardMainContent}>
+            <div className={styles.cardContent}>
               <h3 style={{ fontSize: "3.35vh" }}>Kit 3 unidades</h3>
               <img
-                className={styles.imageMainMain}
+                className={styles.image}
                 src={filteredId.image3un}
                 alt='none'
               />
@@ -109,27 +97,26 @@ export default function TopCardPlanCard({ type, id }) {
               <h3 style={{ color: "var(--branco)" }}>
                 ou R$ {banner.price3un} à vista
               </h3>
-              <div className={styles.buttonMain}>
-                <h2
-                  className={styles.text}
-                  style={{ color: filteredId.secundaryColor }}
-                >
-                  EU QUERO
-                </h2>
+              <div className={styles.button}>
+                <ButtonMain
+                  children={"Eu quero!"}
+                  color={filteredId.terciaryColor}
+                />
               </div>
             </div>
           </div>
+
           <div
-            className={styles.boxCardMain}
+            className={styles.card}
             style={{
               backgroundColor: filteredId.secundaryColor,
               boxShadow: `0px 4px 63px 0px ${filteredId.secundaryColor}`,
             }}
           >
-            <div className={styles.cardMainContent}>
+            <div className={styles.cardContent}>
               <h3 style={{ fontSize: "3.35vh" }}>Kit 1 unidades</h3>
               <img
-                className={styles.imageMainMain}
+                className={styles.image}
                 src={filteredId.image1un}
                 alt='none'
               />
@@ -143,13 +130,11 @@ export default function TopCardPlanCard({ type, id }) {
               <h3 style={{ color: "var(--branco)" }}>
                 ou R$ {banner.price1un} à vista
               </h3>
-              <div className={styles.buttonMain}>
-                <h2
-                  className={styles.text}
-                  style={{ color: filteredId.secundaryColor }}
-                >
-                  EU QUERO
-                </h2>
+              <div className={styles.button}>
+                <ButtonMain
+                  children={"Eu quero!"}
+                  color={filteredId.terciaryColor}
+                />
               </div>
             </div>
           </div>

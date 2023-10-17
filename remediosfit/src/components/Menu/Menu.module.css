@@ -10,9 +10,8 @@
   width: 100%;
   display: inline-flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   gap: 26px;
-  margin-inline: -60px;
 }
 
 .content h4 {
@@ -21,6 +20,46 @@
 
 .image {
   width: 100px;
+}
+
+@media (min-width: 1281px) {
+  /* CSS */
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* CSS */
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .menu {
+    min-height: 20px;
+    max-height: none;
+  }
+  .content {
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 0;
+    gap: 0;
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .content {
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 0;
+    gap: none;
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .menu {
+    display: none;
+  }
 }
 
 @media (max-width: 480px) {

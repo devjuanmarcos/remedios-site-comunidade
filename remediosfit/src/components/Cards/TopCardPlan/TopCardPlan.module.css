@@ -1,28 +1,24 @@
-.topCardPlanCard {
+.main {
   display: flex;
   align-items: flex-end;
-  gap: 2vh;
+  justify-content: space-between;
+  text-align: center;
+  width: 100%;
 }
 
-.boxCard {
-  height: 90%;
-  width: 30%;
-  background-color: var(--branco);
-  border-radius: 8px;
-}
-
-.boxCardMain {
+.card {
   border-radius: 8px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   padding: 20px;
+  height: 100%;
+  width: 30%;
 }
 
 .mostPop {
   border-radius: 8px;
-  height: 10%;
   width: 100%;
   background-color: var(--branco);
   display: flex;
@@ -30,7 +26,7 @@
   align-items: center;
   text-align: center;
 }
-.cardMainContent {
+.cardContent {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -38,13 +34,10 @@
   gap: 1vh;
 }
 
-.imageMain {
-  max-width: 65%;
-}
-
-.imageMainMain {
-  max-height: 185px;
-  width: 65%;
+.image {
+  margin: 20px 0;
+  height: 28vh;
+  width: 100%;
 }
 
 .priceMain {
@@ -66,28 +59,97 @@
   line-height: normal;
 }
 
-.buttonMain {
-  background: #fff;
-  width: 70%;
-  height: auto;
-  padding: 2vh;
-  border-radius: 8px;
-
-  .text {
-    color: var(--dexfit-tom2, #ff0181);
-    font-family: Montserrat;
-    font-size: 3vh;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    width: 100%;
-    text-align: center;
-  }
+.button {
+  margin: 20px;
 }
 
 @media (max-width: 480px) {
-  .topCardPlanCard {
+  .main {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    gap: 72px;
+  }
+
+  .card {
+    width: 60vw;
+  }
+
+  .image {
+    height: 12vh;
+  }
+
+  .priceValue {
+    text-align: center;
+    font-size: 3.3vh;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    gap: 72px;
+  }
+
+  .card {
+    width: 60vw;
+  }
+
+  .image {
+    height: 12vh;
+  }
+
+  .priceValue {
+    text-align: center;
+    font-size: 5vh;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    gap: 72px;
+  }
+
+  .card {
+    width: 60vw;
+  }
+  .card:nth-child(1) {
+    order: 1;
+  }
+
+  .priceValue {
+    text-align: center;
+    font-size: 5vh;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .main {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: start;
+    gap: 0;
+  }
+
+  .card {
+    width: 30%;
+  }
+
+  .image {
+    height: 20vh;
+  }
+
+  .card:nth-child(1) {
+    order: unset;
   }
   .priceValue {
     text-align: center;

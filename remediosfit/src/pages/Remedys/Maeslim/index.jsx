@@ -41,6 +41,7 @@ export default function MaeSlim() {
         id={pageId}
         background={background}
       />
+
       <IntentionallyBanner
         id={pageId}
         type={"functions"}
@@ -63,6 +64,7 @@ export default function MaeSlim() {
         type={"miniCarousel"}
         id={pageId}
       />
+
       <ThreeItensTextBanner
         background={background}
         type={"recommendation"}
@@ -77,10 +79,12 @@ export default function MaeSlim() {
         type={"video"}
         id={pageId}
       />
+
       <PriceBanner
         type={"price"}
         id={pageId}
       />
+
       <ImageWithTextsBanner
         background={background}
         type={"anvisa"}
