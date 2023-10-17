@@ -53,10 +53,6 @@ export default function AppRoutes() {
             element={<HomeCare />}
           />
           <Route
-            path='responsiveTemp'
-            element={<ResponsiveTemp />}
-          />
-          <Route
             path='*'
             element={<Maeslim />}
           />
