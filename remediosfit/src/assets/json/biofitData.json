@@ -1,5 +1,18 @@
 [
   {
+    "id": "homePage",
+    "primaryColor": "var(--detoxBlack-cor-principal)",
+    "secundaryColor": "var(--detoxBlack-tom2)",
+    "terciaryColor": "var(--detoxBlack-tom3)",
+    "background": "/images/luzDetoxBlack.svg",
+    "image1un": "/images/remedys/oneDetox.svg",
+    "image3un": "/images/remedys/threeDetox.svg",
+    "image5un": "/images/remedys/fiveDetox.svg",
+    "price": "99,90",
+    "price12X": "119,90"
+  },
+
+  {
     "id": "detoxBlack",
     "primaryColor": "var(--detoxBlack-cor-principal)",
     "secundaryColor": "var(--detoxBlack-tom2)",
