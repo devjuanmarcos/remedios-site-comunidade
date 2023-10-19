@@ -1,15 +1,55 @@
 [
   {
     "id": "homePage",
-    "primaryColor": "var(--detoxBlack-cor-principal)",
-    "secundaryColor": "var(--detoxBlack-tom2)",
-    "terciaryColor": "var(--detoxBlack-tom3)",
-    "background": "/images/luzDetoxBlack.svg",
+    "primaryColor": "var(--biofit-cor-principal)",
+    "secundaryColor": "var(--biofit-tom2)",
+    "terciaryColor": "var(--biofit-tom3)",
+    "background": "/images/luzBioFit.svg",
     "image1un": "/images/remedys/oneDetox.svg",
     "image3un": "/images/remedys/threeDetox.svg",
     "image5un": "/images/remedys/fiveDetox.svg",
     "price": "99,90",
-    "price12X": "119,90"
+    "price12X": "119,90",
+    "banners": [
+      {
+        "id": 1,
+        "type": "main",
+        "title": "Seja muito bem vindo à BioFit",
+        "subtitle": "Aqui oferecemos saúde em cápsulas",
+        "paragraph": "Perca peso de maneira saudável! A fórmula natural que acelera o metabolismo, elimina toxinas e proporciona resultados duradouros.",
+        "buttonText": "Eu quero emagrecer",
+        "image": "/images/backgroundHome.jpg",
+        "imageRemedy": "/images/detoxThree.svg"
+      },
+      {
+        "id": 2,
+        "type": "functions",
+        "title": "64 mil pessoas",
+        "subtitle": "que foram beneficiadas em 2022",
+        "paragraph": "",
+        "buttonText": "Eu quero emagrecer",
+        "image": "/images/DetoxBlack/Team.svg",
+        "icon": "/images/vitamin.svg",
+        "itens": [
+          {
+            "id": 1,
+            "title": "Pessoas que não conseguiam emagrecer"
+          },
+          {
+            "id": 2,
+            "title": "Pessoas que tinham eventos importantes para ir e precisavam emagrecer"
+          },
+          {
+            "id": 3,
+            "title": "Pessoas com alto grau de obesidade"
+          },
+          {
+            "id": 4,
+            "title": "Pessoas com metabolismo lento"
+          }
+        ]
+      }
+    ]
   },
 
   {

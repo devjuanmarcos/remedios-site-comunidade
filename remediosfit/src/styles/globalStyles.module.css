@@ -15,6 +15,10 @@ html {
 }
 
 :root {
+  --biofit-cor-principal: #0092b2;
+  --biofit-tom2: #00596d;
+  --biofit-tom3: #000000;
+
   --dexfit-cor-principal: #ef3693;
   --dexfit-tom2: #ff0181;
   --dexfit-tom3: #120817;

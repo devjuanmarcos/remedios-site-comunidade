@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 
-// import Home from "pages/Home";
+import Home from "pages/Home";
 import Menu from "components/Menu";
 import Dexfit from "pages/Remedys/Dexfit";
 import Maeslim from "pages/Remedys/Maeslim";
@@ -28,11 +28,11 @@ export default function AppRoutes() {
         <Routes>
           <Route
             path='/'
-            element={<Maeslim />}
+            element={<Home />}
           >
             <Route
               index
-              element={<Maeslim />}
+              element={<Home />}
             />
           </Route>
           <Route
