@@ -1,6 +1,6 @@
 .main {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 96px 0;
@@ -22,14 +22,14 @@
 .content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   width: 80%;
+  height: 100vh;
 }
 
 .title {
   text-align: center;
-  margin-bottom: 40px;
 }
 
 .imageBox {

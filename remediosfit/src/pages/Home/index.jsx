@@ -4,6 +4,9 @@ import React from "react";
 import biofitData from "assets/json/biofitData.json";
 import MainBanner from "components/Banners/Main";
 import IntentionallyBanner from "components/Banners/IntentionallyTopics";
+import ThreeItensTextBanner from "components/Banners/ThreeItensText";
+import VideoBanner from "components/Banners/VideoBanner";
+import ImageWithTextsBanner from "components/Banners/ImageWithTexts";
 
 export default function Home() {
   const pageId = "homePage";
@@ -25,13 +28,31 @@ export default function Home() {
       style={pageStyle}
     >
       <MainBanner
-        id={pageId}
         type={"main"}
         background={background}
+        id={pageId}
       />
       <IntentionallyBanner
-        id={pageId}
         type={"functions"}
+        id={pageId}
+      />
+      <ThreeItensTextBanner
+        type={"presentation"}
+        background={background}
+        id={pageId}
+      />
+      <ThreeItensTextBanner
+        type={"recommendation"}
+        id={pageId}
+      />
+      <VideoBanner
+        type={"video"}
+        background={background}
+        id={pageId}
+      />
+      <ImageWithTextsBanner
+        type={"anvisa"}
+        id={pageId}
       />
     </section>
   );

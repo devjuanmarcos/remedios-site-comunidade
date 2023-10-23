@@ -48,6 +48,82 @@
             "title": "Pessoas com metabolismo lento"
           }
         ]
+      },
+      {
+        "id": 3,
+        "type": "presentation",
+        "title": "e transforme sua vida",
+        "subtitle": "Desvende o poder das nossas cápsulas",
+        "itens": [
+          {
+            "id": 1,
+            "title": "Mae Slim",
+            "paragraph": "Especializado em mães que querem retomar seu corpo de antes da gravidez ou alcançar seu corpo dos sonhos.",
+            "image": "/images/remedys/oneMae.svg"
+          },
+          {
+            "id": 2,
+            "title": "Lift Detox Black",
+            "paragraph": "Perfeito para todas as pessoas que querem inibir o apetite de forma natural e saudável.",
+            "image": "/images/remedys/oneDetox.svg"
+          },
+          {
+            "id": 3,
+            "title": "DexFit",
+            "paragraph": "Por acelerar o metabolismo e queimar a gordura localizada, reduz drasticamente a gordura abdominal.",
+            "image": "/images/remedys/oneDexfit.svg"
+          },
+          {
+            "id": 4,
+            "title": "Home Care",
+            "paragraph": "Por acelerar o metabolismo e queimar a gordura localizada, reduz drasticamente a gordura abdominal.",
+            "image": "/images/remedys/oneHome.svg"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "type": "recommendation",
+        "title": "Opiniões de grandes marcas",
+        "subtitle": "confira agora as",
+        "paragraph": "",
+        "itens": [
+          {
+            "id": 1,
+            "paragraph": "...os principais benefícios do uso do agente o clareamento de manchas, uniformização do tom de pele por ter uma ação inibidora da melanina e iluminação do rosto. Além disso, o ingrediente é potente para peles mais maduras para a redução de rugas e linhas de expressão, justamente por estimular a produção de colágeno.",
+            "image": "/images/Logos/Capricho.svg"
+          },
+          {
+            "id": 2,
+            "paragraph": "(A Quitosana) é natural e tem se tornado referência para uma série de benefícios para um rápido emagrecimento e perda de gorduras, já que ela pode causar maior saciedade após as refeições e reduzir a absorção de gorduras.",
+            "image": "/images/Logos/LivreSaude.svg"
+          },
+          {
+            "id": 3,
+            "paragraph": "A spirulina é um tipo de alga utilizada como suplemento natural, é fonte de vitaminas, minerais, antioxidantes e é, inclusive, considerada um superalimento, proporcionando diversos benefícios à saúde. Além de todos esses benefícios, contar com o auxílio dela na dieta para perder aquela gordurinha é, de fato, certeiro.",
+            "image": "/images/Logos/Metropole.svg"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "type": "video",
+        "title": "Conheça nosso processo de fabricação",
+        "paragraph": "É produzido pela Promel, uma empresa com mais de 23 anos de existência, localizada no Espírito Santo, com todos os cuidados necessários para garantir a segurança e eficácia do produto.",
+        "buttonText": "Eu quero emagrecer",
+        "image": "/images/detoxThree.svg",
+        "icon": "",
+        "link": "https://www.youtube.com/embed/LrSW6Z26cyg?si=whBwbASPqPCGxj1x"
+      },
+      {
+        "id": 12,
+        "type": "anvisa",
+        "title": "Aprovado pela anvisa",
+        "subtitle": "Seu emagrecimento de forma rápida e segura!",
+        "paragraph": "Confie no emagrecedor especial para mães, com compostos seguros aprovados pela ANVISA e reduza suas medidas pós-gravidez sem riscos!",
+        "buttonText": "Eu quero emagrecer",
+        "image": "/images/Others/Anvisa.svg",
+        "direction": "row-reverse"
       }
     ]
   },
