@@ -4,7 +4,8 @@ import React from "react";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 
 import biofitData from "assets/json/biofitData.json";
-import ButtonMain from "components/Buttons/ButtonMain";
+
+import ButtonAnimated from "components/Buttons/ButtonAnimated";
 
 export default function IntentionallyBanner({ background, id, type }) {
   const filteredId = biofitData.find((data) => data.id === id);
@@ -56,9 +57,10 @@ export default function IntentionallyBanner({ background, id, type }) {
               />
             </div>
           </div>
-          <ButtonMain
-            color={filteredId.primaryColor}
-            children={banner.buttonText}
+          <ButtonAnimated
+            children={"Eu quero emagrecer"}
+            primaryColor={filteredId.primaryColor}
+            terciaryColor={filteredId.terciaryColor}
           />
         </section>
       ))}

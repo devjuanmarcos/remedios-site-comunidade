@@ -2,7 +2,7 @@ import styles from "./TopCardPlan.module.css";
 import React from "react";
 
 import biofitData from "assets/json/biofitData.json";
-import ButtonMain from "components/Buttons/ButtonMain";
+import ButtonAnimated from "components/Buttons/ButtonAnimated";
 
 export default function TopCardPlanCard({ type, id }) {
   const filteredId = biofitData.find((data) => data.id === id);
@@ -65,9 +65,10 @@ export default function TopCardPlanCard({ type, id }) {
                 ou R$ {banner.price3un} à vista
               </h3>
               <div className={styles.button}>
-                <ButtonMain
-                  children={"Eu quero!"}
-                  color={filteredId.terciaryColor}
+                <ButtonAnimated
+                  children={"Eu quero emagrecer"}
+                  primaryColor={filteredId.primaryColor}
+                  terciaryColor={filteredId.terciaryColor}
                 />
               </div>
             </div>
@@ -98,9 +99,10 @@ export default function TopCardPlanCard({ type, id }) {
                 ou R$ {banner.price3un} à vista
               </h3>
               <div className={styles.button}>
-                <ButtonMain
-                  children={"Eu quero!"}
-                  color={filteredId.terciaryColor}
+                <ButtonAnimated
+                  children={"Eu quero emagrecer"}
+                  primaryColor={filteredId.primaryColor}
+                  terciaryColor={filteredId.terciaryColor}
                 />
               </div>
             </div>
@@ -131,9 +133,10 @@ export default function TopCardPlanCard({ type, id }) {
                 ou R$ {banner.price1un} à vista
               </h3>
               <div className={styles.button}>
-                <ButtonMain
-                  children={"Eu quero!"}
-                  color={filteredId.terciaryColor}
+                <ButtonAnimated
+                  children={"Eu quero emagrecer"}
+                  primaryColor={filteredId.primaryColor}
+                  terciaryColor={filteredId.terciaryColor}
                 />
               </div>
             </div>

@@ -34,10 +34,11 @@ export default function Menu() {
         <MenuLink to={"dexfit"}>DexFit</MenuLink>
         <MenuLink to={"homecare"}>Home Care</MenuLink>
         <MenuLink
-          to={"/h"}
-          children='Contatos'
+          to={"about"}
           fontWeight={900}
-        />
+        >
+          Sobre nós
+        </MenuLink>
       </div>
     </div>
   );

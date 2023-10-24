@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./ImageWithTexts.module.css";
-import ButtonMain from "components/Buttons/ButtonMain";
 
 import biofitData from "assets/json/biofitData.json";
 

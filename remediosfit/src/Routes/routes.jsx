@@ -8,6 +8,7 @@ import Maeslim from "pages/Remedys/Maeslim";
 import DetoxBlack from "pages/Remedys/DetoxBlack";
 import HomeCare from "pages/Remedys/Homecare";
 import Footer from "components/Footer";
+import About from "pages/About";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -50,6 +51,10 @@ export default function AppRoutes() {
           <Route
             path='homecare'
             element={<HomeCare />}
+          />
+          <Route
+            path='about'
+            element={<About />}
           />
           <Route
             path='*'

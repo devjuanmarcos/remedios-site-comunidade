@@ -1,9 +1,9 @@
 import OneFadeCarousel from "components/Carousel/OneFade";
 import styles from "./styles.module.css";
 import React from "react";
-import ButtonMain from "components/Buttons/ButtonMain";
 
 import biofitData from "assets/json/biofitData.json";
+import ButtonAnimated from "components/Buttons/ButtonAnimated";
 
 export default function TextOneCarouselBanner({ background, id, type }) {
   const filteredId = biofitData.find((data) => data.id === id);
@@ -38,9 +38,10 @@ export default function TextOneCarouselBanner({ background, id, type }) {
               </div>
               <p className={styles.paragraph}>{banner.paragraph}</p>
               <div className={styles.button}>
-                <ButtonMain
-                  color={filteredId.primaryColor}
+                <ButtonAnimated
                   children={"Eu quero emagrecer"}
+                  primaryColor={filteredId.primaryColor}
+                  terciaryColor={filteredId.terciaryColor}
                 />
               </div>
             </div>

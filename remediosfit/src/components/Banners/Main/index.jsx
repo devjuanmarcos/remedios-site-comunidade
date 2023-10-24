@@ -1,8 +1,8 @@
 import styles from "./styles.module.css";
-import ButtonMain from "components/Buttons/ButtonMain";
 import React from "react";
 
 import biofitData from "assets/json/biofitData.json";
+import ButtonAnimated from "components/Buttons/ButtonAnimated";
 
 export default function MainBanner({ background, id, type }) {
   const filteredId = biofitData.find((data) => data.id === id);
@@ -42,9 +42,10 @@ export default function MainBanner({ background, id, type }) {
                 alt=''
               />
               <p className={styles.paragraph}>{banner.paragraph}</p>
-              <ButtonMain
-                color={filteredId.primaryColor}
-                children={banner.buttonText}
+              <ButtonAnimated
+                children={"Eu quero emagrecer"}
+                primaryColor={filteredId.primaryColor}
+                terciaryColor={filteredId.terciaryColor}
               />
             </div>
           </div>
