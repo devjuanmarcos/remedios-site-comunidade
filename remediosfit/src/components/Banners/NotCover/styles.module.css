@@ -1,0 +1,63 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 96px 0;
+  height: 100%;
+  width: 100%;
+  background-size: 100%;
+  position: relative; /* Necessário para o posicionamento do pseudo-elemento */
+}
+
+.main::after {
+  content: "";
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40%; /* Ajuste a altura do gradiente conforme necessário */
+  background: linear-gradient(to top, transparent, black);
+  pointer-events: none; /* Evita que o pseudo-elemento interfira com o conteúdo */
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  gap: 72px;
+  z-index: 1;
+}
+
+.title {
+  text-align: center;
+
+  .paragraph {
+    margin-top: 32px;
+  }
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  height: 100%;
+  gap: 20px;
+  text-align: center;
+}
+
+.svg {
+  max-width: 50%;
+  max-height: 150px;
+}

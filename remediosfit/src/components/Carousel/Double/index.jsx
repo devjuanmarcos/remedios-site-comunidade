@@ -7,6 +7,7 @@ import styles from "./Double.module.css"; // Importe seus estilos
 import biofitData from "assets/json/biofitData.json";
 
 const Carrossel = ({ id, type }) => {
+  // eslint-disable-next-line
   const [slidesToShow, setSlidesToShow] = useState(5); // Valor padrão para slidesToShow
   const larguraDoSlideDesejada = 303; // Largura do slide desejada em pixels
 

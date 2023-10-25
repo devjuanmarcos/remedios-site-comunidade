@@ -7,6 +7,7 @@ import IntentionallyBanner from "components/Banners/IntentionallyTopics";
 import ThreeItensTextBanner from "components/Banners/ThreeItensText";
 import VideoBanner from "components/Banners/VideoBanner";
 import ImageWithTextsBanner from "components/Banners/ImageWithTexts";
+import NotCoverBanner from "components/Banners/NotCover";
 
 export default function Home() {
   const pageId = "homePage";
@@ -32,13 +33,16 @@ export default function Home() {
         background={background}
         id={pageId}
       />
+      <NotCoverBanner
+        type={"notCover"}
+        id={pageId}
+      />
       <IntentionallyBanner
         type={"functions"}
         id={pageId}
       />
       <ThreeItensTextBanner
         type={"presentation"}
-        background={background}
         id={pageId}
       />
       <ThreeItensTextBanner
@@ -47,7 +51,6 @@ export default function Home() {
       />
       <VideoBanner
         type={"video"}
-        background={background}
         id={pageId}
       />
       <ImageWithTextsBanner

@@ -19,16 +19,65 @@
         "paragraph": "Perca peso de maneira saudável! A fórmula natural que acelera o metabolismo, elimina toxinas e proporciona resultados duradouros.",
         "buttonText": "Eu quero emagrecer",
         "image": "/images/backgroundHome.jpg",
-        "imageRemedy": "/images/detoxThree.svg"
+        "imageRemedy": "/images/Remedys/all.svg"
       },
       {
         "id": 2,
+        "type": "notCover",
+        "title": "DE SERMOS DIFERENTES DE OUTRAS LOJAS",
+        "subtitle": "confira agora o motivo",
+        "image": "/images/BioFit/threePerson.svg",
+        "subItemTitle": "Diversos tipos, diversos benefícios",
+        "subItemParagraph": "Ao todo temos 4 tipos de encapsulados para suprir todas as suas necessidades e ajudar você a conquistar o tão sonhado corpo que você almeja. Sem contar em todos os benefícios que ambos trarão à sua saúde.",
+        "paragraph": "",
+        "hoverColor": "#002927d7",
+        "itens": [
+          {
+            "id": 1,
+            "title": "Resultados rápidos",
+            "description": "Tenha percepção de mudança no seu corpo nas primeiras semanas de tratamento.",
+            "icon": "AiFillSignal"
+          },
+          {
+            "id": 2,
+            "title": "Comunidade aberta",
+            "description": "Ao se tornar nosso cliente você terá acesso ao nosso grupo do telegram aonde poderá conversar com outros clientes e nossa equipe, receber novidades exclusivas e promoções especiais.",
+            "icon": "AiFillStar"
+          },
+          {
+            "id": 3,
+            "title": "Melhores preços",
+            "description": "Promoções mensalmente com o intuito de oferecer melhores codições para todos.",
+            "icon": "AiFillShop"
+          },
+          {
+            "id": 4,
+            "title": "Acompanhamento profissional",
+            "description": "Tenha acompanhamento e atendimento profissional sempre que precisar.",
+            "icon": "AiFillSafetyCertificate"
+          },
+          {
+            "id": 5,
+            "title": "Segurança e respaudo",
+            "description": "Cobertura para danos causados a outros veículos.",
+            "icon": "AiFillCodepenCircle"
+          },
+          {
+            "id": 6,
+            "title": "Desconto nos procedimentos estéticos",
+            "description": "Nossos clientes tem descontos personalizados nos procedimentos estéticos em nossas clínicas parceiras no Rio de Janeiro.",
+            "icon": "AiFillHome"
+          }
+        ]
+      },
+      {
+        "id": 3,
         "type": "functions",
         "title": "64 mil pessoas",
         "subtitle": "que foram beneficiadas em 2022",
         "paragraph": "",
         "buttonText": "Eu quero emagrecer",
-        "image": "/images/DetoxBlack/Team.svg",
+        "image": "/images/BioFit/ok.svg",
         "icon": "/images/vitamin.svg",
         "itens": [
           {
@@ -50,7 +99,7 @@
         ]
       },
       {
-        "id": 3,
+        "id": 4,
         "type": "presentation",
         "title": "e transforme sua vida",
         "subtitle": "Desvende o poder das nossas cápsulas",
@@ -82,7 +131,7 @@
         ]
       },
       {
-        "id": 4,
+        "id": 5,
         "type": "recommendation",
         "title": "Opiniões de grandes marcas",
         "subtitle": "confira agora as",
@@ -106,7 +155,7 @@
         ]
       },
       {
-        "id": 5,
+        "id": 6,
         "type": "video",
         "title": "Conheça nosso processo de fabricação",
         "paragraph": "É produzido pela Promel, uma empresa com mais de 23 anos de existência, localizada no Espírito Santo, com todos os cuidados necessários para garantir a segurança e eficácia do produto.",
@@ -116,7 +165,7 @@
         "link": "https://www.youtube.com/embed/LrSW6Z26cyg?si=whBwbASPqPCGxj1x"
       },
       {
-        "id": 12,
+        "id": 7,
         "type": "anvisa",
         "title": "Aprovado pela anvisa",
         "subtitle": "Seu emagrecimento de forma rápida e segura!",
@@ -273,7 +322,7 @@
         "paragraph": "Perca peso de maneira saudável! A fórmula natural que acelera o metabolismo, elimina toxinas e proporciona resultados duradouros.",
         "buttonText": "Eu quero emagrecer",
         "image": "/images/backgroundDetox.png",
-        "imageRemedy": "/images/detoxThree.svg"
+        "imageRemedy": "/images/remedys/threeDetox.svg"
       },
       {
         "id": 7,
@@ -527,7 +576,7 @@
         "paragraph": "A solução natural e Segura para voltar ao peso de antes da gravidez rapidamente, sem efeitos colaterais!",
         "buttonText": "Eu quero emagrecer",
         "image": "/images/backgroundMae.jpg",
-        "imageRemedy": "/images/maeslim3un.svg"
+        "imageRemedy": "/images/remedys/threeMae.svg"
       },
       {
         "id": 7,
@@ -779,7 +828,7 @@
         "paragraph": "Desenvolvida especialmente para mulheres, apresenta uma fórmula 100% natural.",
         "buttonText": "Eu quero emagrecer",
         "image": "/images/backgroundDexfit.png",
-        "imageRemedy": "/images/dexfitThree.svg"
+        "imageRemedy": "/images/remedys/threeDexfit.svg"
       },
       {
         "id": 7,
@@ -1035,7 +1084,7 @@
         "paragraph": "Desenvolvida especialmente para mulheres, apresenta uma fórmula 100% natural.",
         "buttonText": "Eu quero emagrecer",
         "image": "/images/backgroundHomecare.jpg",
-        "imageRemedy": "/images/dexfitThree.svg"
+        "imageRemedy": "/images/remedys/threeHome.svg"
       },
       {
         "id": 7,
@@ -1152,6 +1201,128 @@
         "buttonText": "Eu quero emagrecer",
         "image": "/images/garantia.png",
         "direction": "row"
+      }
+    ]
+  },
+
+  {
+    "id": "aboutPage",
+    "primaryColor": "var(--biofit-cor-principal)",
+    "secundaryColor": "var(--biofit-tom2)",
+    "terciaryColor": "var(--biofit-tom3)",
+    "background": "/images/luzBioFit.svg",
+    "banners": [
+      {
+        "id": 1,
+        "type": "main",
+        "title": "Saiba um pouco mais sobre nossa iniciativa",
+        "subtitle": "Biofit, saúde em cápsulas.",
+        "paragraph": "Somos uma empresa focada em trazer para a vida das pessoas mais saúde de forma natural e tranquila.",
+        "image": "/images/backgroundHome.jpg"
+      },
+      {
+        "id": 2,
+        "type": "functions",
+        "title": "64 mil pessoas",
+        "subtitle": "que foram beneficiadas em 2022",
+        "paragraph": "",
+        "buttonText": "Eu quero emagrecer",
+        "image": "/images/DetoxBlack/Team.svg",
+        "icon": "/images/vitamin.svg",
+        "itens": [
+          {
+            "id": 1,
+            "title": "Pessoas que não conseguiam emagrecer"
+          },
+          {
+            "id": 2,
+            "title": "Pessoas que tinham eventos importantes para ir e precisavam emagrecer"
+          },
+          {
+            "id": 3,
+            "title": "Pessoas com alto grau de obesidade"
+          },
+          {
+            "id": 4,
+            "title": "Pessoas com metabolismo lento"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "presentation",
+        "title": "e transforme sua vida",
+        "subtitle": "Desvende o poder das nossas cápsulas",
+        "itens": [
+          {
+            "id": 1,
+            "title": "Mae Slim",
+            "paragraph": "Especializado em mães que querem retomar seu corpo de antes da gravidez ou alcançar seu corpo dos sonhos.",
+            "image": "/images/remedys/oneMae.svg"
+          },
+          {
+            "id": 2,
+            "title": "Lift Detox Black",
+            "paragraph": "Perfeito para todas as pessoas que querem inibir o apetite de forma natural e saudável.",
+            "image": "/images/remedys/oneDetox.svg"
+          },
+          {
+            "id": 3,
+            "title": "DexFit",
+            "paragraph": "Por acelerar o metabolismo e queimar a gordura localizada, reduz drasticamente a gordura abdominal.",
+            "image": "/images/remedys/oneDexfit.svg"
+          },
+          {
+            "id": 4,
+            "title": "Home Care",
+            "paragraph": "Por acelerar o metabolismo e queimar a gordura localizada, reduz drasticamente a gordura abdominal.",
+            "image": "/images/remedys/oneHome.svg"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "type": "recommendation",
+        "title": "Opiniões de grandes marcas",
+        "subtitle": "confira agora as",
+        "paragraph": "",
+        "itens": [
+          {
+            "id": 1,
+            "paragraph": "...os principais benefícios do uso do agente o clareamento de manchas, uniformização do tom de pele por ter uma ação inibidora da melanina e iluminação do rosto. Além disso, o ingrediente é potente para peles mais maduras para a redução de rugas e linhas de expressão, justamente por estimular a produção de colágeno.",
+            "image": "/images/Logos/Capricho.svg"
+          },
+          {
+            "id": 2,
+            "paragraph": "(A Quitosana) é natural e tem se tornado referência para uma série de benefícios para um rápido emagrecimento e perda de gorduras, já que ela pode causar maior saciedade após as refeições e reduzir a absorção de gorduras.",
+            "image": "/images/Logos/LivreSaude.svg"
+          },
+          {
+            "id": 3,
+            "paragraph": "A spirulina é um tipo de alga utilizada como suplemento natural, é fonte de vitaminas, minerais, antioxidantes e é, inclusive, considerada um superalimento, proporcionando diversos benefícios à saúde. Além de todos esses benefícios, contar com o auxílio dela na dieta para perder aquela gordurinha é, de fato, certeiro.",
+            "image": "/images/Logos/Metropole.svg"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "type": "video",
+        "title": "Conheça nosso processo de fabricação",
+        "paragraph": "É produzido pela Promel, uma empresa com mais de 23 anos de existência, localizada no Espírito Santo, com todos os cuidados necessários para garantir a segurança e eficácia do produto.",
+        "buttonText": "Eu quero emagrecer",
+        "image": "/images/detoxThree.svg",
+        "icon": "",
+        "link": "https://www.youtube.com/embed/LrSW6Z26cyg?si=whBwbASPqPCGxj1x"
+      },
+      {
+        "id": 12,
+        "type": "anvisa",
+        "title": "Aprovado pela anvisa",
+        "subtitle": "Seu emagrecimento de forma rápida e segura!",
+        "paragraph": "Confie no emagrecedor especial para mães, com compostos seguros aprovados pela ANVISA e reduza suas medidas pós-gravidez sem riscos!",
+        "buttonText": "Eu quero emagrecer",
+        "image": "/images/Others/Anvisa.svg",
+        "direction": "row-reverse"
       }
     ]
   }

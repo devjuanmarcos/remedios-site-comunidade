@@ -28,7 +28,10 @@ export default function MainBanner({ background, id, type }) {
           }
           className={styles.main}
         >
-          <div className={styles.content}>
+          <div
+            className={styles.content}
+            style={banner.buttonText ? undefined : { justifyContent: "center" }}
+          >
             <div className={styles.title}>
               <h1 style={{ color: "var(--branco)" }}>{banner.title}</h1>
               <h2 style={{ color: "var(--branco)" }}>{banner.subtitle}</h2>
@@ -36,17 +39,19 @@ export default function MainBanner({ background, id, type }) {
             <div className={styles.imageBox}>
               <img
                 style={{
-                  width: "200px",
+                  height: "200px",
                 }}
-                src={filteredId.image3un}
+                src={banner.imageRemedy}
                 alt=''
               />
               <p className={styles.paragraph}>{banner.paragraph}</p>
-              <ButtonAnimated
-                children={"Eu quero emagrecer"}
-                primaryColor={filteredId.primaryColor}
-                terciaryColor={filteredId.terciaryColor}
-              />
+              {banner.buttonText ? (
+                <ButtonAnimated
+                  children={banner.buttonText}
+                  primaryColor={filteredId.primaryColor}
+                  terciaryColor={filteredId.terciaryColor}
+                />
+              ) : null}
             </div>
           </div>
         </section>
