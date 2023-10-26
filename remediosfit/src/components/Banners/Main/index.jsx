@@ -33,27 +33,24 @@ export default function MainBanner({ background, id, type }) {
             style={banner.buttonText ? undefined : { justifyContent: "center" }}
           >
             <div className={styles.title}>
-              <h1 style={{ color: "var(--branco)" }}>{banner.title}</h1>
-              <h2 style={{ color: "var(--branco)" }}>{banner.subtitle}</h2>
+              <h1>{banner.title}</h1>
+              <h2>{banner.subtitle}</h2>
+              <p className={styles.paragraph}>{banner.paragraph}</p>
             </div>
             <div className={styles.imageBox}>
               <img
-                style={{
-                  height: "200px",
-                }}
                 src={banner.imageRemedy}
                 alt=''
               />
-              <p className={styles.paragraph}>{banner.paragraph}</p>
-              {banner.buttonText ? (
-                <ButtonAnimated
-                  children={banner.buttonText}
-                  primaryColor={filteredId.primaryColor}
-                  terciaryColor={filteredId.terciaryColor}
-                />
-              ) : null}
             </div>
           </div>
+          {banner.buttonText ? (
+            <ButtonAnimated
+              children={banner.buttonText}
+              primaryColor={filteredId.primaryColor}
+              terciaryColor={filteredId.terciaryColor}
+            />
+          ) : null}
         </section>
       ))}
     </>

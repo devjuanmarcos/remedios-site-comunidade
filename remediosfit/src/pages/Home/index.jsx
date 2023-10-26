@@ -8,6 +8,8 @@ import ThreeItensTextBanner from "components/Banners/ThreeItensText";
 import VideoBanner from "components/Banners/VideoBanner";
 import ImageWithTextsBanner from "components/Banners/ImageWithTexts";
 import NotCoverBanner from "components/Banners/NotCover";
+import RemedyDescriptionCard from "components/Cards/RemedyDescription";
+import CarouselCardsBanner from "components/Banners/CarouselCards";
 
 export default function Home() {
   const pageId = "homePage";
@@ -33,8 +35,13 @@ export default function Home() {
         background={background}
         id={pageId}
       />
+
       <NotCoverBanner
         type={"notCover"}
+        id={pageId}
+      />
+      <CarouselCardsBanner
+        type={"presentation"}
         id={pageId}
       />
       <IntentionallyBanner

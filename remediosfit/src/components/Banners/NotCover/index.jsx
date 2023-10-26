@@ -1,7 +1,5 @@
-// import BlockIcon from "components/Icons/Block";
-import React, { useState } from "react";
+import React from "react";
 import styles from "./styles.module.css";
-// import { HiOutlineArrowCircleDown } from "react-icons/hi";
 import biofitData from "assets/json/biofitData.json";
 import ExpandCard from "components/Cards/Expand";
 
