@@ -10,6 +10,7 @@ import ImageWithTextsBanner from "components/Banners/ImageWithTexts";
 import NotCoverBanner from "components/Banners/NotCover";
 import RemedyDescriptionCard from "components/Cards/RemedyDescription";
 import CarouselCardsBanner from "components/Banners/CarouselCards";
+import MiniSocialCard from "components/Cards/MiniSocial";
 
 export default function Home() {
   const pageId = "homePage";
@@ -35,7 +36,7 @@ export default function Home() {
         background={background}
         id={pageId}
       />
-
+      <MiniSocialCard />
       <NotCoverBanner
         type={"notCover"}
         id={pageId}

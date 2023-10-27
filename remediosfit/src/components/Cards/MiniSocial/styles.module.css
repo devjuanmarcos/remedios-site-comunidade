@@ -1,0 +1,46 @@
+.card {
+  width: 320px;
+  height: 96px;
+  transform: rotate(-4.983deg);
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: var(--biofit-tom2);
+  z-index: 1;
+}
+
+.content {
+  width: 320px;
+  height: 96px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: var(--branco);
+  transform: rotate(+4.983deg);
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  padding: 20px;
+  gap: 20px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  border-radius: 16px;
+  background-color: var(--biofit-tom2);
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.text h2,
+h3 {
+  color: var(--biofit-tom2);
+}
