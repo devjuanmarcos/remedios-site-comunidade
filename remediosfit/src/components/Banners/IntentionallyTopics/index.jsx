@@ -49,13 +49,15 @@ export default function IntentionallyBanner({ background, id, type }) {
                 </li>
               ))}
             </ul>
-            <div className={styles.imageBox}>
-              <img
-                style={{ width: "100%" }}
-                alt='imageSvg'
-                src={banner.image}
-              />
-            </div>
+            {banner.image ? (
+              <div className={styles.imageBox}>
+                <img
+                  style={{ width: "100%" }}
+                  alt='imageSvg'
+                  src={banner.image}
+                />
+              </div>
+            ) : undefined}
           </div>
           <ButtonAnimated
             children={"Eu quero emagrecer"}

@@ -964,32 +964,32 @@
       {
         "id": 1,
         "type": "benefits",
-        "image": "images/gravd.svg",
+        "image": "/images/HomeCare/Winners.svg",
         "title": "Composição e benefícios",
         "subtitle": "",
-        "paragraph": "Descubra os benefícios do DexFit, um remédio totalmente natural e eficaz que está mudando a vida de centena de milhares de mulheres hoje",
+        "paragraph": "Descubra os benefícios do HomeCare, um remédio totalmente natural e eficaz que está mudando a vida de centena de milhares pessoas",
         "itens": [
           {
-            "title": "Café Verde",
-            "paragraph": "O café verde também tem ação diurética, combatendo a retenção de líquidos e inchaço corporal.",
+            "title": "Colágeno hidrolisado",
+            "paragraph": "O colágeno hidrolisado é amplamente reconhecido por seus benefícios para o emagrecimento devido à sua capacidade de promover a saúde da pele, cabelos, unhas e articulações. Ao fortalecer os tecidos conjuntivos, o colágeno contribui para a sustentação e firmeza da pele, enquanto também pode desempenhar um papel na aceleração do metabolismo.",
             "icon": "AiTwotoneTrophy"
           },
           {
             "id": 2,
-            "title": "Trans Resveratrol",
-            "paragraph": "Auxilia na prevenção do envelhecimento, auxiliando a elasticidade e firmeza da pele, preserva a juventude da pele e combate os radicais livres.",
+            "title": "Vitamina A",
+            "paragraph": "Desempenha um papel crucial na regulação do metabolismo celular, promovendo a queima de gordura e auxiliando na manutenção de um peso saudável. Além disso, sua ação antioxidante pode contribuir para a saúde da pele, prevenindo danos causados pelos radicais livres.",
             "icon": "AiTwotoneTrophy"
           },
           {
             "id": 3,
-            "title": "Vitamina B12",
-            "paragraph": "Quando fermentadas pelas bactérias no intestino contribui para a absorção de cálcio, magnésio e ferro. Além de contribuírem para a saúde intestinal.",
+            "title": "Vitamina C",
+            "paragraph": "É conhecida por seu papel na síntese de colágeno, auxiliando na manutenção da elasticidade da pele. Além disso, sua ação antioxidante pode ajudar a combater o estresse oxidativo associado ao processo de emagrecimento, promovendo um ambiente mais saudável para a perda de peso.",
             "icon": "AiTwotoneTrophy"
           },
           {
             "id": 4,
-            "title": "Extrato de laranja moro",
-            "paragraph": "Laranja Moro ajuda no processo de lipólise no organismo, o que promove a redução de líquidos, e sensação de inchaço.",
+            "title": "Vitaminas do complexo B (B1, B2, B5, B7 e B12)",
+            "paragraph": "desempenham papéis variados no metabolismo, convertendo alimentos em energia e apoiando a função do sistema nervoso. Essas vitaminas são essenciais para a produção de energia a partir dos alimentos ingeridos, o que é crucial durante períodos de emagrecimento, quando o corpo precisa de um suporte nutricional adicional.",
             "icon": "AiTwotoneTrophy"
           }
         ]
@@ -1001,52 +1001,52 @@
         "subtitle": "Recupere sua autoestima por completo",
         "paragraph": "",
         "buttonText": "Eu quero emagrecer",
-        "image": "/images/bloodText.svg",
+        "image": "",
         "icon": "/images/vitamin.svg",
         "itens": [
           {
             "id": 1,
-            "title": "Sem efeitos colaterais: Nosso produto foi cuidadosamente formulado para garantir que você possa desfrutar de seus benefícios sem preocupações."
+            "title": "Beleza que vem de dentro: Combinando colágeno hidrolisado, vitaminas A e C, colecalciferol e ácido hialurônico, nossa fórmula é projetada para promover a saúde da pele, unhas e cabelo de dentro para fora, proporcionando uma beleza duradoura e natural."
           },
           {
             "id": 2,
-            "title": "Promove a saciedade: Com nossa fórmula especial, você sentirá mais satisfação após as refeições."
+            "title": "Brilho renovado: A presença de colágeno tipo II e vitaminas do complexo B, como Biotina (B7), fortalece não apenas a estrutura capilar, mas também promove a vitalidade das unhas, resultando em um brilho renovado que reflete sua saúde interna."
           },
           {
             "id": 3,
-            "title": "Redução nos números do manequim: Com o uso regular, você notará uma diminuição gradual nos tamanhos de roupas, alcançando o corpo que deseja."
+            "title": "Pele rejuvenescida: Com um enfoque especial em ácido hialurônico, nossa fórmula contribui para a hidratação e sustentação da pele, auxiliando na redução de sinais de envelhecimento e promovendo uma aparência rejuvenescida."
           },
           {
             "id": 4,
-            "title": "Autoestima recuperada: Sinta-se confiante e empoderada novamente, reconectando-se com sua feminilidade e se sentindo bem consigo mesma."
+            "title": "Unhas e cabelos mais fortes: O zinco e o manganês presentes na fórmula desempenham papéis essenciais na manutenção da integridade estrutural das unhas e cabelos, resultando em uma aparência mais saudável e resistente. Desfrute de uma transformação completa, revelando a beleza natural de sua pele, unhas e cabelo."
           }
         ]
       },
       {
         "id": 3,
         "type": "functions",
-        "title": "80 mil mulheres",
-        "subtitle": "que foram beneficiadas em 2022",
+        "title": "Criado para trazer benefícios",
+        "subtitle": "Além de investir na sua estética, invista também na sua saúde",
         "paragraph": "",
         "buttonText": "Eu quero emagrecer",
-        "image": "/images/motherDay.svg",
+        "image": "/images/HomeCare/Hug.svg",
         "icon": "/images/vitamin.svg",
         "itens": [
           {
             "id": 1,
-            "title": "mulheres que não conseguiam emagrecer"
+            "title": "Mulheres que necessitam de molhara na hidratação do cabelo"
           },
           {
             "id": 2,
-            "title": "mulheres que tinham eventos importantes para ir e precisavam emagrecer"
+            "title": "Mulheres que desejam fortalecimento das unhas"
           },
           {
             "id": 3,
-            "title": "mulheres com alto grau de obesidade"
+            "title": "Mulheres que desejam alcançar a melhora do viço da pele"
           },
           {
             "id": 4,
-            "title": "mulheres com metabolismo lento"
+            "title": "Atua de dentro pra fora, funcionando muito mais do que cosméticos"
           }
         ]
       },
@@ -1055,15 +1055,19 @@
         "type": "composition",
         "title": "Fórmula magestosa",
         "subtitle": "do nosso DexFit",
-        "paragraph": "O café verde atua como diurético, o Trans Resveratrol previne o envelhecimento, a Vitamina B12 melhora a absorção de minerais e o Extrato de Laranja Moro reduz líquidos.",
+        "paragraph": "A combinação de colágeno hidrolisado, colágeno tipo II, vitaminas A e C, colecalciferol, complexo B, zinco, manganês e ácido hialurônico oferece um suporte completo para o emagrecimento. Esses elementos fortalecem articulações, regulam o metabolismo, promovem a queima de gordura, asseguram ossos saudáveis, convertem eficientemente alimentos em energia, regulam o apetite e contribuem para a saúde da pele, proporcionando um apoio integral durante o processo de perda de peso.",
         "buttonText": "Eu quero emagrecer",
         "icon": "",
         "itens": [
-          "Café Verde",
-          "Trans Resveratrol",
-          "Vitamina B12",
-          "Extrato de Laranja Moro",
-          "Inulina"
+          "Colágeno hidrolisado",
+          "Colágeno hidrolisado",
+          "Vitamina A",
+          "Vitamina C",
+          "Vitamina D",
+          "Vitaminas do complexo B (B1, B2, B5, B7 e B12)",
+          "Zinco",
+          "Manganês",
+          "Hialurônico"
         ]
       },
       {
@@ -1094,45 +1098,46 @@
         "itens": [
           {
             "id": 1,
-            "title": "Acelera o metabolismo",
-            "paragraph": "O metabolismo acelerado faz com que a pessoa queime as calorias mais rapidamente, concentrando menos gorduras, de forma que fica mais difícil ganhar peso.",
-            "image": "/images/runp.svg"
+            "title": "Manter sustentação e hidratação",
+            "paragraph": "Os compostos do home care ajudam a manter a hidratação e sustentação, contribuindo para uma pele saudável e radiante durante o processo de emagrecimento.",
+            "image": "/images/HomeCare/WaterDrop.svg"
           },
           {
             "id": 2,
-            "title": "Diminui o apetite",
-            "paragraph": "Os ativos presentes em seus compostos diminuem o apetite e reduzem a absorção de açúcares e gorduras no organismo.",
-            "image": "/images/Pasta.svg"
+            "title": "Pele revitalizada",
+            "paragraph": "Com alta concentração de ácido hialurônico ajuda a manter a hidratação da pele evitando a flacidez, linhas e sinais de expressão, preenchendo e mantendo a pele hidratada, viçosa e revitalizada.",
+            "image": "/images/HomeCare/Sunset.svg"
           },
           {
             "id": 3,
-            "title": "Queima calorias",
-            "paragraph": "Por acelerar o metabolismo e queimar a gordura localizada, reduz drasticamente a gordura abdominal.",
-            "image": "/images/burn9.svg"
+            "title": "Não só estética, também saúde",
+            "paragraph": "Composto por várias vitaminas do complexo A, C, D e B, o home care não só te acompanha na estética, mas também é indispensável na manutenção da sua saúde.",
+            "image": "/images/HomeCare/Ecosystem.svg"
           }
         ]
       },
       {
         "id": 8,
         "type": "recommendation",
-        "title": "Opiniões de grandes marcas",
-        "subtitle": "confira agora as",
+        "title": "os compostos presentes no HomeCare",
+        "subtitle": "confira artigos científicos sobre",
         "paragraph": "",
         "itens": [
           {
             "id": 1,
-            "paragraph": "...os principais benefícios do uso do agente o clareamento de manchas, uniformização do tom de pele por ter uma ação inibidora da melanina e iluminação do rosto. Além disso, o ingrediente é potente para peles mais maduras para a redução de rugas e linhas de expressão, justamente por estimular a produção de colágeno.",
-            "image": "/images/capricho.svg"
+            "paragraph": "...Ácido Hialurônico (AH) o qual confere volume, sustentação, hidratação e elasticidade a pele, melhorando assim, os sinais de envelhecimento.",
+            "image": ""
           },
           {
             "id": 2,
-            "paragraph": "(A Quitosana) é natural e tem se tornado referência para uma série de benefícios para um rápido emagrecimento e perda de gorduras, já que ela pode causar maior saciedade após as refeições e reduzir a absorção de gorduras.",
-            "image": "/images/livresaude.svg"
+            "paragraph": "",
+            "image": "/images/HomeCare/WaterDrop.svg"
           },
+
           {
-            "id": 3,
-            "paragraph": "A spirulina é um tipo de alga utilizada como suplemento natural, é fonte de vitaminas, minerais, antioxidantes e é, inclusive, considerada um superalimento, proporcionando diversos benefícios à saúde. Além de todos esses benefícios, contar com o auxílio dela na dieta para perder aquela gordurinha é, de fato, certeiro.",
-            "image": "/images/metropole.svg"
+            "id": 2,
+            "paragraph": "O AH possibilitou melhora na hidratação e na elasticidade da pele. A suplementação oral de diferentes doses e pesos moleculares apresentaram benefícios na saúde da pele.",
+            "image": ""
           }
         ]
       },
@@ -1145,9 +1150,9 @@
         "image5un": "/images/maeslim5un.svg",
         "image3un": "/images/maeslim3un.svg",
         "image1un": "/images/maeslim1un.svg",
-        "price5un": "450,90",
+        "price5un": "449,90",
         "price5unCredit": "999,90",
-        "price3un": "303,90",
+        "price3un": "319,90",
         "price3unCredit": "29,90",
         "price1un": "117,90",
         "price1unCredit": "999,90",
@@ -1189,7 +1194,7 @@
         "subtitle": "Seu emagrecimento de forma rápida e segura!",
         "paragraph": "Confie no emagrecedor especial para mães, com compostos seguros aprovados pela ANVISA e reduza suas medidas pós-gravidez sem riscos!",
         "buttonText": "Eu quero emagrecer",
-        "image": "/images/anvisa.svg",
+        "image": "/images/Others/Anvisa.svg",
         "direction": "row-reverse"
       },
       {
@@ -1199,7 +1204,7 @@
         "subtitle": "Nos preocupamos com o seu resultado!",
         "paragraph": "Qualquer problema com o produto basta entrar em contato que iremos lhe ajudar em todo o processo.",
         "buttonText": "Eu quero emagrecer",
-        "image": "/images/garantia.png",
+        "image": "/images/Others/Guarantee.svg",
         "direction": "row"
       }
     ]

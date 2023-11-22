@@ -38,13 +38,16 @@ export default function ThreeItensTextBanner({ background, id, type }) {
                   className={styles.item}
                   key={id}
                 >
-                  <img
-                    fill1='#fff'
-                    className={styles.svg}
-                    src={item.image}
-                    alt='none'
-                  />
-                  <h3>{item.title}</h3>
+                  {item.image ? (
+                    <img
+                      fill1='#fff'
+                      className={styles.svg}
+                      src={item.image}
+                      alt='none'
+                    />
+                  ) : undefined}
+
+                  <h3 style={{ color: "var(--branco)" }}>{item.title}</h3>
                   <p style={{ marginTop: "-12px" }}>{item.paragraph}</p>
                 </div>
               ))}

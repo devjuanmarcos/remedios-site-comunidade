@@ -36,7 +36,7 @@ export default function Home() {
         background={background}
         id={pageId}
       />
-      <MiniSocialCard />
+      {/* <MiniSocialCard /> */}
       <NotCoverBanner
         type={"notCover"}
         id={pageId}

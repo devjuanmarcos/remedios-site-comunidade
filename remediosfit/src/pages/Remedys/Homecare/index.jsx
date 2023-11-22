@@ -53,15 +53,15 @@ export default function HomeCare() {
         type={"presentation"}
         id={pageId}
       />
-      <CarouselVideosBanner
+      {/* <CarouselVideosBanner
         type={"carousel"}
         background={background}
         id={pageId}
-      />
-      <TextOneCarouselBanner
+      /> */}
+      {/* <TextOneCarouselBanner
         type={"miniCarousel"}
         id={pageId}
-      />
+      /> */}
       <ThreeItensTextBanner
         background={background}
         type={"recommendation"}
@@ -71,11 +71,11 @@ export default function HomeCare() {
         type={"intentionally"}
         id={pageId}
       />
-      <VideoBanner
+      {/* <VideoBanner
         background={background}
         type={"video"}
         id={pageId}
-      />
+      /> */}
       <PriceBanner
         type={"price"}
         id={pageId}
