@@ -16,7 +16,7 @@ import ImageWithTextsBanner from "components/Banners/ImageWithTexts";
 
 export default function HomeCare() {
   const pageId = "homecare";
-  const background = "rgba(74, 56, 60, 0.52)";
+  const background = "rgba(44, 9, 17, 0.247)";
   const filteredId = biofitData.find((data) => data.id === pageId);
   if (!filteredId) {
     return null;
@@ -79,13 +79,14 @@ export default function HomeCare() {
       <PriceBanner
         type={"price"}
         id={pageId}
+        background={background}
       />
       <ImageWithTextsBanner
-        background={background}
         type={"anvisa"}
         id={pageId}
       />
       <ImageWithTextsBanner
+        background={background}
         type={"guarantee"}
         id={pageId}
       />
