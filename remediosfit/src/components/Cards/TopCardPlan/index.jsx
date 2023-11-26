@@ -55,14 +55,16 @@ export default function TopCardPlanCard({ type, id }) {
                 alt='none'
               />
               <h3 style={{ fontSize: "2.79vh", textAlign: "center" }}>
-                De R$ {banner.price5unOld} por apenas:
+                De R$ {filteredId.price5un} por apenas:
               </h3>
               <div className={styles.priceMain}>
-                <h3 style={{ fontSize: "2.79vh" }}>12X</h3>
-                <span className={styles.priceValue}>R$ {banner.price5un}</span>
+                <h3 style={{ fontSize: "2.79vh" }}>10X</h3>
+                <span className={styles.priceValue}>
+                  R$ {filteredId.price5un10x}
+                </span>
               </div>
               <h3 style={{ color: "var(--branco)" }}>
-                ou R$ {banner.price3un} à vista
+                ou R$ {filteredId.price5un} à vista
               </h3>
               <div className={styles.button}>
                 <ButtonAnimated
@@ -89,14 +91,16 @@ export default function TopCardPlanCard({ type, id }) {
                 alt='none'
               />
               <h3 style={{ fontSize: "2.79vh" }}>
-                De R$ {banner.price3unOld} por apenas:
+                De R$ {filteredId.price3unOld} por apenas:
               </h3>
               <div className={styles.priceMain}>
-                <h3 style={{ fontSize: "2.79vh" }}>12X</h3>
-                <span className={styles.priceValue}>R$ {banner.price3un}</span>
+                <h3 style={{ fontSize: "2.79vh" }}>10X</h3>
+                <span className={styles.priceValue}>
+                  R$ {filteredId.price3un10x}
+                </span>
               </div>
               <h3 style={{ color: "var(--branco)" }}>
-                ou R$ {banner.price3un} à vista
+                ou R$ {filteredId.price3un} à vista
               </h3>
               <div className={styles.button}>
                 <ButtonAnimated
@@ -116,21 +120,23 @@ export default function TopCardPlanCard({ type, id }) {
             }}
           >
             <div className={styles.cardContent}>
-              <h3 style={{ fontSize: "3.35vh" }}>Kit 1 unidades</h3>
+              <h3 style={{ fontSize: "3.35vh" }}>Kit 1 unidade</h3>
               <img
                 className={styles.image}
                 src={filteredId.image1un}
                 alt='none'
               />
               <h3 style={{ fontSize: "2.79vh" }}>
-                De R$ {banner.price1unOld} por apenas:
+                De R$ {filteredId.price1unOld} por apenas:
               </h3>
               <div className={styles.priceMain}>
-                <h3 style={{ fontSize: "2.79vh" }}>12X</h3>
-                <span className={styles.priceValue}>R$ {banner.price1un}</span>
+                <h3 style={{ fontSize: "2.79vh" }}>10X</h3>
+                <span className={styles.priceValue}>
+                  R$ {filteredId.price1un10x}
+                </span>
               </div>
               <h3 style={{ color: "var(--branco)" }}>
-                ou R$ {banner.price1un} à vista
+                ou R$ {filteredId.price1un} à vista
               </h3>
               <div className={styles.button}>
                 <ButtonAnimated

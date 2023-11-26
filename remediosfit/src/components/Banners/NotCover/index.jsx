@@ -3,7 +3,7 @@ import styles from "./styles.module.css";
 import biofitData from "assets/json/biofitData.json";
 import ExpandCard from "components/Cards/Expand";
 
-export default function NotCoverBanner({ id, type, background }) {
+export default function ExpansiveCardsBanner({ id, type, background }) {
   const filteredId = biofitData.find((data) => data.id === id);
   if (!filteredId) {
     return null;

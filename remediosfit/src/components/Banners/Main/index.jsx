@@ -39,6 +39,7 @@ export default function MainBanner({ background, id, type }) {
             </div>
             <div className={styles.imageBox}>
               <img
+                className={styles.image}
                 src={banner.imageRemedy}
                 alt=''
               />

@@ -5,7 +5,7 @@ import socialImages from "./frame123.png";
 export default function Footer() {
   return (
     <section className={styles.main}>
-      <div className={styles.info}>
+      {/* <div className={styles.info}>
         <div className={styles.lists}>
           <ul className={styles.list}>
             <h3>Título1</h3>
@@ -37,7 +37,7 @@ export default function Footer() {
           />
           <p>oasdasd asdasdasd</p>
         </div>
-      </div>
+      </div> */}
       <div className={styles.bar}>
         <svg
           xmlns='http://www.w3.org/2000/svg'

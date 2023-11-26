@@ -42,7 +42,7 @@ html {
   --biofit-cor-principal: #02aacf;
   --biofit-tom2: #00596d;
   --biofit-tom3: #000000;
-  --ale: rgba(74, 56, 60, 0.52);
+
   --dexfit-cor-principal: #ef3693;
   --dexfit-tom2: #ff0181;
   --dexfit-tom3: #120817;
@@ -141,4 +141,18 @@ p {
 
 a {
   text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px; /* A altura só é vista quando a rolagem é horizontal */
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+  padding: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #fff;
 }

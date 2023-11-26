@@ -5,12 +5,9 @@ import biofitData from "assets/json/biofitData.json";
 import MainBanner from "components/Banners/Main";
 import IntentionallyBanner from "components/Banners/IntentionallyTopics";
 import ThreeItensTextBanner from "components/Banners/ThreeItensText";
-import VideoBanner from "components/Banners/VideoBanner";
 import ImageWithTextsBanner from "components/Banners/ImageWithTexts";
-import NotCoverBanner from "components/Banners/NotCover";
-import RemedyDescriptionCard from "components/Cards/RemedyDescription";
 import CarouselCardsBanner from "components/Banners/CarouselCards";
-import MiniSocialCard from "components/Cards/MiniSocial";
+import ExpansiveCardsBanner from "components/Banners/NotCover";
 
 export default function Home() {
   const pageId = "homePage";
@@ -37,7 +34,7 @@ export default function Home() {
         id={pageId}
       />
       {/* <MiniSocialCard /> */}
-      <NotCoverBanner
+      <ExpansiveCardsBanner
         type={"notCover"}
         id={pageId}
       />
@@ -57,10 +54,7 @@ export default function Home() {
         type={"recommendation"}
         id={pageId}
       />
-      <VideoBanner
-        type={"video"}
-        id={pageId}
-      />
+
       <ImageWithTextsBanner
         type={"anvisa"}
         id={pageId}

@@ -55,15 +55,6 @@ export default function MaeSlim() {
         type={"presentation"}
         id={pageId}
       />
-      <CarouselVideosBanner
-        type={"carousel"}
-        background={background}
-        id={pageId}
-      />
-      <TextOneCarouselBanner
-        type={"miniCarousel"}
-        id={pageId}
-      />
 
       <ThreeItensTextBanner
         background={background}
@@ -72,11 +63,6 @@ export default function MaeSlim() {
       />
       <IntentionallyBanner
         type={"intentionally"}
-        id={pageId}
-      />
-      <VideoBanner
-        background={background}
-        type={"video"}
         id={pageId}
       />
 
