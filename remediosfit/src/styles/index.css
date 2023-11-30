@@ -27,13 +27,8 @@
 html {
   box-sizing: border-box;
 }
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
 * {
+  box-sizing: inherit;
   margin: 0;
   padding: 0;
 }
@@ -78,13 +73,16 @@ html {
 
   font-family: var(--fonte-principal);
 }
-
+html {
+  scroll-behavior: smooth;
+}
 head {
   display: none;
 }
-
 #root {
   display: block;
+  box-sizing: inherit;
+  /* background-color: var(--cor-principal); */
   grid-template-rows: auto 1fr auto;
   grid-template-columns: minmax(0, 1fr);
   min-height: 100vh;

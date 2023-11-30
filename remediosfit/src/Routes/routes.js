@@ -9,6 +9,7 @@ import DetoxBlack from "pages/Remedys/DetoxBlack";
 import HomeCare from "pages/Remedys/Homecare";
 import Footer from "components/Footer";
 import About from "pages/About";
+import MenuMobile from "components/MenuMobile";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -24,8 +25,9 @@ export default function AppRoutes() {
   return (
     <>
       <BrowserRouter>
-        <Menu />
         <ScrollToTop />
+        <MenuMobile />
+        <Menu />
         <Routes>
           <Route
             path='/'
@@ -37,24 +39,28 @@ export default function AppRoutes() {
             />
           </Route>
           <Route
-            path='dexfit'
+            path='/dexfit'
             element={<Dexfit />}
           />
           <Route
-            path='maeslim'
+            path='/maeslim'
             element={<Maeslim />}
           />
           <Route
-            path='detoxblack'
+            path='/detoxblack'
             element={<DetoxBlack />}
           />
           <Route
-            path='homecare'
+            path='/homecare'
             element={<HomeCare />}
           />
           <Route
-            path='about'
+            path='/about'
             element={<About />}
+          />
+          <Route
+            path='posts/:id/*'
+            element={<Home />}
           />
           <Route
             path='*'

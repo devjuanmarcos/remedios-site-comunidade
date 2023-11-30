@@ -5,3 +5,9 @@
   background-size: 100%;
   height: auto;
 }
+
+@media (max-width: 750px) {
+  .detoxBlack {
+    background-size: cover;
+  }
+}

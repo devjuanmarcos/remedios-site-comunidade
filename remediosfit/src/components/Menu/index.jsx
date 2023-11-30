@@ -9,7 +9,12 @@ export const MenuLink = ({ children, to, fontWeight }) => {
       to={to}
       end
     >
-      <h4 style={{ fontWeight: `${fontWeight}` }}>{children}</h4>
+      <h4
+        className={styles.h4}
+        style={{ fontWeight: `${fontWeight}` }}
+      >
+        {children}
+      </h4>
     </NavLink>
   );
 };
