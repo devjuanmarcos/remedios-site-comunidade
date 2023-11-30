@@ -5,9 +5,6 @@
     "secundaryColor": "var(--biofit-tom2)",
     "terciaryColor": "var(--biofit-tom3)",
     "background": "/images/luzBioFit.svg",
-    "image1un": "/images/remedys/oneDetox.svg",
-    "image3un": "/images/remedys/threeDetox.svg",
-    "image5un": "/images/remedys/fiveDetox.svg",
 
     "banners": [
       {
@@ -18,7 +15,7 @@
         "paragraph": "Perca peso de maneira saudável! A fórmula natural que acelera o metabolismo, elimina toxinas e proporciona resultados duradouros.",
         "buttonText": "Eu quero emagrecer",
         "image": "/images/backgroundHome.jpg",
-        "imageRemedy": "/images/Remedys/all.svg"
+        "imageRemedy": "/images/remedys/all.svg"
       },
       {
         "id": 2,
