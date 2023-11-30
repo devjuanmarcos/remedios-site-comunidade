@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import styles from "./styles.module.css";
 import IconComponent from "components/Icon/IconComponent";
-import { red } from "@mui/material/colors";
 
 const ExpandCard = ({ title, description, iconName, color, hoverColor }) => {
   const [expanded, setExpanded] = useState(false);

@@ -2,10 +2,7 @@ import React from "react";
 import styles from "./styles.module.css";
 
 import MainBanner from "components/Banners/Main";
-import VideoBanner from "components/Banners/VideoBanner";
 import ThreeItensTextBanner from "components/Banners/ThreeItensText";
-import CarouselVideosBanner from "components/Banners/CarouselVideos";
-import TextOneCarouselBanner from "components/Banners/TextOneCarousel";
 import TopicsWithImageBanner from "components/Banners/TopicsWithImage";
 import IntentionallyBanner from "components/Banners/IntentionallyTopics";
 import CompositionBanner from "components/Banners/Composition";

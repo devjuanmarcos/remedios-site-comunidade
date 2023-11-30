@@ -1,7 +1,6 @@
 import styles from "./styles.module.css";
 import { ContainerMenuClosed, ContainerMenuVisible } from "./styles.jsx";
 import React from "react";
-import { IoMdCloseCircleOutline } from "react-icons/io";
 import { MenuLink } from "components/Menu";
 import { useState } from "react";
 

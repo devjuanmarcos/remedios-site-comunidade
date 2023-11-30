@@ -2,7 +2,6 @@ import styles from "./ThreeItensText.module.css";
 import React from "react";
 
 import biofitData from "assets/json/biofitData.json";
-import RemedyDescriptionCard from "components/Cards/RemedyDescription";
 
 export default function ThreeItensTextBanner({ background, id, type }) {
   const filteredId = biofitData.find((data) => data.id === id);
