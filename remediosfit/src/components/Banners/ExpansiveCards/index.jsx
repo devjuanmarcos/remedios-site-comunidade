@@ -30,6 +30,7 @@ export default function ExpansiveCardsBanner({ id, type, background }) {
             <div className={styles.title}>
               <h2 style={{ color: "var(--branco)" }}>{banner.subtitle}</h2>
               <h1 style={{ color: filteredId.primaryColor }}>{banner.title}</h1>
+              <p>{banner.paragraph}</p>
             </div>
             <div className={styles.container}>
               <div>
@@ -43,19 +44,6 @@ export default function ExpansiveCardsBanner({ id, type, background }) {
                     hoverColor={banner.hoverColor}
                   />
                 ))}
-              </div>
-              <div
-                className={styles.item}
-                key={id}
-              >
-                <img
-                  fill1='#fff'
-                  className={styles.svg}
-                  src={banner.image}
-                  alt='none'
-                />
-                <h3>{banner.subItemTitle}</h3>
-                <p style={{ marginTop: "-12px" }}>{banner.subItemParagraph}</p>
               </div>
             </div>
           </div>

@@ -7,7 +7,7 @@ import IntentionallyBanner from "components/Banners/IntentionallyTopics";
 import ThreeItensTextBanner from "components/Banners/ThreeItensText";
 import ImageWithTextsBanner from "components/Banners/ImageWithTexts";
 import CarouselCardsBanner from "components/Banners/CarouselCards";
-import ExpansiveCardsBanner from "components/Banners/NotCover";
+import ExpansiveCardsBanner from "components/Banners/ExpansiveCards";
 
 export default function Home() {
   const pageId = "homePage";
@@ -33,9 +33,9 @@ export default function Home() {
         background={background}
         id={pageId}
       />
-      {/* <MiniSocialCard /> */}
+      {/*  */}
       <ExpansiveCardsBanner
-        type={"notCover"}
+        type={"expansiveDetails"}
         id={pageId}
       />
       <CarouselCardsBanner

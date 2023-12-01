@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./styles.module.css";
 import IconComponent from "components/Icon/IconComponent";
-
+import { AiOutlineCaretDown } from "react-icons/ai";
 const ExpandCard = ({ title, description, iconName, color, hoverColor }) => {
   const [expanded, setExpanded] = useState(false);
 
@@ -51,8 +51,7 @@ const ExpandCard = ({ title, description, iconName, color, hoverColor }) => {
           }`}
         >
           <div className={styles.iconCenter}>
-            <IconComponent
-              iconName={"AiOutlineCaretDown"}
+            <AiOutlineCaretDown
               color={color}
               size={20}
             />

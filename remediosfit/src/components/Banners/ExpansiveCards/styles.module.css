@@ -41,9 +41,9 @@
 
 .container {
   display: flex;
-  width: 100%;
-  justify-content: space-between;
+  width: 80%;
   align-items: flex-start;
+  justify-content: center;
 }
 
 .item {

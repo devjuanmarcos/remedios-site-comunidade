@@ -19,13 +19,11 @@
       },
       {
         "id": 2,
-        "type": "notCover",
+        "type": "expansiveDetails",
         "title": "DE SERMOS DIFERENTES DE OUTRAS LOJAS",
         "subtitle": "confira agora o motivo",
         "image": "/images/BioFit/threePerson.svg",
-        "subItemTitle": "Diversos tipos, diversos benefícios",
-        "subItemParagraph": "Ao todo temos 4 tipos de encapsulados para suprir todas as suas necessidades e ajudar você a conquistar o tão sonhado corpo que você almeja. Sem contar em todos os benefícios que ambos trarão à sua saúde.",
-        "paragraph": "",
+        "paragraph": "Ao todo temos 4 tipos de encapsulados para suprir todas as suas necessidades e ajudar você a conquistar o tão sonhado corpo que você almeja. Sem contar em todos os benefícios que ambos trarão à sua saúde.",
         "hoverColor": "#002927d7",
         "itens": [
           {

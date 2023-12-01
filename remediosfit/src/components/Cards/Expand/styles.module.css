@@ -1,6 +1,6 @@
 /* BannerNoCover.module.css */
 .card {
-  width: 550px;
+  width: 100%;
   height: auto;
   opacity: 90%;
   padding: 2px;
@@ -71,10 +71,4 @@
 
 .card:hover {
   /* background-color: #002927d7; */
-}
-
-@media (max-width: 414px) {
-  .card {
-    width: 300px;
-  }
 }
