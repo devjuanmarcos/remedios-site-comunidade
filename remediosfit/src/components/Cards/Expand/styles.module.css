@@ -8,6 +8,9 @@
   border-radius: 10px;
   cursor: pointer; /* Adicionado para indicar que é clicável */
   transition: background-color 0.3s ease-in-out; /* Adicionado para a animação de cor */
+  transform: translateZ(0);
+  will-change: transform;
+  user-select: none;
 }
 
 .iconCenter {
