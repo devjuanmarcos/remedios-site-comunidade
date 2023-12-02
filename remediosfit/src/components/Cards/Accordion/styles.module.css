@@ -1,0 +1,36 @@
+.card,
+.cardDetails {
+  width: 100%;
+  height: auto;
+  opacity: 90%;
+  cursor: pointer; /* Adicionado para indicar que é clicável */
+  transition: background-color 0.3s ease-in-out; /* Adicionado para a animação de cor */
+  user-select: none;
+  gap: 12px;
+}
+
+.card {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.cardDetails {
+  border-radius: 0px 0px 10px 10px;
+}
+
+.iconCenter {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: var(--branco);
+  width: 10%;
+}
+
+.cardTitle {
+  color: var(--branco);
+  font-size: 16px;
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: start;
+}

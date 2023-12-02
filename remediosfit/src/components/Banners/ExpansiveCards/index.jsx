@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./styles.module.css";
 import biofitData from "assets/json/biofitData.json";
 import ExpandCard from "components/Cards/Expand";
+import AccordionCards from "components/Cards/Accordion";
 
 export default function ExpansiveCardsBanner({ id, type, background }) {
   const filteredId = biofitData.find((data) => data.id === id);
@@ -33,9 +34,21 @@ export default function ExpansiveCardsBanner({ id, type, background }) {
               <p>{banner.paragraph}</p>
             </div>
             <div className={styles.container}>
-              <div>
+              {/* <div>
                 {banner.itens.map((item, id) => (
                   <ExpandCard
+                    key={id}
+                    iconName={item.icon}
+                    title={item.title}
+                    description={item.description}
+                    color={filteredId.primaryColor}
+                    hoverColor={banner.hoverColor}
+                  />
+                ))}
+              </div> */}
+              <div>
+                {banner.itens.map((item, id) => (
+                  <AccordionCards
                     key={id}
                     iconName={item.icon}
                     title={item.title}
